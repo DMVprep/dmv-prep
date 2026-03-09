@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import states from '@/data/states.json'
 
@@ -142,9 +143,9 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
         <a href="/dmv-exam-simulator" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
           Full Exam Simulator
         </a>
-        <a href="/dmv-practice-test" className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300">
-          All 50 States
-        </a>
+      <Link href="/dmv-practice-test" className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300">
+  All 50 States
+</Link>
       </section>
     </main>
   )
