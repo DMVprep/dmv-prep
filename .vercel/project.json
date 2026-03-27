@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_hHaPQMgOsOjcms7Qg7AooR6VSaWh",
+  "orgId": "team_XaYfUL97w3QGNzt79soXV8Ju",
+  "projectName": "dmv-prep",
+  "settings": {
+    "createdAt": 1772742392202,
+    "framework": "nextjs",
+    "devCommand": "next dev",
+    "installCommand": "npm install",
+    "buildCommand": "prisma generate && next build",
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

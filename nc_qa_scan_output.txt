@@ -1,0 +1,419 @@
+=== NC QA SCAN ===
+
+Total questions: 460
+
+=== FACTUAL ERRORS ===
+Found 69 potential errors:
+
+  [Traffic Signs] ID: cmmsdbe5e08e7nesl7k3to8nl
+  Q: What is the BAC limit for drivers under 21 in North Carolina?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount (not .02 — that is OH/GA)
+
+  [Traffic Signs] ID: cmmsdbdwy08dtnesl8f9mf2iv
+  Q: What is the BAC limit for adult drivers in North Carolina?
+  ⚠ WRONG: NC adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmsd9sc7088rneslz7n7jjh4
+  Q: What is the BAC limit for drivers under 21 years old?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount (not .02 — that is OH/GA)
+
+  [Traffic Signs] ID: cmmsd9p87083pneslfommboku
+  Q: What is the maximum speed limit allowed in residential areas in North Carolina?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Traffic Signs] ID: cmmsd9p87083pneslfommboku
+  Q: What is the maximum speed limit allowed in residential areas in North Carolina?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Traffic Signs] ID: cmmsd8759082xnesl6rn0jcvm
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmsd8759082xnesl6rn0jcvm
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmsd86ez0825nesl1ahtww4a
+  Q: While driving in a residential neighborhood, what is the maximum legal speed?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Traffic Signs] ID: cmmsd83b907xvneslqc4ajblo
+  Q: What is the speed limit in a residential area?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Traffic Signs] ID: cmmsd6q9r07x3neslzai64ly3
+  Q: What is the BAC limit for adult drivers?
+  ⚠ WRONG: NC adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmsd6npk07t7neslf96kxqb3
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmsd6npk07t7neslf96kxqb3
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmsd6mxd07s1nesl8kfq0aa5
+  Q: What is the speed limit in residential areas?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Right Of Way] ID: cmmsdd1ef08jnneslz9779b9o
+  Q: What is the BAC limit for drivers under 21?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount (not .02 — that is OH/GA)
+
+  [Right Of Way] ID: cmmsdh1dw08tdneslk01b5j5c
+  Q: How far from a fire hydrant must you park to avoid blocking emergency vehicle access?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Right Of Way] ID: cmmsdh2rb08vbnesl5gp7w0d2
+  Q: In which zone must you exercise extra caution when yielding to pedestrians?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Speed Limits] ID: cmmsdpho309mxneslowtya0pd
+  Q: In which area would you drive 25 mph?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Speed Limits] ID: cmmsdpgp709lrneslvtsqk4iu
+  Q: A student driver asks about school zone speeds. What should you tell them?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Speed Limits] ID: cmmsdnv1r09i9neslxdrntqw9
+  Q: You are traveling from a highway to a residential street. How much should you reduce your speed?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmmsdntfi09fxneslmd78fyag
+  Q: You are driving on a residential street with houses on both sides. What is the maximum legal speed?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmn3iar810a0j97ugzrhaevm6
+  Q: What is the speed limit in urban areas of North Carolina?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmn3iarjj0a0v97ugb8qku21t
+  Q: You are driving a school bus on an interstate highway. What is your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3iarjj0a0v97ugb8qku21t
+  Q: You are driving a school bus on an interstate highway. What is your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3ias4i0a1j97ug6yk0ngdz
+  Q: You're driving from a 70 mph interstate to a city street. What speed adjustment is required?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3ibzbx0a3797ugh08h5vlu
+  Q: You are towing a trailer on a North Carolina interstate. How does this affect your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3ibzbx0a3797ugh08h5vlu
+  Q: You are towing a trailer on a North Carolina interstate. How does this affect your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3ibzs30a3p97ugs5ruvglb
+  Q: What is the speed limit in a business district in a North Carolina city?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmn3ic05t0a4797ugzy1dnk0z
+  Q: You are driving on a four-lane divided highway in a rural area of North Carolina. What is the maximum speed limit?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3ic05t0a4797ugzy1dnk0z
+  Q: You are driving on a four-lane divided highway in a rural area of North Carolina. What is the maximum speed limit?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3ic0ou0a4v97ugb9gjz7fn
+  Q: You are driving a large truck on a North Carolina interstate. What is your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3ic0ou0a4v97ugb9gjz7fn
+  Q: You are driving a large truck on a North Carolina interstate. What is your maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3ic1d60a5p97ug1veujc31
+  Q: A school bus is traveling on an interstate highway during a field trip. What is the maximum legal speed for the bus?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3ic1d60a5p97ug1veujc31
+  Q: A school bus is traveling on an interstate highway during a field trip. What is the maximum legal speed for the bus?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3id6fz0a6797ugw93d5tbp
+  Q: You are driving on a North Carolina interstate during a snowstorm with poor visibility. The posted speed limit is 70 mph
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3id6fz0a6797ugw93d5tbp
+  Q: You are driving on a North Carolina interstate during a snowstorm with poor visibility. The posted speed limit is 70 mph
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3id8180a8d97ugkneg9s9n
+  Q: A large truck driver asks about speed limits on North Carolina interstates. What maximum speed applies to their commerci
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmn3id8180a8d97ugkneg9s9n
+  Q: A large truck driver asks about speed limits on North Carolina interstates. What maximum speed applies to their commerci
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmn3id7690a7797ugsai6at0e
+  Q: You are driving through heavy traffic on an interstate with a 70 mph speed limit, but traffic is only moving 30 mph. Wha
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 55)
+
+  [Speed Limits] ID: cmmsdm1ic09cfneslgzacfk8n
+  Q: In which type of zone would you be required to drive at 25 mph?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Speed Limits] ID: cmmsdm18c09c1nesll8xlus1x
+  Q: You are driving on a North Carolina interstate highway. What is the maximum speed you are legally allowed to drive?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmmsdkcj10985nesl005gg732
+  Q: You are driving on a residential street where children often play. The maximum speed you should drive is:
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmmsdkcj10985nesl005gg732
+  Q: You are driving on a residential street where children often play. The maximum speed you should drive is:
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Speed Limits] ID: cmmsdkb310967nesl0uo4y4no
+  Q: On an interstate highway in North Carolina, what is the maximum legal speed?
+  ⚠ WRONG: NC interstate max = 70 mph when posted (not 65)
+
+  [Speed Limits] ID: cmmsdpj1109ovneslj2dnhm96
+  Q: If you're driving from a highway to a residential street, how should your speed change?
+  ⚠ WRONG: NC town/city default = 35 mph (not 30)
+
+  [Speed Limits] ID: cmmsdpj1109ovneslj2dnhm96
+  Q: If you're driving from a highway to a residential street, how should your speed change?
+  ⚠ WRONG: NC town/city default = 35 mph (not 25)
+
+  [Safe Driving] ID: cmn3if3nf0add97ug2fokjuqm
+  Q: Where are you prohibited from parking in relation to a fire hydrant?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3if3nf0add97ug2fokjuqm
+  Q: Where are you prohibited from parking in relation to a fire hydrant?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3if5ar0afj97ug2n73nn1b
+  Q: What is the maximum distance you can park from a fire hydrant and still be legal?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ig2n80ah797ugjcxl4axd
+  Q: How far must you park from a fire hydrant in North Carolina?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ig2n80ah797ugjcxl4axd
+  Q: How far must you park from a fire hydrant in North Carolina?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3igknq0akp97uguq0a6sl7
+  Q: You are parking downtown near a fire hydrant. What is the minimum legal distance?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3igknq0akp97uguq0a6sl7
+  Q: You are parking downtown near a fire hydrant. What is the minimum legal distance?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3ie5es0a9p97ug774hpx81
+  Q: How far must you park from a fire hydrant in North Carolina?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ie5es0a9p97ug774hpx81
+  Q: How far must you park from a fire hydrant in North Carolina?
+  ⚠ WRONG: NC fire hydrant = 15 feet (not 20)
+
+  [Alcohol & Substances] ID: cmn3ije4p0arj97ugssf68r2w
+  Q: What is the minimum BAC level that constitutes a grossly aggravating factor in North Carolina DWI cases?
+  ⚠ WRONG: NC adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3iigp60aqj97ugwyn8q55c
+  Q: What BAC level is considered a grossly aggravating factor in North Carolina DWI cases?
+  ⚠ WRONG: NC adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3ihiwx0anp97ugij3v3lhc
+  Q: What BAC level applies to all drivers under 21 in North Carolina?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount (not .02 — that is OH/GA)
+
+  [Alcohol & Substances] ID: cmn3ihiwx0anp97ugij3v3lhc
+  Q: What BAC level applies to all drivers under 21 in North Carolina?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount
+
+  [Alcohol & Substances] ID: cmn3ihie70an797ugpws1plxg
+  Q: At what BAC level is an adult driver considered legally impaired in North Carolina?
+  ⚠ WRONG: NC adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3ihg5q0akv97ug0w1za863
+  Q: What is the BAC limit for drivers under 21 in North Carolina?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount (not .02 — that is OH/GA)
+
+  [Alcohol & Substances] ID: cmn3ihg5q0akv97ug0w1za863
+  Q: What is the BAC limit for drivers under 21 in North Carolina?
+  ⚠ WRONG: NC under-21 = zero tolerance/any amount
+
+  [Licensing & Permits] ID: cmn3im2st0b1d97ugga9z96hg
+  Q: How many total supervised driving hours are required before obtaining a limited provisional license in North Carolina?
+  ⚠ WRONG: NC Level 1 supervised hours = 60 (not 50)
+
+  [Licensing & Permits] ID: cmn3im2st0b1d97ugga9z96hg
+  Q: How many total supervised driving hours are required before obtaining a limited provisional license in North Carolina?
+  ⚠ WRONG: NC Level 1 supervised hours = 60 (not 40)
+
+  [Licensing & Permits] ID: cmn3im36d0b1v97ug6a22qia5
+  Q: How long is the minimum period you must hold a limited learner permit before applying for a limited provisional license 
+  ⚠ POSSIBLE: NC Level 1 permit hold = 9 months; Level 2 = 6 months — check context
+
+  [Licensing & Permits] ID: cmn3il1b60axj97ugco3lblnd
+  Q: How many hours of supervised driving are required before obtaining a limited provisional license?
+  ⚠ WRONG: NC Level 1 supervised hours = 60 (not 50)
+
+  [Licensing & Permits] ID: cmn3il1b60axj97ugco3lblnd
+  Q: How many hours of supervised driving are required before obtaining a limited provisional license?
+  ⚠ WRONG: NC Level 1 supervised hours = 60 (not 40)
+
+  [Licensing & Permits] ID: cmn3il1fq0axp97ugrw4nonpt
+  Q: What is the curfew for drivers with a limited provisional license?
+  ⚠ WRONG: NC curfew = 9 PM–5 AM (not 10 PM)
+
+  [Licensing & Permits] ID: cmn3il1fq0axp97ugrw4nonpt
+  Q: What is the curfew for drivers with a limited provisional license?
+  ⚠ WRONG: NC curfew = 9 PM–5 AM (not 11 PM)
+
+  [Licensing & Permits] ID: cmn3il1kj0axv97ugwrx94qpa
+  Q: How long must you hold a limited learner permit before applying for a limited provisional license?
+  ⚠ POSSIBLE: NC Level 1 permit hold = 9 months; Level 2 = 6 months — check context
+
+=== DUPLICATE SCAN ===
+Found 9 duplicate pairs:
+
+  [Traffic Signs] 89%
+  A: (cmn3i64fp09kj97ugeij05an0) What does a yellow diamond-shaped sign typically indicate?
+  B: (cmn3i70gj09p197ugld9492h3) What does a yellow diamond-shaped sign typically indicate?
+
+  [Traffic Signs] 83%
+  A: (cmn3i64uh09l197ugwzjcq3mc) What color are work zone signs?
+  B: (cmn3i6zv109od97ugmtfia6io) What color are work zone signs?
+
+  [Traffic Signs] 82%
+  A: (cmn3i66k109n797ugf0k8e3su) What does a yellow sign reading 'SLIPPERY WHEN WET' warn about?
+  B: (cmn3i71vy09qj97ugk3ufakck) What does a yellow sign reading 'SLIPPERY WHEN WET' warn about?
+
+  [Traffic Signs] 71%
+  A: (cmn3i654t09ld97ugwb380a6g) What do blue highway signs indicate?
+  B: (cmn3i70qv09pd97ugsjqvhg5p) What do blue highway signs typically indicate?
+
+  [Traffic Signs] 71%
+  A: (cmn3i65in09lv97ug0a298zi1) What does a 'WRONG WAY' sign indicate?
+  B: (cmn3i717s09pv97ugy4swdn36) What does a WRONG WAY sign indicate?
+
+  [Safe Driving] 71%
+  A: (cmn3ig2if0ah197ug27v8lf9n) A 19-year-old driver receives a text message while driving. What is legally permitted?
+  B: (cmn3igk650ak197uglwjpgki2) A 19-year-old driver receives a text message while driving. What is legally permitted?
+
+  [Traffic Signs] 67%
+  A: (cmn3i64b309kd97ugpe1n6iz6) What shape is a STOP sign?
+  B: (cmn3i6za109np97ugbif2iwgg) What shape is a STOP sign?
+
+  [Traffic Signs] 67%
+  A: (cmn3i661k09mj97uga3qp2zqh) What does a yellow sign with two curved arrows pointing in opposite directions mean?
+  B: (cmn3i71c909q197ugz93cpp4b) What does a yellow sign with two curved arrows pointing in opposite directions indicate?
+
+  [Safe Driving] 67%
+  A: (cmn3ig2rx0ahd97ugp1gp4ukl) Which passengers must wear seatbelts in North Carolina?
+  B: (cmn3ie5j00a9v97ugv24r3faw) Which occupants must wear seatbelts in North Carolina?
+
+=== CONCEPT COVERAGE ===
+
+GAPS:
+  ❌ speed:following
+  ❌ speed:signal-distance
+  ❌ row:bicycle
+  ❌ safe:parallel-park
+  ❌ safe:bike-passing
+  ❌ alcohol:open-container
+  ❌ license:level3
+  ❌ license:new-resident
+  ❌ license:provisional-alcohol
+  ❌ signs:green-arrow
+
+OVER-TESTED (>8):
+  ⚠ speed:max-interstate: 24
+  ⚠ speed:max-city: 28
+  ⚠ speed:construction-zone: 11
+  ⚠ row:pedestrian: 18
+  ⚠ row:emergency: 11
+  ⚠ safe:headlights: 18
+  ⚠ safe:seatbelt: 13
+  ⚠ safe:texting: 11
+  ⚠ safe:weather: 21
+  ⚠ safe:lane-change: 16
+  ⚠ alcohol:bac: 14
+  ⚠ alcohol:dwi-penalties: 37
+  ⚠ license:level1: 16
+  ⚠ license:level2: 15
+  ⚠ signs:warning: 19
+  ⚠ signs:regulatory: 10
+  ⚠ signs:colors: 11
+
+FULL COUNTS:
+  speed:max-interstate: 24 ⚠ OVER(24)
+  speed:max-city: 28 ⚠ OVER(28)
+  speed:school-zone: 6
+  speed:construction-zone: 11 ⚠ OVER(11)
+  speed:following: 0 ❌ GAP
+  speed:signal-distance: 0 ❌ GAP
+  speed:minimum: 2
+  row:pedestrian: 18 ⚠ OVER(18)
+  row:school-bus: 6
+  row:emergency: 11 ⚠ OVER(11)
+  row:roundabout: 4
+  row:intersection: 3
+  row:funeral: 2
+  row:bicycle: 0 ❌ GAP
+  row:motorcycle: 1
+  safe:parallel-park: 0 ❌ GAP
+  safe:park-hydrant: 5
+  safe:park-intersection: 5
+  safe:park-railroad: 3
+  safe:passing: 2
+  safe:headlights: 18 ⚠ OVER(18)
+  safe:seatbelt: 13 ⚠ OVER(13)
+  safe:texting: 11 ⚠ OVER(11)
+  safe:skid: 1
+  safe:weather: 21 ⚠ OVER(21)
+  safe:turning: 2
+  safe:lane-change: 16 ⚠ OVER(16)
+  safe:bike-passing: 0 ❌ GAP
+  alcohol:bac: 14 ⚠ OVER(14)
+  alcohol:under21: 3
+  alcohol:dwi-penalties: 37 ⚠ OVER(37)
+  alcohol:chemical-test: 8
+  alcohol:dwi-high-bac: 8
+  alcohol:open-container: 0 ❌ GAP
+  license:level1: 16 ⚠ OVER(16)
+  license:level2: 15 ⚠ OVER(15)
+  license:level3: 0 ❌ GAP
+  license:gdl-curfew: 4
+  license:gdl-passengers: 2
+  license:new-resident: 0 ❌ GAP
+  license:supervised-hours: 5
+  license:driver-ed: 3
+  license:points: 5
+  license:provisional-alcohol: 0 ❌ GAP
+  signs:warning: 19 ⚠ OVER(19)
+  signs:railroad: 2
+  signs:school: 4
+  signs:work-zone: 3
+  signs:regulatory: 10 ⚠ OVER(10)
+  signs:green-arrow: 0 ❌ GAP
+  signs:flashing: 1
+  signs:colors: 11 ⚠ OVER(11)
+  signs:shapes: 8
+
+=== TOPIC SUMMARY ===
+  Traffic Signs: 90
+  Right Of Way: 80
+  Speed Limits: 75
+  Safe Driving: 90
+  Alcohol & Substances: 75
+  Licensing & Permits: 50
+  TOTAL: 460
+  NEED TO TRIM: ~120

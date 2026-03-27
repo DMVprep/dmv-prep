@@ -1,0 +1,6 @@
+state,topic,question,choice_a,choice_b,choice_c,choice_d,correct_answer,explanation,difficulty
+CA,traffic-signs,What does a red hexagonal (8-sided) sign mean?,Slow down,Yield to traffic,Stop completely,No entry,C,"A red octagon is always a STOP sign. You must completely stop before the white line and wait until it is safe to go.",EASY
+CA,right-of-way,At a 4-way stop who has the right of way?,The car going straight,The car on your left,The first car to arrive,The biggest vehicle,C,"At a 4-way stop the first car to arrive goes first. If two cars arrive at the same time the car on the RIGHT goes first.",EASY
+TX,traffic-signs,What color are warning signs?,Red,White,Yellow,Green,C,Warning signs in the USA are yellow with black text or symbols. They warn you about hazards or changes in road conditions ahead.,EASY
+FL,speed-limits,What is the typical speed limit in a school zone?,10 mph,15-25 mph,35 mph,45 mph,B,"School zones usually have a speed limit of 15-25 mph when children are present. Always watch for flashing lights indicating the lower limit is active.",EASY
+NY,safe-driving,When is it safe to use a hand-held phone while driving?,At a red light,Only for short texts,Never while driving,When using speaker phone,C,"Using a hand-held phone while driving is illegal in most states. Pull over safely before using your phone.",EASY

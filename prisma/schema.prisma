@@ -1,0 +1,176 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model State {
+  id                String        @id @default(cuid())
+  code              String        @unique
+  name              String
+  createdAt         DateTime      @default(now())
+  examPassScore     Int           @default(80)
+  examQuestionCount Int           @default(40)
+  autoFail          Boolean       @default(true)
+  autoPass          Boolean       @default(false)
+  maxSkips          Int           @default(0)
+  maxWrong          Int           @default(8)
+  skipAllowed       Boolean       @default(false)
+  questions         Question[]
+  testSessions      TestSession[]
+}
+
+model Topic {
+  id          String     @id @default(cuid())
+  name        String
+  slug        String     @unique
+  description String?
+  createdAt   DateTime   @default(now())
+  questions   Question[]
+}
+
+model Question {
+  id           String                @id @default(cuid())
+  text         String
+  explanation  String
+  imageUrl     String?
+  createdAt    DateTime              @default(now())
+  updatedAt    DateTime              @updatedAt
+  stateId      String
+  topicId      String
+  answers      Answer[]
+  choices      Choice[]
+  state        State                 @relation(fields: [stateId], references: [id])
+  topic        Topic                 @relation(fields: [topicId], references: [id])
+  translations QuestionTranslation[]
+  progress     UserProgress[]
+}
+
+model Choice {
+  id         String   @id @default(cuid())
+  text       String
+  isCorrect  Boolean  @default(false)
+  questionId String
+  answers    Answer[]
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id           String         @id @default(cuid())
+  email        String         @unique
+  name         String?
+  password     String?
+  image        String?
+  role         Role           @default(USER)
+  plan         Plan           @default(FREE)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  subscription Subscription?
+  testSessions TestSession[]
+  progress     UserProgress[]
+}
+
+model TestSession {
+  id          String    @id @default(cuid())
+  mode        TestMode
+  stateId     String
+  userId      String
+  score       Int?
+  totalQ      Int
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  answers     Answer[]
+  state       State     @relation(fields: [stateId], references: [id])
+  user        User      @relation(fields: [userId], references: [id])
+}
+
+model Answer {
+  id         String      @id @default(cuid())
+  sessionId  String
+  questionId String
+  choiceId   String
+  isCorrect  Boolean
+  choice     Choice      @relation(fields: [choiceId], references: [id])
+  question   Question    @relation(fields: [questionId], references: [id])
+  session    TestSession @relation(fields: [sessionId], references: [id])
+}
+
+model QuestionTranslation {
+  id          String   @id @default(cuid())
+  questionId  String
+  language    String
+  text        String
+  explanation String
+  choices     String[]
+  createdAt   DateTime @default(now())
+  question    Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, language])
+}
+
+model UserProgress {
+  id              String    @id @default(cuid())
+  userId          String
+  questionId      String
+  seenCount       Int       @default(0)
+  correctCount    Int       @default(0)
+  lastSeen        DateTime  @default(now())
+  mastered        Boolean   @default(false)
+  confidenceScore Float     @default(0)
+  nextReviewAt    DateTime?
+  wrongCount      Int       @default(0)
+  question        Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+}
+
+model Subscription {
+  id                   String             @id @default(cuid())
+  userId               String             @unique
+  stripeCustomerId     String?            @unique
+  stripeSubscriptionId String?            @unique
+  status               SubscriptionStatus @default(INACTIVE)
+  currentPeriodEnd     DateTime?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+  user                 User               @relation(fields: [userId], references: [id])
+}
+
+model MicroLesson {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  topic       String
+  title       String
+  simpleLine  String
+  explanation String
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  stateCode   String?
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Plan {
+  FREE
+  PREMIUM
+}
+
+enum TestMode {
+  PRACTICE
+  EXAM_SIMULATION
+  WEAK_AREAS
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  INACTIVE
+  CANCELED
+  PAST_DUE
+}

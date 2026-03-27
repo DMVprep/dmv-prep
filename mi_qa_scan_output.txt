@@ -1,0 +1,421 @@
+=== MI QA SCAN ===
+
+Total questions: 460
+
+=== FACTUAL ERRORS ===
+Found 69 potential errors:
+
+  [Traffic Signs] ID: cmmse4yod0ao9neslu5e8thsn
+  Q: How close to a fire hydrant can you legally park?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmse4yod0ao9neslu5e8thsn
+  Q: How close to a fire hydrant can you legally park?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmse6rt50atbnesl7brhrw6i
+  Q: What is the legal BAC limit for adult drivers in Michigan?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmse88vj0az5neslwrb8wswn
+  Q: You need to park your car. Which of these parking distances is correct?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmse39vj0addneslufrbtxgv
+  Q: What is the speed limit in residential areas in Michigan?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Traffic Signs] ID: cmmse39vj0addneslufrbtxgv
+  Q: What is the speed limit in residential areas in Michigan?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Traffic Signs] ID: cmmse3auc0aejnesl0io03w6q
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmse3auc0aejnesl0io03w6q
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmse3c8t0aghneslr1k1ej8b
+  Q: You are driving in a residential neighborhood and see children playing nearby. What speed should you maintain?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Traffic Signs] ID: cmmse3c8t0aghneslr1k1ej8b
+  Q: You are driving in a residential neighborhood and see children playing nearby. What speed should you maintain?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Traffic Signs] ID: cmmse3dbd0ai1nesldalrv8x7
+  Q: When parking near a school zone, you notice a fire hydrant. What is the minimum distance you must park from it?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmse3dbd0ai1nesldalrv8x7
+  Q: When parking near a school zone, you notice a fire hydrant. What is the minimum distance you must park from it?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmse4usv0aj7neslyodo6eho
+  Q: What is the maximum speed limit allowed in a residential area in Michigan?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Traffic Signs] ID: cmmse4usv0aj7neslyodo6eho
+  Q: What is the maximum speed limit allowed in a residential area in Michigan?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Right Of Way] ID: cmmseaijj0b5dneslwngalytt
+  Q: During teen driving curfew hours, when are new drivers prohibited from driving?
+  ⚠ WRONG: MI Level 2 curfew = 10 PM–5 AM (not midnight)
+
+  [Right Of Way] ID: cmmsehs190bnnneslpkwhki9u
+  Q: What BAC level would require an adult driver to avoid driving and potentially encountering right-of-way situations?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Right Of Way] ID: cmmsehqny0blpneslgahohx7z
+  Q: When teen drivers are navigating right-of-way situations during restricted hours, what is their curfew period?
+  ⚠ WRONG: MI Level 2 curfew = 10 PM–5 AM (not midnight)
+
+  [Right Of Way] ID: cmmsefed00bfhneslytw4m82k
+  Q: What is the blood alcohol concentration (BAC) limit for drivers under 21 years old?
+  ⚠ WRONG: MI under-21 = .02% (not .04)
+
+  [Right Of Way] ID: cmmsefdv50bepnesl7d12d9h5
+  Q: A teen driver with a valid license is driving at 11 p.m. on a weeknight. Which statement is correct about their driving 
+  ⚠ WRONG: MI Level 2 curfew = 10 PM–5 AM (not midnight)
+
+  [Speed Limits] ID: cmn3ith2w0bnp97uglexg1puo
+  Q: You are driving on a Michigan freeway where the speed limit sign shows 70 mph, but traffic is moving at 45 mph due to he
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3isehd0bm797ugdx5ecfz9
+  Q: On which type of road would you most likely encounter a 55 mph speed limit in Michigan?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3isdvm0blj97ugt3pxtb23
+  Q: You are driving on a Michigan freeway with no posted speed limit signs. What is the assumed maximum speed?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3isdvm0blj97ugt3pxtb23
+  Q: You are driving on a Michigan freeway with no posted speed limit signs. What is the assumed maximum speed?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 65)
+
+  [Speed Limits] ID: cmn3iscr70bkd97ugy504gq7f
+  Q: What is the maximum speed limit on Michigan freeways where posted?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 65)
+
+  [Speed Limits] ID: cmmsemy5h0c3zneslgaa1wz9a
+  Q: When driving through a residential neighborhood during the day, what speed should you maintain?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Speed Limits] ID: cmmsemy5h0c3zneslgaa1wz9a
+  Q: When driving through a residential neighborhood during the day, what speed should you maintain?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmmsemxmu0c37neslf9uzgwdf
+  Q: A driver approaches a school zone where children are present. The driver should:
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Speed Limits] ID: cmmsemxmu0c37neslf9uzgwdf
+  Q: A driver approaches a school zone where children are present. The driver should:
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmmseklfn0bwzneslvhheszkr
+  Q: You are driving through a quiet residential street with houses on both sides. What is the maximum legal speed?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Speed Limits] ID: cmmseklfn0bwzneslvhheszkr
+  Q: You are driving through a quiet residential street with houses on both sides. What is the maximum legal speed?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmmsej6el0bthneslzuspie4o
+  Q: What is the maximum speed allowed in both school zones and residential areas?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Speed Limits] ID: cmmsej6el0bthneslzuspie4o
+  Q: What is the maximum speed allowed in both school zones and residential areas?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmmsej4ak0bqdneslgih4e97w
+  Q: What should you do when driving in a residential area regarding speed?
+  ⚠ WRONG: MI residential/business = 25 mph (not 30)
+
+  [Speed Limits] ID: cmmsej4ak0bqdneslgih4e97w
+  Q: What should you do when driving in a residential area regarding speed?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmn3iuksl0bsd97ugh3totls4
+  Q: A Michigan driver travels from a freeway (75 mph) to a residential street. What is the maximum speed reduction required?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3ium100btv97uga2leul30
+  Q: During icy conditions on a 75 mph freeway, what principle should guide your driving speed?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3iumcw0bu797ugi9d9k5tr
+  Q: What is the maximum speed limit range you might encounter on Michigan roads excluding freeways?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3iumcw0bu797ugi9d9k5tr
+  Q: What is the maximum speed limit range you might encounter on Michigan roads excluding freeways?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 65)
+
+  [Speed Limits] ID: cmn3iukiu0bs197ugjb8libo6
+  Q: What is the speed limit difference between Michigan's slowest urban roads and fastest freeways?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3iujmz0br197ugispqbrmz
+  Q: You are driving on a Michigan freeway where no speed limit signs are visible for several miles. What speed should you no
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3iujmz0br197ugispqbrmz
+  Q: You are driving on a Michigan freeway where no speed limit signs are visible for several miles. What speed should you no
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 65)
+
+  [Speed Limits] ID: cmn3itjwn0bqd97ugru3qchm8
+  Q: You're driving from a 25 mph residential area directly onto a 75 mph freeway. What should you do?
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Speed Limits] ID: cmn3itjm50bq197ugadyb0ip4
+  Q: On a freeway with no posted speed limit signs visible, what is the default maximum speed in Michigan?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 55)
+
+  [Speed Limits] ID: cmn3itjm50bq197ugadyb0ip4
+  Q: On a freeway with no posted speed limit signs visible, what is the default maximum speed in Michigan?
+  ⚠ WRONG: MI freeway/interstate = 70 mph cars (not 65)
+
+  [Speed Limits] ID: cmn3itiz50bpd97ug4p8rr447
+  Q: What is the speed limit range you might encounter when driving from a residential area through a business district to a 
+  ⚠ WRONG: MI residential/business = 25 mph (not 35)
+
+  [Safe Driving] ID: cmn3ivhah0bvp97ugue3v2f1t
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ivhah0bvp97ugue3v2f1t
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3ivirv0bxj97ugmm7o0a15
+  Q: If you park too close to a fire hydrant, what distance violation would this be?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ivirv0bxj97ugmm7o0a15
+  Q: If you park too close to a fire hydrant, what distance violation would this be?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3iwesg0byp97ugiouhzuaa
+  Q: What is the minimum distance you must park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3iwesg0byp97ugiouhzuaa
+  Q: What is the minimum distance you must park from a fire hydrant?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3iwg950c0j97ugesq7w840
+  Q: What parking distance applies near crosswalks?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3iwg950c0j97ugesq7w840
+  Q: What parking distance applies near crosswalks?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3ixdci0c3j97ug2qwrwa2j
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3ixdci0c3j97ug2qwrwa2j
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: MI fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmmseqf9h0cdpnesl6gqfy7xo
+  Q: What is the BAC limit for adult drivers in Michigan?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Safe Driving] ID: cmmsesia80cjxnesl4bsdzckp
+  Q: At what time does the teen driving curfew begin?
+  ⚠ WRONG: MI Level 2 curfew = 10 PM–5 AM (not midnight)
+
+  [Alcohol & Substances] ID: cmn3izany0c9197ugz5q88vj6
+  Q: What is the 'widowmaker' range of BAC that is particularly dangerous?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3iza7z0c8j97ugt91kzogv
+  Q: At what BAC level do most people begin to show obvious signs of impairment?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3iz9dr0c7j97ug40yp83f2
+  Q: What is the standard BAC level that defines Operating While Intoxicated (OWI) in Michigan?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3iy6gj0c4j97ugd94kf7ce
+  Q: Under Michigan's Zero Tolerance law, what BAC level applies to drivers under 21?
+  ⚠ NOTE: MI under-21 = .02% (zero tolerance threshold is .02, not any amount — that is NC)
+
+  [Alcohol & Substances] ID: cmn3iy67g0c4797ug54xpx6bk
+  Q: What BAC level constitutes Operating While Visibly Impaired (OWVI) in Michigan?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3j1ec00cev97ugo8chbjws
+  Q: If you are under 21 and have a BAC of 0.03% in Michigan, what law applies?
+  ⚠ NOTE: MI under-21 = .02% (zero tolerance threshold is .02, not any amount — that is NC)
+
+  [Alcohol & Substances] ID: cmn3j1fd60cfv97ugg567w4dl
+  Q: Which BAC range would result in OWVI charges in Michigan?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3j1fq40cg797ugtyrp75h4
+  Q: For a CDL holder operating a personal vehicle, what BAC level would trigger OWI charges?
+  ⚠ WRONG: MI adult BAC = .08 (not .10)
+
+  [Licensing & Permits] ID: cmn3j2abu0ch197ugkwmlldei
+  Q: How many hours of supervised driving practice are required during Level 1?
+  ⚠ WRONG: MI Level 1 supervised = 50 hours (not 40)
+
+  [Licensing & Permits] ID: cmn3j2abu0ch197ugkwmlldei
+  Q: How many hours of supervised driving practice are required during Level 1?
+  ⚠ WRONG: MI Level 1 supervised = 50 hours (not 60)
+
+  [Licensing & Permits] ID: cmn3j3e920cn197ugv5b4vuus
+  Q: Can you obtain a Level 2 license before age 16 in Michigan?
+  ⚠ WRONG: MI Level 1 permit = age 14 years 9 months (not 15)
+
+  [Licensing & Permits] ID: cmn3j3e920cn197ugv5b4vuus
+  Q: Can you obtain a Level 2 license before age 16 in Michigan?
+  ⚠ WRONG: MI Level 1 permit = age 14 years 9 months (not 16)
+
+=== DUPLICATE SCAN ===
+Found 11 duplicate pairs:
+
+  [Safe Driving] 82%
+  A: (cmmseqeil0ccjneslt39vgivq) Which drivers are prohibited from using cell phones while driving?
+  B: (cmmseuqqt0cprneslzw26a8av) Which drivers are prohibited from using handheld cell phones while driving?
+
+  [Traffic Signs] 80%
+  A: (cmn3ioknu0bc197ugjlx9qjq1) What does a yellow sign with a curved arrow indicate?
+  B: (cmn3inmmc0b7d97ug8fn50bdp) What does a yellow warning sign with a curved arrow indicate?
+
+  [Safe Driving] 80%
+  A: (cmn3ivggn0bup97ugpypymq11) At what visibility distance are headlights required during daytime hours?
+  B: (cmn3iwe8b0by197ugceski7ui) At what visibility distance are headlights required during daytime hours?
+
+  [Safe Driving] 80%
+  A: (cmn3ivggn0bup97ugpypymq11) At what visibility distance are headlights required during daytime hours?
+  B: (cmn3ixbh30c1j97ug107os4z4) At what visibility distance are headlights required during daytime hours?
+
+  [Safe Driving] 80%
+  A: (cmn3iwe8b0by197ugceski7ui) At what visibility distance are headlights required during daytime hours?
+  B: (cmn3ixbh30c1j97ug107os4z4) At what visibility distance are headlights required during daytime hours?
+
+  [Traffic Signs] 75%
+  A: (cmn3ip04r0bcp97uggvdw51ys) What color are work zone signs in Michigan?
+  B: (cmn3ioijf0b9v97ugusvzb78k) What color are work zone signs in Michigan?
+
+  [Licensing & Permits] 71%
+  A: (cmn3j3y3r0cov97ug25e3xbaz) What happens when a Michigan driver accumulates exactly 12 points on their driving record?
+  B: (cmn3j2bp00cij97ug589iy20c) What happens when a driver accumulates 12 points on their Michigan driving record?
+
+  [Traffic Signs] 69%
+  A: (cmn3iozyf0bcj97ugnpylx7vf) What does a yellow diamond-shaped sign with a deer symbol warn drivers about?
+  B: (cmn3iojo70bb197uglmskfs4v) What does a yellow sign with a deer symbol warn about?
+
+  [Traffic Signs] 67%
+  A: (cmn3iok630bbj97ugdn4a4x68) What is a Michigan Left turn?
+  B: (cmn3innmt0b8j97ugxf4xjkxq) What is a Michigan Left turn?
+
+  [Traffic Signs] 67%
+  A: (cmn3iok030bbd97ug7smuq5jc) What does a sign reading 'SLIPPERY WHEN WET' warn about?
+  B: (cmn3innid0b8d97uggtizlpsl) What does a yellow sign reading 'SLIPPERY WHEN WET' warn drivers about?
+
+  [Alcohol & Substances] 67%
+  A: (cmn3iy8ee0c7197ug87ylmkci) How does alcohol affect your ability to judge distances while driving?
+  B: (cmn3j0mhx0cc197ugh0to5m0y) How does alcohol affect your ability to judge speed while driving?
+
+=== CONCEPT COVERAGE ===
+
+GAPS:
+  ❌ speed:signal-distance
+  ❌ safe:parallel-park
+  ❌ safe:skid
+  ❌ safe:turning
+  ❌ safe:bike-passing
+  ❌ signs:green-arrow
+
+OVER-TESTED (>8):
+  ⚠ speed:max-freeway: 27
+  ⚠ speed:max-residential: 36
+  ⚠ speed:school-zone: 15
+  ⚠ speed:work-zone: 11
+  ⚠ row:pedestrian: 14
+  ⚠ row:emergency: 12
+  ⚠ safe:headlights: 15
+  ⚠ safe:texting: 16
+  ⚠ safe:weather: 19
+  ⚠ alcohol:bac: 37
+  ⚠ alcohol:owi-penalties: 11
+  ⚠ alcohol:high-bac: 10
+  ⚠ license:level1: 12
+  ⚠ license:level2: 20
+  ⚠ signs:warning: 17
+  ⚠ signs:colors: 10
+
+FULL COUNTS:
+  speed:max-freeway: 27 ⚠ OVER(27)
+  speed:max-residential: 36 ⚠ OVER(36)
+  speed:school-zone: 15 ⚠ OVER(15)
+  speed:work-zone: 11 ⚠ OVER(11)
+  speed:following: 3
+  speed:signal-distance: 0 ❌ GAP
+  speed:minimum: 3
+  row:pedestrian: 14 ⚠ OVER(14)
+  row:school-bus: 6
+  row:emergency: 12 ⚠ OVER(12)
+  row:roundabout: 8
+  row:intersection: 1
+  row:funeral: 1
+  row:bicycle: 2
+  row:motorcycle: 1
+  safe:parallel-park: 0 ❌ GAP
+  safe:park-hydrant: 5
+  safe:park-crosswalk: 5
+  safe:park-railroad: 3
+  safe:passing: 3
+  safe:headlights: 15 ⚠ OVER(15)
+  safe:seatbelt: 8
+  safe:texting: 16 ⚠ OVER(16)
+  safe:skid: 0 ❌ GAP
+  safe:weather: 19 ⚠ OVER(19)
+  safe:turning: 0 ❌ GAP
+  safe:lane-change: 7
+  safe:bike-passing: 0 ❌ GAP
+  alcohol:bac: 37 ⚠ OVER(37)
+  alcohol:under21: 4
+  alcohol:owi-penalties: 11 ⚠ OVER(11)
+  alcohol:chemical-test: 5
+  alcohol:high-bac: 10 ⚠ OVER(10)
+  alcohol:open-container: 2
+  license:level1: 12 ⚠ OVER(12)
+  license:level2: 20 ⚠ OVER(20)
+  license:level3: 3
+  license:gdl-curfew: 3
+  license:gdl-passengers: 5
+  license:new-resident: 1
+  license:supervised-hours: 4
+  license:points: 4
+  license:kelsey-law: 3
+  signs:warning: 17 ⚠ OVER(17)
+  signs:railroad: 2
+  signs:school: 4
+  signs:work-zone: 4
+  signs:regulatory: 7
+  signs:green-arrow: 0 ❌ GAP
+  signs:flashing: 3
+  signs:colors: 10 ⚠ OVER(10)
+  signs:shapes: 8
+
+=== TOPIC SUMMARY ===
+  Traffic Signs: 90
+  Right Of Way: 80
+  Speed Limits: 75
+  Safe Driving: 90
+  Alcohol & Substances: 75
+  Licensing & Permits: 50
+  TOTAL: 460
+  NEED TO TRIM: ~120

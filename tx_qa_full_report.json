@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-03-26T02:04:28.331Z",
+  "handbook": "Texas DL-7 January 2026",
+  "summary": {
+    "total": 460,
+    "critical": 5,
+    "factual": 1,
+    "duplicates": 5,
+    "quality": 0
+  },
+  "topicCounts": {
+    "Alcohol & Substances": 75,
+    "Licensing & Permits": 50,
+    "Right Of Way": 80,
+    "Safe Driving": 90,
+    "Speed Limits": 75,
+    "Traffic Signs": 90
+  },
+  "critical": [
+    {
+      "id": "cmn3f6gv9019197ugwm3d21ph",
+      "topic": "Licensing & Permits",
+      "q": "At what age can you obtain a full unrestricted license in Texas?",
+      "issue": "Correct answer too short: \"18\""
+    },
+    {
+      "id": "cmn3f6gkq018p97ugi40hagrt",
+      "topic": "Licensing & Permits",
+      "q": "How many non-family passengers under 21 can a restricted license holder transport during the first 12 months in Texas?",
+      "issue": "Correct answer too short: \"1\""
+    },
+    {
+      "id": "cmn3f6gcn018j97ugswkzyah4",
+      "topic": "Licensing & Permits",
+      "q": "At what age can you obtain a restricted license in Texas?",
+      "issue": "Correct answer too short: \"16\""
+    },
+    {
+      "id": "cmn3f6fne017v97ugrwyzfdbq",
+      "topic": "Licensing & Permits",
+      "q": "At what age can you obtain a learner permit in Texas?",
+      "issue": "Correct answer too short: \"15\""
+    },
+    {
+      "id": "cmms0evdv052pf74yqsqza0fv",
+      "topic": "Safe Driving",
+      "q": "At what age can you obtain a driver's permit in Texas?",
+      "issue": "Duplicate answer choices"
+    }
+  ],
+  "factual": [
+    {
+      "id": "cmms0ckv104whf74y7z8mu7ye",
+      "topic": "Safe Driving",
+      "q": "When is passing NOT permitted?",
+      "a": "Within 100 feet of an intersection or railroad crossing",
+      "issue": "TX: do not park within 50 feet of railroad crossing"
+    }
+  ],
+  "duplicates": [
+    {
+      "sim": "100%",
+      "q1": {
+        "id": "cmn3ezxd700nj97ugfumva5cp",
+        "topic": "Safe Driving",
+        "text": "Who is required to wear seat belts in Texas?"
+      },
+      "q2": {
+        "id": "cmn3f1wg800tp97ugrwokne7u",
+        "topic": "Safe Driving",
+        "text": "Who is required to wear seat belts in Texas?"
+      }
+    },
+    {
+      "sim": "100%",
+      "q1": {
+        "id": "cmn3ezxo000nv97ug9q4jirol",
+        "topic": "Safe Driving",
+        "text": "How far from railroad tracks must you park your vehicle?"
+      },
+      "q2": {
+        "id": "cmmrzna9g033xf74ytzco5gyu",
+        "topic": "Traffic Signs",
+        "text": "How far from railroad tracks must you park your vehicle?"
+      }
+    },
+    {
+      "sim": "100%",
+      "q1": {
+        "id": "cmn3f0ya800q797ugmtiyu9jj",
+        "topic": "Safe Driving",
+        "text": "When making a right turn on red, what must you do first?"
+      },
+      "q2": {
+        "id": "cmn3f1vi900sp97ug92q6ment",
+        "topic": "Safe Driving",
+        "text": "When making a right turn on red, what must you do first?"
+      }
+    },
+    {
+      "sim": "100%",
+      "q1": {
+        "id": "cmn3et7xe001d97ugv6kq7vm8",
+        "topic": "Traffic Signs",
+        "text": "What does a yellow pentagon-shaped sign indicate?"
+      },
+      "q2": {
+        "id": "cmn3eu47y005j97ug6crpaz7n",
+        "topic": "Traffic Signs",
+        "text": "What does a yellow pentagon-shaped sign indicate?"
+      }
+    },
+    {
+      "sim": "100%",
+      "q1": {
+        "id": "cmn3et708000d97ug68xz8a0c",
+        "topic": "Traffic Signs",
+        "text": "What does a blue highway sign typically indicate?"
+      },
+      "q2": {
+        "id": "cmn3euets007797ugggdmfrwr",
+        "topic": "Traffic Signs",
+        "text": "What does a blue highway sign typically indicate?"
+      }
+    }
+  ],
+  "quality": []
+}

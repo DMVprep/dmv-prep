@@ -1,0 +1,307 @@
+=== OH REDUNDANCY CHECK ===
+
+Printing questions per concept for manual review.
+
+Look for: same fact tested multiple times, trivially reworded questions,
+"what is X" asked 3 different ways with same answer.
+
+
+── alcohol:bac (5 questions) ──
+  Q: What is the BAC limit for drivers under 21 years old in Ohio?
+  A: .02%
+  ID: cmn3h2w6b07f197ug8v4q2mdc
+
+  Q: What is the BAC limit for commercial driver's license (CDL) holders in Ohio?
+  A: 0.04%
+  ID: cmn3h2wga07fd97ugychdorgh
+
+  Q: If convicted of OVI with a high test (0.17% BAC or above) in Ohio, what additional penalty applies?
+  A: Enhanced penalties including ignition interlock
+  ID: cmn3h2y0c07hd97ugq51w1g66
+
+  Q: In Ohio, what BAC level triggers an automatic Administrative License Suspension (ALS)?
+  A: .08%
+  ID: cmn3h3woz07ij97ugwad2i53s
+
+  Q: In Ohio, what BAC level makes it illegal for a driver under 21 to operate a vehicle?
+  A: .02% or higher
+  ID: cmn3h3y8207k797ug6qj6u38a
+
+
+── alcohol:under21 (2 questions) ──
+  Q: What is the BAC limit for drivers under 21 years old in Ohio?
+  A: .02%
+  ID: cmn3h2w6b07f197ug8v4q2mdc
+
+  Q: In Ohio, what BAC level makes it illegal for a driver under 21 to operate a vehicle?
+  A: .02% or higher
+  ID: cmn3h3y8207k797ug6qj6u38a
+
+
+── alcohol:chemical-test (4 questions) ──
+  Q: How long is the ALS (Administrative License Suspension) for refusing a chemical test in Ohio?
+  A: 1 year
+  ID: cmn3h2xdy07gj97ug439yk5ft
+
+  Q: In Ohio, implied consent means that by driving, you automatically consent to:
+  A: Chemical testing for alcohol or drugs
+  ID: cmn3h2xrb07h197ugm326fbio
+
+  Q: Under Ohio's implied consent law, what happens if you refuse a breath test on a second refusal?
+  A: 2-year license suspension
+  ID: cmn3h3x0207iv97ugf99jrexq
+
+  Q: Under Ohio's implied consent law, what are you considered to have automatically agreed to by driving?
+  A: Chemical testing for alcohol and drugs
+  ID: cmn3h5pdt07pj97ugwvhk1n8x
+
+
+── alcohol:suspension (2 questions) ──
+  Q: How long is the ALS (Administrative License Suspension) for refusing a chemical test in Ohio?
+  A: 1 year
+  ID: cmn3h2xdy07gj97ug439yk5ft
+
+  Q: In Ohio, what BAC level triggers an automatic Administrative License Suspension (ALS)?
+  A: .08%
+  ID: cmn3h3woz07ij97ugwad2i53s
+
+
+── alcohol:open-container (2 questions) ──
+  Q: In Ohio, implied consent means that by driving, you automatically consent to:
+  A: Chemical testing for alcohol or drugs
+  ID: cmn3h2xrb07h197ugm326fbio
+
+  Q: Under Ohio's implied consent law, what are you considered to have automatically agreed to by driving?
+  A: Chemical testing for alcohol and drugs
+  ID: cmn3h5pdt07pj97ugwvhk1n8x
+
+
+── speed:signal-distance (1 questions) ──
+  Q: How far in advance must you activate your turn signal before turning in Ohio?
+  A: At least 100 feet
+  ID: cmn7vsour7xhxg4s34wev
+
+
+── speed:minimum (3 questions) ──
+  Q: What are Ohio's prima facie speed limits?
+  A: Speed limits presumed reasonable unless conditions require slower speeds
+  ID: cmn3gwwhp06v797ug2tv7pa3k
+
+  Q: What is the minimum speed difference between Ohio's slowest and fastest speed zones?
+  A: 50 mph
+  ID: cmn3gxwp306xv97ug2e9jofv5
+
+  Q: Under Ohio's basic speed law, when must you drive slower than the posted speed limit?
+  A: When road, weather, or traffic conditions make the posted speed unsafe
+  ID: cmn3gxx1k06y797ug419amwvd
+
+
+── row:funeral (1 questions) ──
+  Q: What must a driver do when a funeral procession is passing in Ohio?
+  A: Yield and do not cut into the procession
+  ID: cmn7vsp06vtuagfslvho6
+
+
+── row:intersection (2 questions) ──
+  Q: You are approaching an intersection to go straight. Another vehicle is approaching from the opposite direction signaling a left turn. Who has the right-of-way?
+  A: You do, because you're going straight
+  ID: cmn3gvhfm06sp97ug0cp57nwf
+
+  Q: You are making a left turn at an intersection when oncoming traffic approaches. When must you yield?
+  A: You must yield to all oncoming traffic
+  ID: cmn3gvx2y06td97ugic8jmz6s
+
+
+── row:motorcycle (1 questions) ──
+  Q: Can a motorist share a traffic lane alongside a motorcycle in Ohio?
+  A: No — motorcyclists are entitled to the full width of the lane
+  ID: cmn7vsphes6mtczh2wnna
+
+
+── safe:park-crosswalk (1 questions) ──
+  Q: In Ohio, how close may you park to a crosswalk at an intersection?
+  A: Within 20 feet — parking prohibited within 20 feet
+  ID: cmn7vspnsp9jub2ts4i7n
+
+
+── safe:park-stop-sign (1 questions) ──
+  Q: How close may you park to a STOP sign or traffic control signal in Ohio?
+  A: Within 30 feet — parking prohibited within 30 feet
+  ID: cmn7vspt11b6xi5x7hn2w
+
+
+── safe:skid (1 questions) ──
+  Q: What is the correct procedure when your vehicle starts to skid?
+  A: Steer in the direction you want to go and avoid sudden braking
+  ID: cmn3h0qk407a197ugmpn53y6h
+
+
+── safe:bike-passing (1 questions) ──
+  Q: When passing a bicyclist on any road in Ohio, what minimum clearance must you maintain?
+  A: 3 feet
+  ID: cmn7vspyt58q2406wz9j5
+
+
+── license:new-resident (1 questions) ──
+  Q: What must a driver do if they move to Ohio from another state and already have a valid license?
+  A: Transfer their license within 30 days
+  ID: cmn3h7ppk07wv97ugrc44vp7q
+
+
+── license:address-change (1 questions) ──
+  Q: Within how many days must you notify the Ohio BMV of an address change?
+  A: 10 days
+  ID: cmn7vsq4r3rs04tabnclp
+
+
+── license:knowledge-test (1 questions) ──
+  Q: How many questions are on the Ohio BMV knowledge test and what score is required to pass?
+  A: 40 questions, need 30 correct (75%)
+  ID: cmn7vsqa3b1obpj91t83e
+
+
+── license:permit-duration (3 questions) ──
+  Q: What is the minimum age to apply for a temporary instruction permit in Ohio?
+  A: 15 years and 6 months
+  ID: cmn3h6nii07rj97ugojqhksc1
+
+  Q: How long must you hold a temporary instruction permit (TIPIC) before applying for a probationary license in Ohio?
+  A: 6 months
+  ID: cmn3h6nn607rp97ugmx71ct3x
+
+  Q: What happens if you fail the driving skills test for a restricted license in Ohio?
+  A: You can retake the test after a waiting period
+  ID: cmn3h7pzk07x797ug3ummckar
+
+
+── signs:railroad (2 questions) ──
+  Q: What does a circular yellow sign with an 'X' and 'RR' mean?
+  A: Railroad crossing ahead
+  ID: cmn3gs2mn06gj97ug83lhdqaw
+
+  Q: What does a green arrow signal mean at an intersection in Ohio?
+  A: You have a protected turn — proceed in the direction of the arrow
+  ID: cmn7vsqh32b9lk678b6kf
+
+
+── signs:school (3 questions) ──
+  Q: If you are driving and see a school zone sign ahead with children present, what speed must you reduce to?
+  A: 20 mph
+  ID: cmmsblmtb02v3nesl8pif3snw
+
+  Q: What do orange signs indicate in Ohio?
+  A: Work zones and construction
+  ID: cmn3gs1qv06fd97ug0i4af4l1
+
+  Q: What does a pentagon-shaped sign typically indicate?
+  A: School zone
+  ID: cmn3gsxxc06k197ugns7bh3rc
+
+
+── signs:work-zone (2 questions) ──
+  Q: What do orange signs indicate in Ohio?
+  A: Work zones and construction
+  ID: cmn3gs1qv06fd97ug0i4af4l1
+
+  Q: What color are work zone signs that indicate construction or maintenance areas?
+  A: Orange
+  ID: cmn3gtbt806lv97ugve7fqbzi
+
+
+
+═══ FULL ALCOHOL TOPIC (all 23 questions) ═══
+
+  Q: What is the BAC limit for drivers under 21 years old in Ohio?
+  A: .02%
+  ID: cmn3h2w6b07f197ug8v4q2mdc
+
+  Q: What is the BAC limit for commercial driver's license (CDL) holders in Ohio?
+  A: 0.04%
+  ID: cmn3h2wga07fd97ugychdorgh
+
+  Q: What is the minimum jail time for a first OVI offense in Ohio?
+  A: 3 days
+  ID: cmn3h2wkt07fj97ug2jtawxl8
+
+  Q: What is the maximum jail time for a first OVI offense in Ohio?
+  A: 6 months
+  ID: cmn3h2wqy07fp97ugxeqboe41
+
+  Q: What is the minimum license suspension period for a first OVI offense in Ohio?
+  A: 90 days
+  ID: cmn3h2x4b07g797ugt3tcfrwz
+
+  Q: What is the maximum license suspension period for a first OVI offense in Ohio?
+  A: 3 years
+  ID: cmn3h2x8y07gd97ugfs5ugzi6
+
+  Q: How long is the ALS (Administrative License Suspension) for refusing a chemical test in Ohio?
+  A: 1 year
+  ID: cmn3h2xdy07gj97ug439yk5ft
+
+  Q: Ohio's physical control law applies when a person is impaired and:
+  A: In or on a vehicle, even if parked
+  ID: cmn3h2xik07gp97ughrcuew3v
+
+  Q: What program may substitute for jail time on a first OVI offense in Ohio?
+  A: Driver intervention program
+  ID: cmn3h2xmy07gv97ugwvt20bot
+
+  Q: In Ohio, implied consent means that by driving, you automatically consent to:
+  A: Chemical testing for alcohol or drugs
+  ID: cmn3h2xrb07h197ugm326fbio
+
+  Q: If convicted of OVI with a high test (0.17% BAC or above) in Ohio, what additional penalty applies?
+  A: Enhanced penalties including ignition interlock
+  ID: cmn3h2y0c07hd97ugq51w1g66
+
+  Q: In Ohio, what BAC level triggers an automatic Administrative License Suspension (ALS)?
+  A: .08%
+  ID: cmn3h3woz07ij97ugwad2i53s
+
+  Q: Under Ohio's implied consent law, what happens if you refuse a breath test on a second refusal?
+  A: 2-year license suspension
+  ID: cmn3h3x0207iv97ugf99jrexq
+
+  Q: Under Ohio law, what constitutes 'physical control' of a vehicle?
+  A: Being in driver's seat with key in ignition
+  ID: cmn3h3xm007jj97ugm4d5hzj7
+
+  Q: In Ohio, what BAC level makes it illegal for a driver under 21 to operate a vehicle?
+  A: .02% or higher
+  ID: cmn3h3y8207k797ug6qj6u38a
+
+  Q: In Ohio, how long must an ignition interlock device remain installed for a first high-test offense?
+  A: One year minimum
+  ID: cmn3h3yjr07kj97ugg3gu6u4o
+
+  Q: In Ohio, what is the typical duration of a driver intervention program that may substitute for jail time on a first OVI offense?
+  A: 72 hours
+  ID: cmn3h4xom07lp97ug511bi67t
+
+  Q: Under Ohio law, what is the minimum number of days you must wait before applying for occupational driving privileges after an OVI conviction?
+  A: 15 days
+  ID: cmn3h4xth07lv97uge6eri1lk
+
+  Q: Under Ohio's physical control law, where must the keys be located to potentially avoid charges?
+  A: Outside the vehicle or inaccessible to the driver
+  ID: cmn3h4y9307md97ug9767rnea
+
+  Q: Under Ohio law, what is required to complete the ignition interlock program successfully?
+  A: No violations or failed tests during the required period
+  ID: cmn3h4zt007o797ugj6lh00ib
+
+  Q: What is the consequence in Ohio for tampering with an ignition interlock device?
+  A: Additional criminal charges and extended device period
+  ID: cmn3h4zy007od97ug77y2as9q
+
+  Q: Under Ohio's implied consent law, what are you considered to have automatically agreed to by driving?
+  A: Chemical testing for alcohol and drugs
+  ID: cmn3h5pdt07pj97ugwvhk1n8x
+
+  Q: Ohio's physical control law can apply when you are impaired and:
+  A: In the driver's seat of a parked car with keys
+  ID: cmn3h5pwe07q797ug2p73rr8g
+
+
+Total OH questions: 325

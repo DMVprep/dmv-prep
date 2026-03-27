@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "UserProgress" ADD COLUMN     "confidenceScore" DOUBLE PRECISION NOT NULL DEFAULT 0,
+ADD COLUMN     "nextReviewAt" TIMESTAMP(3),
+ADD COLUMN     "wrongCount" INTEGER NOT NULL DEFAULT 0;

@@ -1,0 +1,528 @@
+=== IL QA SCAN ===
+
+Total questions: 460
+
+=== FACTUAL ERRORS ===
+Found 93 potential errors:
+
+  [Traffic Signs] ID: cmms1sfqg07v1f74yrim6kv9o
+  Q: What is the minimum age to obtain a driver's license in Illinois?
+  ⚠ POSSIBLE ERROR: IL min license age = 16 (permit at 15, license at 16)
+
+  [Traffic Signs] ID: cmms1u94n07w7f74y0otw4n9y
+  Q: What is the required following distance behind another vehicle in normal driving conditions?
+  ⚠ WRONG: IL following distance = 3-second rule (not 4)
+
+  [Traffic Signs] ID: cmms1u94n07w7f74y0otw4n9y
+  Q: What is the required following distance behind another vehicle in normal driving conditions?
+  ⚠ WRONG: IL following distance = 3-second rule (not 2)
+
+  [Traffic Signs] ID: cmms1u9m607wzf74ynjp6nohi
+  Q: What is the speed limit in school zones during school hours when children are present?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Traffic Signs] ID: cmms1u9m607wzf74ynjp6nohi
+  Q: What is the speed limit in school zones during school hours when children are present?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Traffic Signs] ID: cmms1u9vi07xdf74yrh989x10
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmms1u9vi07xdf74yrh989x10
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmms1ua3s07xrf74yyrqmy06o
+  Q: What is the maximum speed limit on Illinois interstates and tollways?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Traffic Signs] ID: cmms1sd0q07qrf74ykkbn5y8w
+  Q: When you see a school zone speed limit sign, what is the maximum speed allowed during school days when children are pres
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Traffic Signs] ID: cmms1sd0q07qrf74ykkbn5y8w
+  Q: When you see a school zone speed limit sign, what is the maximum speed allowed during school days when children are pres
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Traffic Signs] ID: cmms1sdpk07rxf74ywg8hka10
+  Q: What is the speed limit indicated by signs on 4-lane highways in Illinois?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Traffic Signs] ID: cmms1sdyz07sbf74yex24n51y
+  Q: When you see parking restriction signs near a fire hydrant, what is the minimum distance you must park away from it?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmms1sdyz07sbf74yex24n51y
+  Q: When you see parking restriction signs near a fire hydrant, what is the minimum distance you must park away from it?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmms1scsh07qdf74yzbkfgcwu
+  Q: What is the maximum speed limit posted on interstate highways and tollways in Illinois?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Traffic Signs] ID: cmms1scsh07qdf74yzbkfgcwu
+  Q: What is the maximum speed limit posted on interstate highways and tollways in Illinois?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Traffic Signs] ID: cmms1w3zx084rf74y8t46963n
+  Q: What is the minimum distance you must park from a fire hydrant?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmms1w3zx084rf74y8t46963n
+  Q: What is the minimum distance you must park from a fire hydrant?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmms1w4zy086bf74yma0hn1m4
+  Q: What is the recommended following distance behind another vehicle?
+  ⚠ WRONG: IL following distance = 3-second rule (not 4)
+
+  [Traffic Signs] ID: cmms1w4zy086bf74yma0hn1m4
+  Q: What is the recommended following distance behind another vehicle?
+  ⚠ WRONG: IL following distance = 3-second rule (not 2)
+
+  [Traffic Signs] ID: cmms1w5h10873f74yf6f4ylrw
+  Q: What is the minimum age to obtain a learner's permit in Illinois?
+  ⚠ POSSIBLE ERROR: IL min license age = 16 (permit at 15, license at 16)
+
+  [Traffic Signs] ID: cmms1y2k408dbf74yohf5bozo
+  Q: What is the legal BAC limit for adult drivers in Illinois?
+  ⚠ WRONG: IL BAC limit = .08 (not .10)
+
+  [Right Of Way] ID: cmms1zsto08fnf74ysvd9hxul
+  Q: What is the minimum following distance recommended in Illinois?
+  ⚠ WRONG: IL following distance = 3-second rule (not 4)
+
+  [Right Of Way] ID: cmms1zsto08fnf74ysvd9hxul
+  Q: What is the minimum following distance recommended in Illinois?
+  ⚠ WRONG: IL following distance = 3-second rule (not 2)
+
+  [Right Of Way] ID: cmms1zurs08idf74y412pv2v4
+  Q: What is the BAC limit for adult drivers in Illinois?
+  ⚠ WRONG: IL BAC limit = .08 (not .10)
+
+  [Right Of Way] ID: cmms25z8g08wrf74y2lrqewq5
+  Q: When following another vehicle to maintain proper right-of-way spacing, what following distance rule should you use?
+  ⚠ WRONG: IL following distance = 3-second rule (not 4)
+
+  [Right Of Way] ID: cmms25z8g08wrf74y2lrqewq5
+  Q: When following another vehicle to maintain proper right-of-way spacing, what following distance rule should you use?
+  ⚠ WRONG: IL following distance = 3-second rule (not 2)
+
+  [Speed Limits] ID: cmms2a4d80997f74y9vl22srk
+  Q: You are driving on an Illinois interstate at 2:00 p.m. on a clear, dry day with light traffic. What is the maximum legal
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmms2cdj709d3f74ysltv9m1d
+  Q: You are driving through a school zone at 2:30 p.m. on a Tuesday when children are crossing. What is the maximum legal sp
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmms2cdj709d3f74ysltv9m1d
+  Q: You are driving through a school zone at 2:30 p.m. on a Tuesday when children are crossing. What is the maximum legal sp
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmms2cguy09glf74yn14uj4lf
+  Q: You notice a school zone sign ahead at 7:30 a.m. on a Wednesday. What should your maximum speed be if children are prese
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmms2cguy09glf74yn14uj4lf
+  Q: You notice a school zone sign ahead at 7:30 a.m. on a Wednesday. What should your maximum speed be if children are prese
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmms2eg5x09n7f74yfkx5lcb5
+  Q: You are driving on an interstate highway in Illinois. What is the maximum legal speed?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmn3gdezh056797ug735sx3f3
+  Q: It is 5:30 p.m. on a Thursday and you are driving past a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3gdezh056797ug735sx3f3
+  Q: It is 5:30 p.m. on a Thursday and you are driving past a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3gdfg8056p97ug7pdl3fwh
+  Q: What is the speed limit in urban and suburban areas of Illinois unless otherwise posted?
+  ⚠ WRONG: IL city/urban speed = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3gdfvq057797ugnh45gs4p
+  Q: You are driving on a rural four-lane divided highway in Illinois. What is the maximum legal speed limit?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Speed Limits] ID: cmn3gdg09057d97ug8azd533o
+  Q: It is 3:00 p.m. on Sunday and you are driving through a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3gdg09057d97ug8azd533o
+  Q: It is 3:00 p.m. on Sunday and you are driving through a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3gdgyj058d97ugh2tshrf3
+  Q: What is the school zone speed limit in Illinois?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3gdgyj058d97ugh2tshrf3
+  Q: What is the school zone speed limit in Illinois?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3gdh35058j97ug1ngr7dji
+  Q: You are driving on an interstate that passes through an urban area in Illinois. What is the maximum speed limit?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmn3gdh35058j97ug1ngr7dji
+  Q: You are driving on an interstate that passes through an urban area in Illinois. What is the maximum speed limit?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gdhdq058v97ughnzep0mx
+  Q: You are driving on a rural highway that changes from two lanes to four lanes. How does this affect the speed limit?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Speed Limits] ID: cmn3geh2f059j97ugleqqo7at
+  Q: You are driving at 6:25 a.m. on a Friday approaching a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3geh2f059j97ugleqqo7at
+  Q: You are driving at 6:25 a.m. on a Friday approaching a school zone. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3geh7p059p97ug2fxfv3kz
+  Q: On an Illinois rural four-lane highway during icy conditions, what is the safest approach to speed limits?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmn3geh7p059p97ug2fxfv3kz
+  Q: On an Illinois rural four-lane highway during icy conditions, what is the safest approach to speed limits?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3geh7p059p97ug2fxfv3kz
+  Q: On an Illinois rural four-lane highway during icy conditions, what is the safest approach to speed limits?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Speed Limits] ID: cmn3gehyn05aj97ugfdj6rm2o
+  Q: You are driving on a highway that changes from rural two-lane (55 mph) to interstate (70 mph). When can you increase spe
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gei3d05ap97ugfc55golp
+  Q: At 4:05 p.m. on a Wednesday, what speed limit applies in an Illinois school zone?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3gei3d05ap97ugfc55golp
+  Q: At 4:05 p.m. on a Wednesday, what speed limit applies in an Illinois school zone?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3geihn05b797ugii5s1tpo
+  Q: During a snowstorm, you are driving 45 mph on an interstate with a 70 mph limit. Other cars are passing you at 60 mph. W
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gej0a05bv97ugpwvsbdd2
+  Q: You are driving in heavy traffic at 20 mph on an interstate where the limit is 70 mph. Is this legal?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gej5805c197ugo0nfr25g
+  Q: What speed limit applies in Illinois urban and suburban areas unless otherwise posted?
+  ⚠ WRONG: IL city/urban speed = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3gej9r05c797ug4biel1uu
+  Q: On Illinois rural four-lane highways, what is the maximum legal speed limit?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Speed Limits] ID: cmn3gfpqo05cj97ug0wcq471k
+  Q: You are driving on an Illinois interstate that changes speed limit from 70 mph to 55 mph due to construction. What shoul
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gfq1u05cv97ugfyym8sg6
+  Q: You are following a school bus on a rural four-lane highway. What speed should you maintain?
+  ⚠ WRONG: IL 4-lane highway = 65 mph (not 55)
+
+  [Speed Limits] ID: cmn3gfqlg05dj97ug7b7gox4o
+  Q: You are driving on an Illinois interstate through a urban area. Does the speed limit change?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmn3gfqlg05dj97ug7b7gox4o
+  Q: You are driving on an Illinois interstate through a urban area. Does the speed limit change?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gfrl305ep97ugxysvq75s
+  Q: You are towing a trailer on an Illinois interstate. What speed limit applies to your vehicle?
+  ⚠ WRONG: IL interstate max = 70 mph (not 65)
+
+  [Speed Limits] ID: cmn3gfrl305ep97ugxysvq75s
+  Q: You are towing a trailer on an Illinois interstate. What speed limit applies to your vehicle?
+  ⚠ WRONG: IL interstate max = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3ggaou05gd97ugajcc5mlf
+  Q: At 6:35 a.m. on a school day, you drive through a school zone at 25 mph. Have you violated the speed limit?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3ggb7f05h197ugeo6vypye
+  Q: At exactly 4:00 p.m. on a Tuesday school day, what speed limit applies in an Illinois school zone?
+  ⚠ WRONG: IL school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmn3ggb7f05h197ugeo6vypye
+  Q: At exactly 4:00 p.m. on a Tuesday school day, what speed limit applies in an Illinois school zone?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Safe Driving] ID: cmms2ii1a09vrf74yr8du1j9u
+  Q: What is the teen driver curfew in Illinois on Friday and Saturday nights?
+  ⚠ WRONG: IL GDL curfew = 10 PM weekdays / 11 PM weekends (not midnight)
+
+  [Safe Driving] ID: cmms2ijpy09y3f74yj5m6olz7
+  Q: What is the BAC limit for adult drivers (21 and over) in Illinois?
+  ⚠ WRONG: IL BAC limit = .08 (not .10)
+
+  [Safe Driving] ID: cmms2knbq0a1zf74y26xxo7uu
+  Q: What is the teen driver curfew on Friday nights?
+  ⚠ WRONG: IL GDL curfew = 10 PM weekdays / 11 PM weekends (not midnight)
+
+  [Safe Driving] ID: cmn3gh79505ij97ug3be5bkze
+  Q: How far must you park from a fire hydrant in Illinois?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3gh79505ij97ug3be5bkze
+  Q: How far must you park from a fire hydrant in Illinois?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3gh8xj05k797ugjr43u8eq
+  Q: You need to park near a fire hydrant to make a quick delivery. What is the closest legal distance?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3gibpm05ld97ugab4y46z6
+  Q: You're approaching a school zone during school hours. What speed limit applies?
+  ⚠ WRONG: IL school zone = 20 mph (not 15)
+
+  [Safe Driving] ID: cmn3gjkcj05o197ugzo562398
+  Q: When parallel parking on a city street, what is the minimum distance you must maintain from both a fire hydrant AND an i
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3gjkcj05o197ugzo562398
+  Q: When parallel parking on a city street, what is the minimum distance you must maintain from both a fire hydrant AND an i
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3gkhud05td97ugw4sdzup2
+  Q: You see a fire hydrant and need to park nearby for a medical appointment. What is the closest legal parking distance?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3gkhud05td97ugw4sdzup2
+  Q: You see a fire hydrant and need to park nearby for a medical appointment. What is the closest legal parking distance?
+  ⚠ WRONG: IL fire hydrant = 15 feet (not 20)
+
+  [Alcohol & Substances] ID: cmn3gldya05uj97ugoffzoqdx
+  Q: How long is the statutory summary suspension for refusing a chemical test in Illinois?
+  ⚠ WRONG: IL chem test refusal = 1 year suspension (not 6 months)
+
+  [Alcohol & Substances] ID: cmn3gle7r05uv97uggdgui2ec
+  Q: Which of the following constitutes Aggravated DUI in Illinois?
+  ⚠ WRONG: IL BAC limit = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3glezi05vv97ug3rmvnzft
+  Q: What is the standard BAC limit for adult drivers (21+) in Illinois?
+  ⚠ WRONG: IL BAC limit = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3gmj3h05x797ug5c1wx5lh
+  Q: If you refuse a blood test after being arrested for DUI in Illinois, what additional consequence occurs beyond the statu
+  ⚠ WRONG: IL chem test refusal = 1 year suspension (not 6 months)
+
+  [Alcohol & Substances] ID: cmn3gmjth05y197ugaq3nuvum
+  Q: In Illinois, what BAC level is considered 'aggravated' DUI due to high blood alcohol content?
+  ⚠ WRONG: IL BAC limit = .08 (not .16)
+
+  [Alcohol & Substances] ID: cmn3gmlmk060d97ug8bnlwp9l
+  Q: In Illinois, what is the minimum jail sentence for a second DUI conviction?
+  ⚠ WRONG: IL supervised hours = 50 (not 40)
+
+  [Alcohol & Substances] ID: cmn3gnkxj061797ugcblsc71e
+  Q: In Illinois, what BAC level constitutes aggravated DUI due to high blood alcohol content?
+  ⚠ WRONG: IL BAC limit = .08 (not .16)
+
+  [Alcohol & Substances] ID: cmn3gnl4g061d97ugoekop8pi
+  Q: How many hours of community service can be required for a first DUI conviction in Illinois?
+  ⚠ WRONG: IL supervised hours = 50 (not 40)
+
+  [Alcohol & Substances] ID: cmn3gnlb2061j97ugjm6yxlhf
+  Q: In Illinois, what is the penalty for driving with a BAC of 0.16% or higher on a first offense?
+  ⚠ WRONG: IL BAC limit = .08 (not .16)
+
+  [Alcohol & Substances] ID: cmn3goead063v97ugqdq5gezo
+  Q: In Illinois, what is the BAC level that automatically makes a DUI charge 'aggravated' due to extremely high blood alcoho
+  ⚠ WRONG: IL BAC limit = .08 (not .16)
+
+  [Alcohol & Substances] ID: cmn3gofcq064v97ug6xfp6gao
+  Q: What is the minimum mandatory jail sentence for a second DUI conviction in Illinois?
+  ⚠ WRONG: IL supervised hours = 50 (not 40)
+
+  [Licensing & Permits] ID: cmn3gqe6q06a797ug8brix1wc
+  Q: What vision requirements must be met to obtain an instruction permit in Illinois?
+  ⚠ WRONG: IL new resident = 90 days (not 30)
+
+  [Licensing & Permits] ID: cmn3gqfc606bj97ugp9c729p9
+  Q: What must happen if you move to Illinois from another state with a valid license?
+  ⚠ WRONG: IL permit hold = 9 months (not 6)
+
+  [Licensing & Permits] ID: cmn3gqfro06c197ug5slhsdet
+  Q: Can you apply for a restricted license before completing all 50 hours of practice?
+  ⚠ WRONG: IL supervised hours = 50 (not 40)
+
+  [Licensing & Permits] ID: cmn3gpawt066d97ugwcai59r5
+  Q: What is the minimum age to obtain an instruction permit in Illinois?
+  ⚠ POSSIBLE ERROR: IL min license age = 16 (permit at 15, license at 16)
+
+  [Licensing & Permits] ID: cmn3gpb19066j97ugu8mc71dc
+  Q: How long must you hold an instruction permit before applying for a restricted license in Illinois?
+  ⚠ WRONG: IL permit hold = 9 months (not 6)
+
+  [Licensing & Permits] ID: cmn3gpb5x066p97ug0583xt33
+  Q: How many hours of supervised driving practice are required before obtaining a restricted license?
+  ⚠ WRONG: IL supervised hours = 50 (not 40)
+
+  [Licensing & Permits] ID: cmn3gr4yf06dj97ugnpr6oqvz
+  Q: When does the Illinois Secretary of State typically allow you to schedule your road test for a restricted license?
+  ⚠ WRONG: IL permit hold = 9 months (not 6)
+
+=== DUPLICATE SCAN ===
+Found 9 duplicate pairs:
+
+  [Right Of Way] 73% similar
+  A: (cmn3g9xzs04xd97uga06m400y) When approaching a school bus with yellow flashing lights, you should:
+  B: (cmn3gauzu051v97ugi9r2y62r) When approaching a school bus with yellow flashing lights, you should:
+
+  [Traffic Signs] 71% similar
+  A: (cmn3g8fna04r797ugswxjf406) What does a 'WRONG WAY' sign indicate?
+  B: (cmn3g91lg04uv97ug2detahx9) What does a 'WRONG WAY' sign indicate?
+
+  [Traffic Signs] 71% similar
+  A: (cmn3g8fna04r797ugswxjf406) What does a 'WRONG WAY' sign indicate?
+  B: (cmn3g7lmo04o797ugjza1wbrw) What does a 'Wrong Way' sign indicate?
+
+  [Traffic Signs] 71% similar
+  A: (cmn3g91lg04uv97ug2detahx9) What does a 'WRONG WAY' sign indicate?
+  B: (cmn3g7lmo04o797ugjza1wbrw) What does a 'Wrong Way' sign indicate?
+
+  [Traffic Signs] 70% similar
+  A: (cmn3g8fw604rj97ug5d2y294r) What does a deer crossing warning sign look like?
+  B: (cmn3g8gal04s197ugqw1b1vq1) What does a pedestrian crossing warning sign look like?
+
+  [Alcohol & Substances] 69% similar
+  A: (cmn3gml3l05zp97ugjt20unwl) What is the look-back period for DUI convictions in Illinois when determining repeat offender status
+  B: (cmn3goess064d97ughg7wik12) What is the look-back period for DUI convictions in Illinois when determining repeat offender status
+
+  [Traffic Signs] 67% similar
+  A: (cmn3g7mvy04pp97ugwrih2pia) In Illinois, what color are tollway guide signs typically?
+  B: (cmn3g8etp04q797ughhg3ecfx) What color are Illinois tollway guide signs?
+
+  [Traffic Signs] 67% similar
+  A: (cmn3g8eyd04qd97ugdl5vxpj0) What shape is a yield sign?
+  B: (cmn3g903l04tv97ugn49ynk5g) What shape is a yield sign?
+
+  [Safe Driving] 67% similar
+  A: (cmms2gkw509rvf74yw0l4ge47) What is the teen driver curfew for Sunday through Thursday nights?
+  B: (cmms2ik9a09yvf74y5qycr69g) What is the teen driver curfew on Sunday through Thursday nights?
+
+=== CONCEPT COVERAGE ===
+
+GAPS (0 questions):
+  ❌ speed:signal-distance
+  ❌ row:bicycle
+  ❌ row:motorcycle
+  ❌ safe:park-crosswalk
+  ❌ safe:park-stop-sign
+  ❌ safe:bike-passing
+  ❌ alcohol:cannabis
+  ❌ license:address-change
+  ❌ signs:green-arrow
+  ❌ signs:flashing
+
+OVER-TESTED (>8 questions):
+  ⚠ speed:max-interstate: 23 questions
+  ⚠ speed:max-highway: 18 questions
+  ⚠ speed:max-alley: 11 questions
+  ⚠ speed:school-zone: 24 questions
+  ⚠ speed:construction-zone: 13 questions
+  ⚠ speed:minimum: 9 questions
+  ⚠ row:pedestrian: 20 questions
+  ⚠ row:emergency: 13 questions
+  ⚠ row:intersection: 12 questions
+  ⚠ safe:headlights: 15 questions
+  ⚠ safe:seatbelt: 9 questions
+  ⚠ safe:weather: 21 questions
+  ⚠ safe:lane-change: 12 questions
+  ⚠ alcohol:bac: 17 questions
+  ⚠ alcohol:dui-penalties: 20 questions
+  ⚠ alcohol:suspension: 13 questions
+  ⚠ alcohol:aggravated: 16 questions
+  ⚠ license:learner-permit: 18 questions
+  ⚠ license:supervised-hours: 13 questions
+  ⚠ signs:warning: 26 questions
+  ⚠ signs:regulatory: 14 questions
+  ⚠ signs:colors: 14 questions
+
+FULL CONCEPT COUNTS:
+  speed:max-interstate: 23 ⚠ OVER(23)
+  speed:max-highway: 18 ⚠ OVER(18)
+  speed:max-city: 4
+  speed:max-alley: 11 ⚠ OVER(11)
+  speed:school-zone: 24 ⚠ OVER(24)
+  speed:construction-zone: 13 ⚠ OVER(13)
+  speed:following: 1
+  speed:signal-distance: 0 ❌ GAP
+  speed:minimum: 9 ⚠ OVER(9)
+  row:pedestrian: 20 ⚠ OVER(20)
+  row:school-bus: 6
+  row:emergency: 13 ⚠ OVER(13)
+  row:roundabout: 6
+  row:intersection: 12 ⚠ OVER(12)
+  row:funeral: 1
+  row:bicycle: 0 ❌ GAP
+  row:motorcycle: 0 ❌ GAP
+  safe:parallel-park: 2
+  safe:park-hydrant: 4
+  safe:park-crosswalk: 0 ❌ GAP
+  safe:park-railroad: 1
+  safe:park-stop-sign: 0 ❌ GAP
+  safe:park-hill: 1
+  safe:passing: 6
+  safe:headlights: 15 ⚠ OVER(15)
+  safe:seatbelt: 9 ⚠ OVER(9)
+  safe:texting: 7
+  safe:skid: 1
+  safe:weather: 21 ⚠ OVER(21)
+  safe:turning: 5
+  safe:lane-change: 12 ⚠ OVER(12)
+  safe:bike-passing: 0 ❌ GAP
+  alcohol:bac: 17 ⚠ OVER(17)
+  alcohol:under21: 2
+  alcohol:dui-penalties: 20 ⚠ OVER(20)
+  alcohol:chemical-test: 5
+  alcohol:suspension: 13 ⚠ OVER(13)
+  alcohol:aggravated: 16 ⚠ OVER(16)
+  alcohol:cannabis: 0 ❌ GAP
+  alcohol:open-container: 2
+  license:learner-permit: 18 ⚠ OVER(18)
+  license:gdl: 2
+  license:gdl-curfew: 8
+  license:gdl-passengers: 8
+  license:new-resident: 1
+  license:address-change: 0 ❌ GAP
+  license:name-change: 1
+  license:supervised-hours: 13 ⚠ OVER(13)
+  license:permit-duration: 8
+  license:suspension: 2
+  license:points: 3
+  signs:warning: 26 ⚠ OVER(26)
+  signs:railroad: 4
+  signs:school: 7
+  signs:work-zone: 4
+  signs:regulatory: 14 ⚠ OVER(14)
+  signs:green-arrow: 0 ❌ GAP
+  signs:flashing: 0 ❌ GAP
+  signs:colors: 14 ⚠ OVER(14)
+  signs:shapes: 7
+
+=== TOPIC SUMMARY ===
+  Traffic Signs: 90
+  Right Of Way: 80
+  Speed Limits: 75
+  Safe Driving: 90
+  Alcohol & Substances: 75
+  Licensing & Permits: 50
+  TOTAL: 460
+  TARGET: 320-360 total, max 8 per concept
+  NEED TO TRIM: ~120 questions

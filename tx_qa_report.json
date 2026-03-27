@@ -1,0 +1,132 @@
+{
+  "topicCounts": {
+    "Alcohol & Substances": 75,
+    "Licensing & Permits": 50,
+    "Right Of Way": 80,
+    "Safe Driving": 90,
+    "Speed Limits": 75,
+    "Traffic Signs": 90
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "id": "cmn3f3q2j010j97ugxl7bmmxe",
+      "topic": "Alcohol & Substances",
+      "question": "At what BAC level is a CDL driver considered legally intoxicated in Texas?",
+      "correctAnswer": "0.04%",
+      "flag": "TX BAC legal limit is 0.08"
+    },
+    {
+      "id": "cmn3f7xed01fp97ugt3xdqwl7",
+      "topic": "Licensing & Permits",
+      "question": "What is the minimum total age requirement to hold both a learner permit and restricted license before getting a full lic",
+      "correctAnswer": "18 years old",
+      "flag": "TX learner license min age is 15"
+    },
+    {
+      "id": "cmn3f7e5u01cp97ug6ncc3347",
+      "topic": "Licensing & Permits",
+      "question": "What is the minimum age requirement to bypass the learner permit and restricted license phases in Texas?",
+      "correctAnswer": "18 years old",
+      "flag": "TX learner license min age is 15"
+    },
+    {
+      "id": "cmmrzv65r03jhf74yflhl0ia8",
+      "topic": "Right Of Way",
+      "question": "How close to a railroad crossing is passing prohibited?",
+      "correctAnswer": "Within 100 feet",
+      "flag": "TX railroad: stop 15–50 feet from nearest rail"
+    },
+    {
+      "id": "cmn3ezw4g00m797ugnwl7qb3s",
+      "topic": "Safe Driving",
+      "question": "How far from a fire hydrant must you park?",
+      "correctAnswer": "15 feet",
+      "flag": "TX: do not park within 15 feet of fire hydrant"
+    },
+    {
+      "id": "cmn3ezym400ov97ug7735rrji",
+      "topic": "Safe Driving",
+      "question": "What is the proper procedure for activating turn signals?",
+      "correctAnswer": "Signal at least 100 feet before turning in urban areas",
+      "flag": "TX: signal at least 100 feet before turning"
+    },
+    {
+      "id": "cmn3f0xbb00p797ugw6jbnds1",
+      "topic": "Safe Driving",
+      "question": "What should you do when preparing to turn left or right?",
+      "correctAnswer": "Signal at least 100 feet before turning",
+      "flag": "TX: signal at least 100 feet before turning"
+    },
+    {
+      "id": "cmn3f0z8p00r797ugqi7qd74g",
+      "topic": "Safe Driving",
+      "question": "How far from a fire hydrant are you prohibited from parking?",
+      "correctAnswer": "15 feet",
+      "flag": "TX: do not park within 15 feet of fire hydrant"
+    },
+    {
+      "id": "cmn3f1xvg00v797ugf0740nxc",
+      "topic": "Safe Driving",
+      "question": "How far from a fire hydrant must you park your vehicle?",
+      "correctAnswer": "15 feet from the fire hydrant",
+      "flag": "TX: do not park within 15 feet of fire hydrant"
+    },
+    {
+      "id": "cmn3ewwgb00c797ugaqbmdk9u",
+      "topic": "Speed Limits",
+      "question": "What is the default speed limit in Texas urban districts?",
+      "correctAnswer": "30 mph",
+      "flag": "Wrong urban speed limit — TX is 30 mph"
+    },
+    {
+      "id": "cmn3ewwbv00c197ug7zei35n2",
+      "topic": "Speed Limits",
+      "question": "What is the speed limit in Texas residential alleys?",
+      "correctAnswer": "15 mph",
+      "flag": "Wrong alley speed limit — TX is 15 mph"
+    },
+    {
+      "id": "cmn3ewz4c00f197ug40kdpowd",
+      "topic": "Speed Limits",
+      "question": "What is the speed limit difference between Texas urban districts and residential alleys?",
+      "correctAnswer": "Urban districts are 15 mph faster",
+      "flag": "Wrong alley speed limit — TX is 15 mph"
+    },
+    {
+      "id": "cmn3exwa100gp97ugz3g4agy5",
+      "topic": "Speed Limits",
+      "question": "How much higher can the maximum interstate speed limit be compared to an urban district speed limit in Texas?",
+      "correctAnswer": "55 mph higher",
+      "flag": "Wrong urban speed limit — TX is 30 mph"
+    },
+    {
+      "id": "cmn3exyj900hj97ugqf39brv5",
+      "topic": "Speed Limits",
+      "question": "What speed limit applies on a Texas ranch road (RR) outside an urban district?",
+      "correctAnswer": "60 mph",
+      "flag": "Wrong urban speed limit — TX is 30 mph"
+    },
+    {
+      "id": "cmn3exyw300hv97ugd8xuus0s",
+      "topic": "Speed Limits",
+      "question": "What is the speed limit difference between Texas numbered highways and urban districts outside city limits?",
+      "correctAnswer": "40 mph difference",
+      "flag": "Wrong urban speed limit — TX is 30 mph"
+    },
+    {
+      "id": "cmn3exz8n00i797ugiadca5rk",
+      "topic": "Speed Limits",
+      "question": "You are driving behind a school bus in a Texas residential alley. What is the maximum speed you should travel?",
+      "correctAnswer": "15 mph",
+      "flag": "Wrong alley speed limit — TX is 15 mph"
+    },
+    {
+      "id": "cmn3eywty00ip97ugscb2pfsb",
+      "topic": "Speed Limits",
+      "question": "What is the maximum speed you should drive when backing out of a driveway onto a residential alley in Texas?",
+      "correctAnswer": "15 mph",
+      "flag": "Wrong alley speed limit — TX is 15 mph"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+=== GA QA SCAN ===
+
+Total questions: 460
+
+=== FACTUAL ERRORS ===
+Found 65 potential errors:
+
+  [Traffic Signs] ID: cmmschk2605n1neslxyopz4i0
+  Q: What does a fire hydrant parking restriction sign prohibit within what distance?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmschk2605n1neslxyopz4i0
+  Q: What does a fire hydrant parking restriction sign prohibit within what distance?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmschhin05j5neslk54dithf
+  Q: What is the speed limit in school zones?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Traffic Signs] ID: cmmschh1c05idneslchdq7eqa
+  Q: What is the speed limit in residential areas?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Traffic Signs] ID: cmmscg1et05gfnesld3wtreta
+  Q: For drivers under 21, what is the legal blood alcohol concentration limit?
+  ⚠ WRONG: GA under-21 BAC = .02 (not .00)
+
+  [Traffic Signs] ID: cmmscg16705g1neslpn6tfr7k
+  Q: What is the legal blood alcohol concentration limit for adults in Georgia?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmscfzsd05dpneslsk9f9soi
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmscfzsd05dpneslsk9f9soi
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Traffic Signs] ID: cmmscfz3f05cjneslrfsobjru
+  Q: What is the speed limit in a residential area when no other signs are posted?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Traffic Signs] ID: cmmscejki05brnesl7blkpw89
+  Q: How many questions are on the Georgia knowledge test?
+  ⚠ WRONG: GA knowledge test = 40 questions (not 35)
+
+  [Traffic Signs] ID: cmmscejbq05bdneslu3izibkc
+  Q: What is the legal BAC limit for drivers under 21 in Georgia?
+  ⚠ WRONG: GA under-21 BAC = .02 (not .00)
+
+  [Traffic Signs] ID: cmmscej3f05azneslst11646p
+  Q: What is the legal BAC limit for adult drivers in Georgia?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmscegf4056pneslx73ljdya
+  Q: What is the maximum speed limit in residential areas in Georgia?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Traffic Signs] ID: cmmscegnz0573nesl4r87ye2y
+  Q: When approaching a school zone, what is the maximum speed limit you should observe?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Traffic Signs] ID: cmmsceh6k057vnesl9evytivu
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Traffic Signs] ID: cmmsceh6k057vnesl9evytivu
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Right Of Way] ID: cmmscmdmq064xneslnwegy631
+  Q: How many questions are on the Georgia knowledge test and what percentage must you answer correctly to pass?
+  ⚠ WRONG: GA knowledge test = 40 questions (not 35)
+
+  [Right Of Way] ID: cmmscmd5q0645neslbczjreyv
+  Q: What BAC (Blood Alcohol Content) level is the legal limit for adult drivers?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Right Of Way] ID: cmmscq8qj06ftneslpqyhy3vc
+  Q: For adult drivers 21 and over, what is the legal blood alcohol content limit?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Right Of Way] ID: cmmsco00m06b5nesluud12uto
+  Q: For adults, what is the legal BAC limit while driving?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Speed Limits] ID: cmmscrtgt06kvnesloo2ukmxd
+  Q: When passing through a school zone during school hours, you must not exceed:
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmn3hv5co08ld97ugdqhbv3lh
+  Q: You see school zone warning lights flashing but no children are visible. What speed limit must you observe?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmn3hv6i208mp97ug517vauwn
+  Q: What is the speed limit increase when traveling from an urban district to a multi-lane highway in Georgia?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hv6vg08n797ugrcpr0t6k
+  Q: You're driving in a Georgia residential neighborhood during a severe thunderstorm. What speed is most appropriate?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hv6vg08n797ugrcpr0t6k
+  Q: You're driving in a Georgia residential neighborhood during a severe thunderstorm. What speed is most appropriate?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmn3hvtpf08nj97ug9rh16mb9
+  Q: What is the minimum speed differential between Georgia interstate highways and urban districts with default speed limits
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hvu6s08o797ugzq8dcj0l
+  Q: What is the speed limit difference between a rural two-lane road and a residential street in Georgia?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hvuy208p797uggzxn4it9
+  Q: What is the maximum legal speed you can drive when transitioning from a rural two-lane road to an urban district in Geor
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hvv2a08pd97ug53fwnpq1
+  Q: Under Georgia's basic speed law, what must drivers do when encountering icy road conditions on an interstate?
+  ⚠ WRONG: GA rural interstate = 70 mph (not 55)
+
+  [Speed Limits] ID: cmmscruc006m1nesl74iwsugs
+  Q: A driver enters a residential subdivision. Without any posted signs, what is the maximum legal speed?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmmscthwu06rhneslvtuwf6wq
+  Q: Which zone requires drivers to reduce their speed to 25 mph?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmmscthwu06rhneslvtuwf6wq
+  Q: Which zone requires drivers to reduce their speed to 25 mph?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmmsctimd06snnesl5lo9lc03
+  Q: What is the proper speed when driving through a residential subdivision?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmmscvdz606ulneslhymmitok
+  Q: You see a school zone sign ahead. What should you do regarding your speed?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmmscvfa006wjneslk3sua647
+  Q: You are approaching a school zone during dismissal time. What speed should you maintain?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmmscvfsq06xbnesl3jdl314r
+  Q: When traveling from a highway to a residential street, how should your speed change?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmmscx5r406z9neslrsx4n9el
+  Q: You are driving through a residential neighborhood in Georgia. What is the maximum legal speed?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmmscx6gz070fnesl0gz12c00
+  Q: You are approaching a school zone during school hours. At what speed should you drive?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmmscx8ia073jnesldmy7cmmh
+  Q: Which of these speeds exceeds the legal limit in a Georgia school zone?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Speed Limits] ID: cmn3hu6ok08gp97uggo8zpiip
+  Q: What is the maximum speed limit in urban districts in Georgia unless otherwise posted?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hu8sp08jd97ug3zq8860b
+  Q: What is the maximum legal speed in a residential area in Georgia without posted signs?
+  ⚠ WRONG: GA residential/urban = 30 mph (not 25)
+
+  [Speed Limits] ID: cmn3hu93g08jp97uglw8ok4te
+  Q: What determines when the 25 mph school zone speed limit applies in Georgia?
+  ⚠ POSSIBLE: GA school zone speed varies — verify it is not 20 mph
+
+  [Safe Driving] ID: cmn3hxqti08sv97ug5e2jfbww
+  Q: What is the minimum distance you must park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3hxqti08sv97ug5e2jfbww
+  Q: What is the minimum distance you must park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3hwv2808sd97ugpgl3bbag
+  Q: How should you adjust your following distance when driving behind a large truck?
+  ⚠ WRONG: GA following distance = 2-second rule (not 3-second)
+
+  [Safe Driving] ID: cmn3hwtbp08qj97ugfdwqq0mc
+  Q: When should you increase your following distance beyond the 3-second rule?
+  ⚠ WRONG: GA following distance = 2-second rule (not 3-second)
+
+  [Safe Driving] ID: cmn3hwspi08pp97ugd0f4ahcr
+  Q: How far must you park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3hwspi08pp97ugd0f4ahcr
+  Q: How far must you park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3hyujg08yp97ugk42bprs7
+  Q: You're parallel parking on a city street. A fire hydrant is visible ahead. What is the closest you can legally park?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3hyujg08yp97ugk42bprs7
+  Q: You're parallel parking on a city street. A fire hydrant is visible ahead. What is the closest you can legally park?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Safe Driving] ID: cmn3hysr508wd97uga4l7y07l
+  Q: What is the maximum distance you can legally park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 10)
+
+  [Safe Driving] ID: cmn3hysr508wd97uga4l7y07l
+  Q: What is the maximum distance you can legally park from a fire hydrant in Georgia?
+  ⚠ WRONG: GA fire hydrant = 15 feet (not 20)
+
+  [Alcohol & Substances] ID: cmn3i0uuu092v97ugb21ndaaw
+  Q: What happens to your driving privileges immediately upon a DUI arrest in Georgia, even before conviction?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3hzspc092797ug4cbtexe3
+  Q: How does Georgia's zero tolerance law affect drivers under 21?
+  ⚠ WRONG: GA under-21 BAC = .02 (not zero tolerance)
+
+  [Alcohol & Substances] ID: cmn3hzrw9091797ugr5rz51sm
+  Q: What is the standard BAC limit for adult drivers (21 and over) in Georgia?
+  ⚠ WRONG: GA adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3hzqhp08zj97ugtjznwh4b
+  Q: What is the BAC limit for drivers under 21 years old in Georgia?
+  ⚠ WRONG: GA under-21 BAC = .02 (not .00)
+
+  [Licensing & Permits] ID: cmn3i3mxu09c797ugoimvbvhi
+  Q: How long must you hold a learner's permit before applying for a Class D license in Georgia?
+  ⚠ WRONG: GA permit hold = 12 months + 1 day (not 6 months)
+
+  [Licensing & Permits] ID: cmn3i3mxu09c797ugoimvbvhi
+  Q: How long must you hold a learner's permit before applying for a Class D license in Georgia?
+  ⚠ WRONG: GA permit hold = 12 months + 1 day (not 9 months)
+
+  [Licensing & Permits] ID: cmn3i3n3509cd97ugjj3xjl64
+  Q: How many hours of supervised driving are required for a learner's permit holder in Georgia?
+  ⚠ WRONG: GA supervised hours = 40 (not 50)
+
+  [Licensing & Permits] ID: cmn3i3n8o09cj97ug42i0mois
+  Q: Of the required supervised driving hours, how many must be completed at night?
+  ⚠ WRONG: GA night hours = 6 (not 10)
+
+  [Licensing & Permits] ID: cmn3i57i909j797ug7bdre364
+  Q: What is the total duration a driver must hold a learner's permit before becoming eligible for a Class D license in Georg
+  ⚠ WRONG: GA permit hold = 12 months + 1 day (not 6 months)
+
+  [Licensing & Permits] ID: cmn3i57i909j797ug7bdre364
+  Q: What is the total duration a driver must hold a learner's permit before becoming eligible for a Class D license in Georg
+  ⚠ WRONG: GA permit hold = 12 months + 1 day (not 9 months)
+
+  [Licensing & Permits] ID: cmn3i57mq09jd97ugendoajq8
+  Q: During nighttime supervised driving practice, how many hours must learner's permit holders complete?
+  ⚠ WRONG: GA night hours = 6 (not 10)
+
+  [Licensing & Permits] ID: cmn3i587a09k197ugt16bnzt6
+  Q: How many total hours of supervised driving practice must be completed for a Georgia learner's permit?
+  ⚠ WRONG: GA supervised hours = 40 (not 50)
+
+  [Licensing & Permits] ID: cmn3i3nyz09dd97ug8owegfjj
+  Q: What are the curfew hours for Class D license holders in Georgia?
+  ⚠ WRONG: GA Class D curfew = midnight–5 AM (not 11 PM)
+
+=== DUPLICATE SCAN ===
+Found 13 duplicate pairs:
+
+  [Traffic Signs] 88%
+  A: (cmn3ha20o085v97ug195ttpwl) What does a yellow pentagon-shaped sign indicate?
+  B: (cmn3h9792081p97ugwmp0dr2r) What does a yellow pentagon-shaped sign indicate?
+
+  [Safe Driving] 77%
+  A: (cmn3hwv2808sd97ugpgl3bbag) How should you adjust your following distance when driving behind a large truck?
+  B: (cmn3hyusf08z197ug7f4rnz0n) When driving behind a large truck, how should you adjust your following distance?
+
+  [Traffic Signs] 75%
+  A: (cmn3haew6087797ugd3pjfglv) What color are work zone signs in Georgia?
+  B: (cmn3ha0pm084797ugnaj82czp) What color are work zone signs in Georgia?
+
+  [Traffic Signs] 75%
+  A: (cmn3haeme086v97ugv9lyg5rx) What color are Georgia highway guide signs?
+  B: (cmn3h96by080p97ugwo5ymj5i) What color are highway guide signs in Georgia?
+
+  [Traffic Signs] 75%
+  A: (cmn3haehb086p97ugk84tnmlg) What does a yellow diamond-shaped sign with a curve arrow indicate?
+  B: (cmn3h95qt080197ugy5wrfc1l) What does a yellow diamond-shaped sign with a curved arrow indicate?
+
+  [Traffic Signs] 71%
+  A: (cmn3haead086j97ugt0xrh16o) What does a red octagonal sign mean?
+  B: (cmn3h9zxm083797ugt3nlkye5) What does a red octagonal sign mean?
+
+  [Traffic Signs] 71%
+  A: (cmn3ha0yf084j97ug4jhzc0b5) What do blue highway signs typically indicate?
+  B: (cmn3h96go080v97ug6r8ulkxs) What do blue signs typically indicate?
+
+  [Traffic Signs] 67%
+  A: (cmn3hagnn087j97ugrq61byua) What does 'SR' stand for on Georgia road signs?
+  B: (cmn3ha0u1084d97ug1j3nnsvo) What does 'SR' stand for on Georgia road signs?
+
+  [Traffic Signs] 67%
+  A: (cmn3hagnn087j97ugrq61byua) What does 'SR' stand for on Georgia road signs?
+  B: (cmn3h96l4081197ugnw3wna7d) What does 'SR' stand for on Georgia road signs?
+
+  [Traffic Signs] 67%
+  A: (cmn3haew6087797ugd3pjfglv) What color are work zone signs in Georgia?
+  B: (cmn3h95vj080797ugybrd4ove) What color are work zone construction signs in Georgia?
+
+  [Traffic Signs] 67%
+  A: (cmn3ha0u1084d97ug1j3nnsvo) What does 'SR' stand for on Georgia road signs?
+  B: (cmn3h96l4081197ugnw3wna7d) What does 'SR' stand for on Georgia road signs?
+
+  [Traffic Signs] 67%
+  A: (cmn3ha0pm084797ugnaj82czp) What color are work zone signs in Georgia?
+  B: (cmn3h95vj080797ugybrd4ove) What color are work zone construction signs in Georgia?
+
+  [Safe Driving] 67%
+  A: (cmmsd3aki07l1nesl2cqnvhli) What is the minimum distance you must park from railroad crossing tracks?
+  B: (cmmsd58q807qhneslmhjxt6m0) What is the minimum distance you must park from railroad tracks?
+
+=== CONCEPT COVERAGE ===
+
+GAPS:
+  ❌ speed:signal-distance
+  ❌ speed:super-speeder
+  ❌ row:bicycle
+  ❌ row:motorcycle
+  ❌ safe:park-crosswalk
+  ❌ safe:park-stop-sign
+  ❌ safe:skid
+  ❌ safe:bike-passing
+  ❌ license:new-resident
+  ❌ license:joshua-law
+  ❌ license:super-speeder
+  ❌ signs:green-arrow
+  ❌ signs:flashing
+
+OVER-TESTED (>8):
+  ⚠ speed:max-interstate: 20
+  ⚠ speed:max-residential: 27
+  ⚠ speed:school-zone: 21
+  ⚠ speed:construction-zone: 10
+  ⚠ speed:minimum: 10
+  ⚠ row:pedestrian: 12
+  ⚠ row:emergency: 13
+  ⚠ safe:headlights: 12
+  ⚠ safe:seatbelt: 11
+  ⚠ safe:weather: 28
+  ⚠ alcohol:bac: 16
+  ⚠ alcohol:dui-penalties: 40
+  ⚠ license:permit: 16
+  ⚠ license:class-d: 19
+  ⚠ license:gdl-curfew: 9
+  ⚠ signs:warning: 18
+  ⚠ signs:colors: 11
+
+FULL COUNTS:
+  speed:max-interstate: 20 ⚠ OVER(20)
+  speed:max-residential: 27 ⚠ OVER(27)
+  speed:school-zone: 21 ⚠ OVER(21)
+  speed:construction-zone: 10 ⚠ OVER(10)
+  speed:following: 1
+  speed:signal-distance: 0 ❌ GAP
+  speed:super-speeder: 0 ❌ GAP
+  speed:minimum: 10 ⚠ OVER(10)
+  row:pedestrian: 12 ⚠ OVER(12)
+  row:school-bus: 6
+  row:emergency: 13 ⚠ OVER(13)
+  row:roundabout: 7
+  row:intersection: 1
+  row:funeral: 1
+  row:bicycle: 0 ❌ GAP
+  row:motorcycle: 0 ❌ GAP
+  safe:parallel-park: 1
+  safe:park-hydrant: 5
+  safe:park-crosswalk: 0 ❌ GAP
+  safe:park-railroad: 3
+  safe:park-stop-sign: 0 ❌ GAP
+  safe:passing: 3
+  safe:headlights: 12 ⚠ OVER(12)
+  safe:seatbelt: 11 ⚠ OVER(11)
+  safe:texting: 5
+  safe:skid: 0 ❌ GAP
+  safe:weather: 28 ⚠ OVER(28)
+  safe:turning: 5
+  safe:lane-change: 2
+  safe:bike-passing: 0 ❌ GAP
+  alcohol:bac: 16 ⚠ OVER(16)
+  alcohol:under21: 3
+  alcohol:dui-penalties: 40 ⚠ OVER(40)
+  alcohol:chemical-test: 6
+  alcohol:suspension: 7
+  alcohol:open-container: 1
+  license:permit: 16 ⚠ OVER(16)
+  license:class-d: 19 ⚠ OVER(19)
+  license:gdl-curfew: 9 ⚠ OVER(9)
+  license:gdl-passengers: 8
+  license:new-resident: 0 ❌ GAP
+  license:supervised-hours: 8
+  license:permit-duration: 8
+  license:joshua-law: 0 ❌ GAP
+  license:points: 6
+  license:super-speeder: 0 ❌ GAP
+  signs:warning: 18 ⚠ OVER(18)
+  signs:railroad: 2
+  signs:school: 3
+  signs:work-zone: 3
+  signs:regulatory: 5
+  signs:green-arrow: 0 ❌ GAP
+  signs:flashing: 0 ❌ GAP
+  signs:colors: 11 ⚠ OVER(11)
+  signs:shapes: 8
+
+=== TOPIC SUMMARY ===
+  Traffic Signs: 90
+  Right Of Way: 80
+  Speed Limits: 75
+  Safe Driving: 90
+  Alcohol & Substances: 75
+  Licensing & Permits: 50
+  TOTAL: 460
+  NEED TO TRIM: ~120

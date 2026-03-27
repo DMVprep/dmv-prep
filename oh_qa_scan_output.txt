@@ -1,0 +1,376 @@
+=== OH QA SCAN ===
+
+Total questions: 460
+
+=== FACTUAL ERRORS ===
+Found 59 potential errors:
+
+  [Traffic Signs] ID: cmmsblmtb02v3nesl8pif3snw
+  Q: If you are driving 70 mph on a highway and see a school zone sign ahead, what speed should you reduce to?
+  ⚠ WRONG: OH school zone = 20 mph (not 25)
+
+  [Traffic Signs] ID: cmmsblmtb02v3nesl8pif3snw
+  Q: If you are driving 70 mph on a highway and see a school zone sign ahead, what speed should you reduce to?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Traffic Signs] ID: cmmsbln2v02vhneslnj3kzzh8
+  Q: You are looking for a parking space near a fire station. What is the minimum distance you must maintain from a fire hydr
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Traffic Signs] ID: cmmsbln2v02vhneslnj3kzzh8
+  Q: You are looking for a parking space near a fire station. What is the minimum distance you must maintain from a fire hydr
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 20)
+
+  [Traffic Signs] ID: cmmsblndq02vvneslpiiilps2
+  Q: When entering a residential street from a highway, what speed limit applies?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Traffic Signs] ID: cmmsbn0rc02x1nesl4nlxbm2b
+  Q: What is the maximum speed limit allowed in residential areas?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Traffic Signs] ID: cmmsbonc2036rneslbc7ty7gk
+  Q: If you are driving through a residential neighborhood, what should your maximum speed be?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Traffic Signs] ID: cmmsbljzp02r7neslm4t0xnqa
+  Q: What is the maximum speed limit you should drive in a residential neighborhood?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Traffic Signs] ID: cmmsbn3xv031pneslby3k2d7m
+  Q: What is the BAC limit for adult drivers?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Traffic Signs] ID: cmmsbjvm302ldnesludto4zb1
+  Q: What is the speed limit in residential areas unless otherwise posted?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Traffic Signs] ID: cmmsbjvvp02lrnesljzccum8d
+  Q: When driving through a school zone, what is the maximum speed limit?
+  ⚠ WRONG: OH school zone = 20 mph (not 25)
+
+  [Traffic Signs] ID: cmmsbjvvp02lrnesljzccum8d
+  Q: When driving through a school zone, what is the maximum speed limit?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Traffic Signs] ID: cmmsbjwh802mjneslgkedjau2
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Traffic Signs] ID: cmmsbjwh802mjneslgkedjau2
+  Q: How far must you park from a fire hydrant?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 20)
+
+  [Traffic Signs] ID: cmmsbn4fk032hneslnv0olnig
+  Q: How many questions are on the Ohio knowledge test and what percentage is required to pass?
+  ⚠ WRONG: OH knowledge test = 40 questions (not 35)
+
+  [Traffic Signs] ID: cmmsblkw602sdnesli8pjf0ra
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Traffic Signs] ID: cmmsblkw602sdnesli8pjf0ra
+  Q: How far from a fire hydrant must you park your vehicle?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 20)
+
+  [Right Of Way] ID: cmmsbqfgq03b1neslkdim8am6
+  Q: What is the legal BAC limit for adult drivers in Ohio?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Right Of Way] ID: cmmsbqgtq03cznesl4d5eltkk
+  Q: What is the BAC limit for drivers under 21 years old?
+  ⚠ WRONG: OH under-21 BAC = .02 (not .00)
+
+  [Right Of Way] ID: cmmsbsii803exneslb4v44ac2
+  Q: At a railroad crossing, how far from the tracks should you stop your vehicle?
+  ⚠ WRONG: OH railroad crossing stop = within 50 feet of nearest rail
+
+  [Right Of Way] ID: cmmsbwnrf03tbnesl3arepq5q
+  Q: If you are 16 years old, what is the maximum BAC level you can legally have while driving?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Speed Limits] ID: cmmsby94h03xznesl5gthhpge
+  Q: You are driving on Interstate 70 in Ohio. What is the maximum legal speed?
+  ⚠ WRONG: OH interstate = 70 mph (not 65)
+
+  [Speed Limits] ID: cmmsby94h03xznesl5gthhpge
+  Q: You are driving on Interstate 70 in Ohio. What is the maximum legal speed?
+  ⚠ WRONG: OH interstate = 70 mph (not 55)
+
+  [Speed Limits] ID: cmmsbzqm1042nnesl9ekijp3u
+  Q: A school zone sign indicates children are present. What speed should you maintain?
+  ⚠ WRONG: OH school zone = 20 mph (not 25)
+
+  [Speed Limits] ID: cmmsbzqm1042nnesl9ekijp3u
+  Q: A school zone sign indicates children are present. What speed should you maintain?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmmsbzroz0447neslkn9it6e4
+  Q: When entering a residential street from a highway, you must reduce your speed to:
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmmsbzsj0045dnesl4y8avxcu
+  Q: How much slower must you drive in a school zone compared to a residential area?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmmsc5s7d04gnnesl6wxsm5p3
+  Q: You are driving on a residential street and see children playing nearby. What is the maximum legal speed you may travel?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gwxrc06wj97ug1dzztykk
+  Q: On which type of Ohio road would 55 mph be the maximum legal speed?
+  ⚠ WRONG: OH interstate = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gwy1406wv97ug20sk3j8d
+  Q: You're driving 30 mph in a 25 mph residential area during icy conditions. What violation applies?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gxxg706yp97ug5it6s817
+  Q: What is Ohio's speed limit for school zones when children are NOT present?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Speed Limits] ID: cmn3gxz2j070797ugnztkuado
+  Q: You are driving 30 mph on a 25 mph residential street during perfect weather conditions. What violation applies?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gyurq071p97ugr573jblz
+  Q: You are driving from an interstate highway into a residential neighborhood. How much must you reduce your speed?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gyv1e072197ug96syow9v
+  Q: How much higher is the speed limit on rural highways compared to residential areas in Ohio?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gyva7072d97ug3397w8nb
+  Q: What is the total speed difference between Ohio's school zones and interstate highways?
+  ⚠ WRONG: OH interstate = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gyvg6072j97ugxfz7xciz
+  Q: On what type of road in Ohio would 55 mph be the maximum legal speed limit?
+  ⚠ WRONG: OH interstate = 70 mph (not 55)
+
+  [Speed Limits] ID: cmn3gyvlv072p97ugl7rae5th
+  Q: You are driving on icy roads in a residential area posted at 25 mph. What speed should you maintain?
+  ⚠ POSSIBLE: OH residential = 25 mph (verify context — cities may differ)
+
+  [Speed Limits] ID: cmn3gyvlv072p97ugl7rae5th
+  Q: You are driving on icy roads in a residential area posted at 25 mph. What speed should you maintain?
+  ⚠ WRONG: OH school zone = 20 mph (not 25)
+
+  [Safe Driving] ID: cmmsc7n6504jrneslx7do8lkx
+  Q: What is the legal BAC limit for drivers under 21 years old in Ohio?
+  ⚠ WRONG: OH under-21 BAC = .02 (not .00)
+
+  [Safe Driving] ID: cmmscbdxr04vtneslo5z3ht50
+  Q: When approaching a railroad crossing, what is the closest distance you should stop from the tracks?
+  ⚠ WRONG: OH railroad crossing stop = within 50 feet of nearest rail
+
+  [Safe Driving] ID: cmn3gzqlq075d97ugla381wtz
+  Q: How far must you park from a fire hydrant in Ohio?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Safe Driving] ID: cmn3gzqlq075d97ugla381wtz
+  Q: How far must you park from a fire hydrant in Ohio?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 20)
+
+  [Safe Driving] ID: cmn3gzscm077d97ugslfya6at
+  Q: What is the minimum parking distance from a fire hydrant to avoid blocking emergency access in Ohio?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Safe Driving] ID: cmn3h0owf078197ug5imvu5wr
+  Q: At what speed should you drive in a school zone when children are present?
+  ⚠ WRONG: OH school zone = 20 mph (not 25)
+
+  [Safe Driving] ID: cmn3h0owf078197ug5imvu5wr
+  Q: At what speed should you drive in a school zone when children are present?
+  ⚠ WRONG: OH school zone = 20 mph (not 15)
+
+  [Safe Driving] ID: cmn3h0ph2078p97ug36gv8c3r
+  Q: When should you use your turn signal before changing lanes?
+  ⚠ WRONG: OH turn signal = 100 feet (not 50)
+
+  [Safe Driving] ID: cmn3h1nca07bj97ugcdbuyx8h
+  Q: When parallel parking in Ohio, what is the minimum distance you must maintain from a fire hydrant?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 15)
+
+  [Safe Driving] ID: cmn3h1nca07bj97ugcdbuyx8h
+  Q: When parallel parking in Ohio, what is the minimum distance you must maintain from a fire hydrant?
+  ⚠ WRONG: OH fire hydrant = 10 feet (not 20)
+
+  [Alcohol & Substances] ID: cmn3h2w6b07f197ug8v4q2mdc
+  Q: What is the BAC limit for drivers under 21 years old in Ohio?
+  ⚠ WRONG: OH under-21 BAC = .02 (not .00)
+
+  [Alcohol & Substances] ID: cmn3h3woz07ij97ugwad2i53s
+  Q: In Ohio, what BAC level triggers an immediate ALS (Administrative License Suspension)?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3h3y8207k797ug6qj6u38a
+  Q: What is Ohio's 'zero tolerance' law for underage drinking and driving?
+  ⚠ WRONG: OH under-21 BAC = .02 (not zero tolerance — that is IL/NY)
+
+  [Alcohol & Substances] ID: cmn3h3y8207k797ug6qj6u38a
+  Q: What is Ohio's 'zero tolerance' law for underage drinking and driving?
+  ⚠ WRONG: OH under-21 BAC = .02 (not .00)
+
+  [Alcohol & Substances] ID: cmn3h5oxv07p197ugbn4g3i00
+  Q: In Ohio, what is the BAC limit for adult drivers (21 and over) operating a regular passenger vehicle?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Alcohol & Substances] ID: cmn3h5ql407r197ugryxl1thq
+  Q: At what BAC level does Ohio's Administrative License Suspension (ALS) automatically take effect?
+  ⚠ WRONG: OH adult BAC = .08 (not .10)
+
+  [Licensing & Permits] ID: cmn3h7om207vj97ugsqtvxzra
+  Q: What type of license allows driving without curfew restrictions in Ohio?
+  ⚠ WRONG: OH permit hold = 6 months (not 12)
+
+  [Licensing & Permits] ID: cmn3h6nn607rp97ugmx71ct3x
+  Q: How long must you hold a temporary instruction permit before applying for a restricted license in Ohio?
+  ⚠ WRONG: OH permit hold = 6 months (not 9)
+
+  [Licensing & Permits] ID: cmn3h6nn607rp97ugmx71ct3x
+  Q: How long must you hold a temporary instruction permit before applying for a restricted license in Ohio?
+  ⚠ WRONG: OH permit hold = 6 months (not 12)
+
+  [Licensing & Permits] ID: cmn3h6nse07rv97ug2ls7l1gt
+  Q: How many hours of supervised driving are required before getting a restricted license in Ohio?
+  ⚠ WRONG: OH supervised hours = 50 (not 40)
+
+  [Licensing & Permits] ID: cmn3h88q807yp97ugpod4ncb5
+  Q: What is the total time period required to progress from instruction permit to full license in Ohio if you start at the m
+  ⚠ WRONG: OH permit hold = 6 months (not 12)
+
+=== DUPLICATE SCAN ===
+Found 7 duplicate pairs:
+
+  [Traffic Signs] 89% similar
+  A: (cmn3gs2hv06gd97ugtvh3oxy7) What does a diamond-shaped yellow sign typically indicate?
+  B: (cmn3gswbq06i797ugwyb2sq8v) What does a yellow diamond-shaped sign typically indicate?
+
+  [Traffic Signs] 80% similar
+  A: (cmn3gs24906fv97ug7h6e8lzt) What do brown signs indicate?
+  B: (cmn3gsx2406j197ugq2vqm4a2) What do brown signs indicate?
+
+  [Safe Driving] 75% similar
+  A: (cmmsc7ow704m3neslzfqppmpk) What is prohibited while driving according to Ohio cell phone laws?
+  B: (cmmscbfut04yjnesl7no5317m) What is prohibited while driving according to Ohio's cell phone laws?
+
+  [Traffic Signs] 71% similar
+  A: (cmn3gs2dk06g797ug24mvvyc6) What does a 'Wrong Way' sign indicate?
+  B: (cmn3gsxi306jj97ugys7b1l0i) What does a 'WRONG WAY' sign indicate?
+
+  [Traffic Signs] 70% similar
+  A: (cmmsbjxyw02ohneslkafznlre) What is the recommended following distance behind another vehicle?
+  B: (cmmsblmjq02upneslw2db6zdl) What is the recommended safe following distance behind another vehicle?
+
+  [Traffic Signs] 70% similar
+  A: (cmn3gs2qy06gp97ugfjnopvl9) What does a yellow sign with a deer symbol indicate?
+  B: (cmn3gsyay06kj97ugph4r8wru) What does a yellow sign with a deer silhouette indicate?
+
+  [Traffic Signs] 67% similar
+  A: (cmn3gs15g06ep97ugujkpqssx) What shape is a stop sign?
+  B: (cmn3gsw7606i197ugd4izzv0q) What shape is a STOP sign?
+
+=== CONCEPT COVERAGE ===
+
+GAPS (0 questions):
+  ❌ speed:following
+  ❌ speed:signal-distance
+  ❌ row:funeral
+  ❌ row:bicycle
+  ❌ row:motorcycle
+  ❌ safe:park-crosswalk
+  ❌ safe:park-stop-sign
+  ❌ safe:bike-passing
+  ❌ license:address-change
+  ❌ license:knowledge-test
+  ❌ signs:green-arrow
+
+OVER-TESTED (>8):
+  ⚠ speed:max-interstate: 21
+  ⚠ speed:max-residential: 32
+  ⚠ speed:school-zone: 24
+  ⚠ speed:construction-zone: 11
+  ⚠ row:pedestrian: 15
+  ⚠ row:school-bus: 10
+  ⚠ row:emergency: 14
+  ⚠ safe:headlights: 14
+  ⚠ safe:seatbelt: 12
+  ⚠ safe:texting: 11
+  ⚠ safe:weather: 21
+  ⚠ safe:lane-change: 9
+  ⚠ alcohol:bac: 16
+  ⚠ alcohol:dui-penalties: 58
+  ⚠ alcohol:chemical-test: 10
+  ⚠ license:tipic: 13
+  ⚠ signs:warning: 20
+  ⚠ signs:regulatory: 13
+  ⚠ signs:colors: 11
+
+FULL CONCEPT COUNTS:
+  speed:max-interstate: 21 ⚠ OVER(21)
+  speed:max-residential: 32 ⚠ OVER(32)
+  speed:school-zone: 24 ⚠ OVER(24)
+  speed:construction-zone: 11 ⚠ OVER(11)
+  speed:following: 0 ❌ GAP
+  speed:signal-distance: 0 ❌ GAP
+  speed:minimum: 4
+  row:pedestrian: 15 ⚠ OVER(15)
+  row:school-bus: 10 ⚠ OVER(10)
+  row:emergency: 14 ⚠ OVER(14)
+  row:roundabout: 7
+  row:intersection: 3
+  row:funeral: 0 ❌ GAP
+  row:bicycle: 0 ❌ GAP
+  row:motorcycle: 0 ❌ GAP
+  safe:parallel-park: 2
+  safe:park-hydrant: 3
+  safe:park-crosswalk: 0 ❌ GAP
+  safe:park-railroad: 3
+  safe:park-stop-sign: 0 ❌ GAP
+  safe:passing: 2
+  safe:headlights: 14 ⚠ OVER(14)
+  safe:seatbelt: 12 ⚠ OVER(12)
+  safe:texting: 11 ⚠ OVER(11)
+  safe:skid: 1
+  safe:weather: 21 ⚠ OVER(21)
+  safe:turning: 5
+  safe:lane-change: 9 ⚠ OVER(9)
+  safe:bike-passing: 0 ❌ GAP
+  alcohol:bac: 16 ⚠ OVER(16)
+  alcohol:under21: 2
+  alcohol:dui-penalties: 58 ⚠ OVER(58)
+  alcohol:chemical-test: 10 ⚠ OVER(10)
+  alcohol:suspension: 5
+  alcohol:open-container: 2
+  license:tipic: 13 ⚠ OVER(13)
+  license:gdl: 2
+  license:gdl-curfew: 7
+  license:gdl-passengers: 5
+  license:new-resident: 1
+  license:address-change: 0 ❌ GAP
+  license:supervised-hours: 6
+  license:permit-duration: 4
+  license:knowledge-test: 0 ❌ GAP
+  license:suspension: 2
+  license:points: 6
+  signs:warning: 20 ⚠ OVER(20)
+  signs:railroad: 1
+  signs:school: 6
+  signs:work-zone: 3
+  signs:regulatory: 13 ⚠ OVER(13)
+  signs:green-arrow: 0 ❌ GAP
+  signs:flashing: 3
+  signs:colors: 11 ⚠ OVER(11)
+  signs:shapes: 7
+
+=== TOPIC SUMMARY ===
+  Traffic Signs: 90
+  Right Of Way: 80
+  Speed Limits: 75
+  Safe Driving: 90
+  Alcohol & Substances: 75
+  Licensing & Permits: 50
+  TOTAL: 460
+  NEED TO TRIM: ~120
