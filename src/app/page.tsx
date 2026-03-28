@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free DMV Practice Test 2026 - Pass Your Permit Test First Try",
-  description: "Free DMV practice tests for all 50 states. Plain-English explanations, road sign tests, and full exam simulator. Built for first-time drivers and non-native speakers. Start free, no signup needed.",
+  description: "Free DMV practice tests for all 50 states — 400+ questions per state, Memory Engine with spaced repetition, Readiness Score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
   keywords: ["DMV practice test 2026", "free DMV test", "permit test practice", "DMV test for non-native speakers", "road sign test", "driving test prep"],
   openGraph: {
     title: "Free DMV Practice Test 2026 - Pass First Try",
-    description: "Free DMV practice tests for all 50 states. Simple explanations. Built for first-time drivers and non-native speakers.",
+    description: "Free DMV practice tests for all 50 states — 400+ questions per state, spaced repetition Memory Engine. Built for first-time drivers and non-native speakers.",
     url: "https://dmv-prep.com",
     siteName: "DMVPrep Pro",
     type: "website",
@@ -86,14 +86,14 @@ const FEATURES = [
   },
   {
     icon: Brain,
-    title: "Smart Practice Tests",
-    description: "Questions randomly shuffle every time. Learn from mistakes with instant explanations after each answer.",
+    title: "400+ Questions Per State",
+    description: "400+ state-specific practice questions with instant feedback. Our Memory Engine uses spaced repetition to help you remember what you learn.",
     color: "text-purple-600 bg-purple-50",
   },
   {
     icon: Trophy,
     title: "Readiness Score",
-    description: "Our algorithm shows your real probability of passing. Know exactly when you are ready — before you visit the DMV.",
+    description: "Track your progress across every topic. Our algorithm calculates your real probability of passing so you know exactly when you are ready.",
     color: "text-yellow-600 bg-yellow-50",
   },
   {
@@ -261,7 +261,7 @@ export default function HomePage() {
             { num: "500K+", label: "Tests Taken", icon: "📝" },
             { num: "50", label: "States Covered", icon: "🗺️" },
             { num: "87%", label: "First-Try Pass Rate", icon: "🏆" },
-            { num: "10,000+", label: "Practice Questions", icon: "💡" },
+            { num: "400+", label: "Questions Per State", icon: "💡" },
           ].map(({ num, label, icon }) => (
             <div key={label}>
               <div className="text-2xl mb-1">{icon}</div>
@@ -404,7 +404,9 @@ export default function HomePage() {
                 {[
                   ["Plain English explanations", true, false],
                   ["Built for first-time drivers and non-native speakers", true, false],
-                  ["All 50 states covered", true, true],
+                  ["400+ state-specific questions per state", true, true],
+                  ["Memory Engine (spaced repetition)", true, false],
+                  ["SmartRecall micro-lessons", true, false],
                   ["Readiness score", true, false],
                   ["Multiple language support", true, false],
                   ["Free to start (no credit card)", true, false],

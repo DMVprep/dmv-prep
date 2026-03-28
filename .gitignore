@@ -1,3 +1,4 @@
 node_modules/
 .next/
 DMV Manuals/drivermanual NJ.pdf
+.env*.local

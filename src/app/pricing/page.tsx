@@ -12,25 +12,28 @@ const FREE_FEATURES = [
   "Road sign previews",
 ];
 const PASS_FEATURES = [
-  "1 state, fully unlocked",
+  "1 state, fully unlocked — 400+ questions",
   "Unlimited practice tests",
   "All test modes (Quick, Signs, Full Exam)",
-  "Full answer explanations",
+  "Full plain-English explanations",
   "One-time payment, yours forever",
 ];
 const PREMIUM_FEATURES = [
-  "All 50 states fully unlocked",
+  "All 50 states — 400+ questions per state",
   "Unlimited practice tests",
   "All test modes (Quick, Signs, Full Exam)",
-  "Full answer explanations",
-  "Progress tracking and readiness score",
+  "Full plain-English explanations",
+  "Memory Engine with spaced repetition",
+  "SmartRecall micro-lessons with practice questions",
+  "Readiness Score and progress tracking",
+  "Weak areas identifier",
   "Multilingual translations (Spanish, Chinese, and more)",
   "Priority support",
 ];
 const FAQ = [
   {
     q: "What is the difference between Pass and Premium?",
-    a: "Pass is a one-time payment that fully unlocks one state forever. Premium is a subscription that unlocks all 50 states, progress tracking, and multilingual translations. If you only need to pass the test in one state, Pass is the best value.",
+    a: "Pass is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, the Memory Engine with spaced repetition, SmartRecall lessons, Readiness Score, and multilingual translations. If you only need to pass the test in one state, Pass is the best value.",
   },
   {
     q: "Can I upgrade from Pass to Premium later?",

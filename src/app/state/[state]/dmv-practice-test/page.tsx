@@ -8,7 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { QuestionPreview } from "@/components/test/QuestionPreview";
 import { US_STATES, stateToSlug, getStateBySlug } from "@/data/states";
 import { SAMPLE_QUESTIONS, DMV_VOCABULARY } from "@/data/questions";
-import { CheckCircle, Clock, BookOpen, ArrowRight, AlertCircle, MapPin } from "lucide-react";
+import { CheckCircle, Clock, BookOpen, ArrowRight, AlertCircle, MapPin, Zap } from "lucide-react";
 import CrossStateLinks from "@/components/CrossStateLinks";
 import StateFaqSchema from "@/components/StateFaqSchema";
 import { getCitiesByState } from "@/data/cities";
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!state) return {};
   return {
     title: `${state.name} DMV Practice Test 2026 — Free Permit Test Questions`,
-    description: `Free ${state.name} DMV practice test with real permit test questions. Plain-English explanations. Pass your ${state.name} written test on the first try. ${state.questionsCount} questions, ${state.passingScore}% passing score.`,
+    description: `Free ${state.name} DMV practice test with 400+ real permit test questions. Plain-English explanations, Memory Engine with spaced repetition, Readiness Score. Pass your ${state.name} written test on the first try.`,
     keywords: [
       `${state.name} DMV practice test`,
       `${state.name} permit test`,
@@ -162,8 +162,8 @@ export default function StatePracticeTestPage({ params }: Props) {
               Sample {state.name} DMV Questions
             </h2>
             <p className="text-gray-500 mb-6">
-              Try these 10 free questions. Sign up to access all {state.questionsCount} practice
-              questions and the full exam simulator.
+              Try these free sample questions. Upgrade to unlock all 400+ {state.name} practice
+              questions, the Memory Engine, Readiness Score, and full exam simulator.
             </p>
             <div className="space-y-4">
               {allQuestions.map((q, i) => (
@@ -175,8 +175,44 @@ export default function StatePracticeTestPage({ params }: Props) {
                 href={`/practice?state=${state.code}`}
                 className="btn-primary inline-flex items-center gap-2 text-lg py-4 px-8"
               >
-                Practice All {state.questionsCount} Questions Free
+                Start Free Practice Test
                 <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
+          </section>
+
+          {/* What you get */}
+          <section className="mb-12 card p-8 bg-gradient-to-r from-purple-50 to-blue-50 border-purple-100">
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+              What You Get with DMVPrep Pro
+            </h2>
+            <p className="text-gray-500 text-sm mb-6">
+              Everything you need to pass the {state.name} DMV test — built into one platform.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                { title: "400+ Practice Questions", desc: `State-specific ${state.name} questions covering every topic on the real test.` },
+                { title: "Memory Engine", desc: "Spaced repetition tracks what you know and schedules reviews so you never forget." },
+                { title: "Readiness Score", desc: "See your real probability of passing — know exactly when you are ready." },
+                { title: "SmartRecall Lessons", desc: "67 micro-lessons with built-in practice questions and instant feedback." },
+                { title: "Weak Areas Identifier", desc: "Automatically finds the topics you struggle with so you can focus your study time." },
+                { title: "Full Exam Simulator", desc: `Practice under real ${state.name} test conditions — ${state.questionsCount} questions, ${state.passingScore}% to pass.` },
+              ].map(({ title, desc }) => (
+                <div key={title} className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <div className="font-semibold text-gray-900 text-sm">{title}</div>
+                    <div className="text-xs text-gray-500 leading-relaxed">{desc}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 flex flex-col sm:flex-row gap-3">
+              <Link href="/pricing" className="btn-primary inline-flex items-center justify-center gap-2 text-sm py-3 px-6">
+                <Zap className="w-4 h-4" /> See Pricing
+              </Link>
+              <Link href="/lessons" className="btn-secondary inline-flex items-center justify-center gap-2 text-sm py-3 px-6">
+                Try SmartRecall Lessons Free
               </Link>
             </div>
           </section>
@@ -357,10 +393,10 @@ export default function StatePracticeTestPage({ params }: Props) {
           {/* CTA */}
           <section className="card bg-blue-600 border-0 p-8 text-center text-white">
             <AlertCircle className="w-10 h-10 mx-auto mb-3 text-blue-200" />
-            <h3 className="text-2xl font-bold mb-2">Ready to practice all {state.questionsCount} questions?</h3>
+            <h3 className="text-2xl font-bold mb-2">Ready to unlock all 400+ questions?</h3>
             <p className="text-blue-100 mb-6">
-              Create a free account to track your progress, unlock all questions, and use the full
-              exam simulator.
+              Create a free account to unlock the Memory Engine, track your Readiness Score, and use the full
+              {state.name} exam simulator.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/register" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 font-bold py-3 px-6 rounded-xl hover:bg-blue-50 transition-colors">
