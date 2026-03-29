@@ -112,11 +112,11 @@ export default function StatePracticeTestPage({ params }: Props) {
             <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
               Practice real {state.name} DMV knowledge test questions with simple, clear
               explanations. This test is free and covers the same topics as the official
-              {state.name} written permit exam.
+              {" "}{state.name} written permit exam.
             </p>
 
             <p className="text-xs text-gray-400 mb-6">
-              Questions based on the Official {state.name} Driver Handbook
+              Questions based on the Official {' '}{state.name} Driver Handbook
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm">
