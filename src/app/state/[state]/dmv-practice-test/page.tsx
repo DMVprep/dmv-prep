@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
-import { FAQSchema, CourseSchema, QuizSchema } from "@/components/seo/JsonLd";
+import { CourseSchema, QuizSchema } from "@/components/seo/JsonLd";
 import { Footer } from "@/components/layout/Footer";
 import { QuestionPreview } from "@/components/test/QuestionPreview";
 import { US_STATES, stateToSlug, getStateBySlug } from "@/data/states";
@@ -94,7 +94,6 @@ export default function StatePracticeTestPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-white">
-      <FAQSchema faqs={faqs} />
       <CourseSchema stateName={state.name} />
       <QuizSchema stateName={state.name} questionCount={allQuestions.length} stateSlug={params.state} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
