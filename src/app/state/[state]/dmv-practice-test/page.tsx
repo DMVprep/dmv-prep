@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { QuestionPreview } from "@/components/test/QuestionPreview";
 import { US_STATES, stateToSlug, getStateBySlug } from "@/data/states";
 import { SAMPLE_QUESTIONS, DMV_VOCABULARY } from "@/data/questions";
+import { STATE_SAMPLE_QUESTIONS } from "@/data/state-sample-questions";
 import { CheckCircle, Clock, BookOpen, ArrowRight, AlertCircle, MapPin, Zap } from "lucide-react";
 import CrossStateLinks from "@/components/CrossStateLinks";
 import StateFaqSchema from "@/components/StateFaqSchema";
@@ -69,7 +70,7 @@ export default function StatePracticeTestPage({ params }: Props) {
   const state = getStateBySlug(params.state);
   if (!state) notFound();
 
-  const allQuestions = SAMPLE_QUESTIONS.flatMap((t) => t.questions).slice(0, 10);
+  const allQuestions = STATE_SAMPLE_QUESTIONS[state.code] ?? SAMPLE_QUESTIONS.flatMap((t) => t.questions).slice(0, 10);
   const tips = STATE_TIPS[state.code] ?? STATE_TIPS.default;
   const cities = getCitiesByState(params.state);
 
@@ -112,6 +113,10 @@ export default function StatePracticeTestPage({ params }: Props) {
               Practice real {state.name} DMV knowledge test questions with simple, clear
               explanations. This test is free and covers the same topics as the official
               {state.name} written permit exam.
+            </p>
+
+            <p className="text-xs text-gray-400 mb-6">
+              Questions based on the Official {state.name} Driver Handbook
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm">
