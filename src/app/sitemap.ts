@@ -1,8 +1,17 @@
 import { MetadataRoute } from "next"
 import { CITIES } from "@/data/cities"
+import { BLOG_POSTS } from "@/data/blog-posts"
 
 const BASE = "https://dmv-prep.com"
-const STATES = ["california","florida","texas","new-york","pennsylvania","illinois","ohio","georgia","north-carolina","michigan"]
+const STATES = [
+  "alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware",
+  "florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky",
+  "louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi",
+  "missouri","montana","nebraska","nevada","new-hampshire","new-jersey","new-mexico",
+  "new-york","north-carolina","north-dakota","ohio","oklahoma","oregon","pennsylvania",
+  "rhode-island","south-carolina","south-dakota","tennessee","texas","utah","vermont",
+  "virginia","washington","west-virginia","wisconsin","wyoming"
+]
 const LANGS = ["spanish","chinese","vietnamese","portuguese","haitian-creole"]
 const CLUSTER = ["dmv-practice-test","road-sign-practice-test","permit-test-questions","dmv-handbook-summary","dmv-test-tips","dmv-cheat-sheet"]
 const GUIDES = ["what-does-stop-sign-mean","yield-sign-meaning","right-of-way-rules","lane-markings-explained","speed-limit-sign-rules","railroad-crossing-rules","school-zone-speed-limit","no-passing-zone-meaning","how-to-pass-dmv-test"]
@@ -71,6 +80,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // DMV guide articles
   GUIDES.forEach(g => e.push({ url: BASE+"/dmv-guide/"+g, lastModified: now, changeFrequency: "monthly", priority: 0.6 }))
+
+  // Blog pages
+  e.push({ url: BASE+"/blog", lastModified: now, changeFrequency: "weekly", priority: 0.85 })
+  BLOG_POSTS.forEach(post => e.push({
+    url: BASE+"/blog/"+post.slug,
+    lastModified: new Date(post.updatedAt),
+    changeFrequency: "weekly",
+    priority: post.category === "english-only-policy" ? 0.9 : 0.8
+  }))
 
   return e
 }

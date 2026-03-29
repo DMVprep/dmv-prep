@@ -26,6 +26,7 @@ export function Header() {
             </Link>
             <Link href="/progress" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">My Progress</Link>
             <Link href="/lessons" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">Lessons</Link>
+            <Link href="/blog" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">Blog</Link>
             <Link href="/pricing" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">
               Pricing
             </Link>
@@ -67,6 +68,7 @@ export function Header() {
         <div className="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3">
           <Link href="/states" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>All States</Link>
           <Link href="/lessons" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Lessons</Link>
+          <Link href="/blog" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
           <Link href="/pricing" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Pricing</Link>
           <Link href="/progress" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>My Progress</Link>
           {session ? (

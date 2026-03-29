@@ -51,6 +51,16 @@ export function Footer() {
               <li><Link href="/states" className="text-sm hover:text-blue-400 transition-colors">All States</Link></li>
               <li><Link href="/privacy" className="text-sm hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="text-sm hover:text-blue-400 transition-colors">Terms of Service</Link></li>
+              <li><Link href="/blog" className="text-sm hover:text-blue-400 transition-colors">Blog</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-white mb-3">Latest Articles</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><Link href="/blog/florida-english-only-dmv-test-2026" className="text-sm hover:text-blue-400 transition-colors">Florida English-Only DMV Test</Link></li>
+              <li><Link href="/blog/pass-dmv-test-english-non-native-speaker" className="text-sm hover:text-blue-400 transition-colors">Pass the DMV Test as a Non-Native Speaker</Link></li>
+              <li><Link href="/blog/how-many-questions-dmv-test-by-state" className="text-sm hover:text-blue-400 transition-colors">How Many Questions on the DMV Test?</Link></li>
+              <li><Link href="/blog/dmv-practice-test-cheat-sheet-2026" className="text-sm hover:text-blue-400 transition-colors">DMV Test Cheat Sheet 2026</Link></li>
             </ul>
           </div>
         </div>
