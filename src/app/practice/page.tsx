@@ -20,6 +20,7 @@ interface Question {
   id: string;
   text: string;
   explanation: string;
+  imageUrl?: string | null;
   topic: { name: string; slug: string };
   choices: { id: string; text: string; isCorrect: boolean }[];
   translations?: { language: string; text: string; explanation: string; choices: string[] }[];
@@ -391,6 +392,11 @@ function PracticeContent() {
 
         {/* Question */}
         <div className="bg-white rounded-xl border border-gray-200 p-6 mb-4 shadow-sm">
+          {q.imageUrl && (
+            <div className="flex justify-center mb-4">
+              <img src={q.imageUrl} alt="Road sign" className="w-28 h-28 object-contain" />
+            </div>
+          )}
           <div className="flex items-start justify-between gap-3">
             <p className="text-gray-900 font-medium text-lg leading-relaxed flex-1">{q.text}</p>
             {IS_PREMIUM && (
