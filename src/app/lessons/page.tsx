@@ -164,7 +164,7 @@ export default function LessonsPage() {
                             <p className="text-lg font-bold text-purple-900">{lesson.simpleLine}</p>
                           </div>
                           {lesson.imageUrl && (
-                            <img src={lesson.imageUrl} alt={lesson.title} className="w-full rounded-lg mb-3" />
+                            <img src={lesson.imageUrl} alt={lesson.title} className="max-w-[200px] mx-auto rounded-lg mb-3" />
                           )}
                           <p className="text-gray-700 leading-relaxed text-sm">{lesson.explanation}</p>
                           <div className="mt-4">
