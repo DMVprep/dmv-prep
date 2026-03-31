@@ -1027,6 +1027,651 @@ We also offer practice tests in Spanish for select states, so you can study in b
 [Start practicing now →](/states)
     `.trim(),
   },
+  // === NEW SEO ARTICLES (March 31) ===
+  {
+    slug: "what-to-expect-dmv-written-test-2026",
+    title: "What to Expect on the DMV Written Test in 2026 (All 50 States)",
+    description: "Complete guide to the DMV written knowledge test: how many questions, passing scores, what topics are covered, and how to prepare. Updated for 2026.",
+    category: "test-prep",
+    language: "en",
+    keywords: ["what to expect DMV written test", "DMV knowledge test format", "DMV test questions 2026", "how many questions on DMV test"],
+    relatedSlugs: ["how-many-questions-dmv-test-by-state", "dmv-practice-test-cheat-sheet-2026", "pass-dmv-test-english-non-native-speaker"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## What Is the DMV Written Test?
+
+The DMV written test (also called the knowledge test or permit test) is a multiple-choice exam that tests your understanding of traffic laws, road signs, and safe driving practices. You must pass this test before getting your learner's permit or driver's license.
+
+Every state has its own version of the test, but they all cover the same core topics.
+
+## How Many Questions Are on the Test?
+
+The number of questions varies by state. Most states have between 20 and 50 questions. Here are some examples:
+
+- **Florida:** 50 questions, 80% to pass
+- **California:** 46 questions, 83% to pass
+- **Texas:** 30 questions, 70% to pass
+- **New York:** 20 questions, 70% to pass
+- **Illinois:** 35 questions, 80% to pass
+
+## What Topics Are Covered?
+
+The DMV written test covers six main areas:
+
+**1. Road Signs (25-30% of the test)**
+You will need to identify signs by shape, color, and meaning. Warning signs, regulatory signs, construction signs, and guide signs are all tested.
+
+**2. Right of Way (15-20%)**
+Questions about who goes first at intersections, roundabouts, and when yielding to pedestrians and emergency vehicles.
+
+**3. Safe Driving Practices (15-20%)**
+Following distance, lane changing, night driving, bad weather driving, and defensive driving techniques.
+
+**4. Speed Limits (10-15%)**
+School zone speeds, highway speeds, residential speeds, and the basic speed law.
+
+**5. Alcohol and Drug Laws (10-15%)**
+BAC limits (0.08% for adults, zero tolerance for under 21), implied consent, DUI penalties.
+
+**6. Licensing and Vehicle Laws (5-10%)**
+Permit requirements, graduated licensing, insurance, registration, and vehicle equipment.
+
+## How to Prepare
+
+The best way to prepare is to:
+
+1. **Take practice tests** — DMVPrep Pro offers free practice tests for all 50 states with plain-English explanations
+2. **Study the handbook** — Read your state's driver handbook at least once
+3. **Focus on your weak areas** — Our Readiness Score shows you exactly which topics need more work
+4. **Practice road signs** — About 25% of the test is road signs, so learn them well
+
+## Tips for Test Day
+
+- Get a good night's sleep
+- Arrive early with all required documents
+- Read each question carefully
+- If unsure, eliminate wrong answers first
+- Don't rush — you have plenty of time
+
+## Ready to Start Practicing?
+
+[Start a free practice test](/states) for your state. No signup required.
+`
+  },
+  {
+    slug: "road-signs-shapes-colors-meanings",
+    title: "Road Signs: Every Shape, Color, and Meaning You Need to Know for the DMV Test",
+    description: "Complete guide to road sign shapes and colors. Learn what each sign shape and color means on the DMV test — with images and plain-English explanations.",
+    category: "road-signs",
+    language: "en",
+    keywords: ["road sign shapes", "road sign colors", "what do road sign shapes mean", "DMV road signs test", "traffic sign meanings"],
+    relatedSlugs: ["dmv-practice-test-cheat-sheet-2026", "what-to-expect-dmv-written-test-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## Why Road Signs Matter on the DMV Test
+
+Road signs make up about 25-30% of the DMV written test. You need to recognize signs by their shape, color, and symbols — even if you cannot read the text.
+
+## Sign Shapes and What They Mean
+
+**Octagon (8 sides)** — STOP. The only sign with this shape.
+
+**Inverted Triangle** — YIELD. Slow down and give way.
+
+**Pentagon (5 sides)** — SCHOOL ZONE. Watch for children.
+
+**Diamond** — WARNING. Alerts you to hazards ahead.
+
+**Rectangle** — REGULATORY (vertical) or GUIDE (horizontal). Rules you must follow or directions.
+
+**Circle** — RAILROAD CROSSING ahead (advance warning).
+
+**Pennant** — NO PASSING ZONE. Do not pass other vehicles.
+
+## Sign Colors and What They Mean
+
+**Red** — Stop, yield, or do not enter. Always demands action.
+
+**Yellow** — General warning. Hazard or change in conditions ahead.
+
+**Orange** — Construction or work zone. Workers may be present.
+
+**Green** — Guide information. Directions, distances, destinations.
+
+**Blue** — Motorist services. Gas, food, hospital, lodging.
+
+**Brown** — Recreation and cultural sites. Parks, historic areas.
+
+**White** — Regulatory information. Speed limits, lane rules.
+
+**Fluorescent Yellow-Green** — School zones and pedestrian crossings.
+
+## Most Commonly Tested Signs
+
+The signs most frequently tested on the DMV exam are:
+
+1. Stop sign (red octagon)
+2. Yield sign (red/white inverted triangle)
+3. Do Not Enter (red circle with white bar)
+4. Wrong Way (red rectangle)
+5. Speed limit (white rectangle)
+6. School zone (yellow-green pentagon)
+7. Railroad crossing (round yellow with X)
+8. No passing zone (yellow pennant)
+9. Construction/work zone (orange diamond)
+10. One way (black/white rectangle with arrow)
+
+## How to Study Road Signs
+
+The best approach is to learn signs by category rather than memorizing each one individually:
+
+1. Learn the **8 sign colors** and what each means
+2. Learn the **7 sign shapes** and what each means
+3. Then study individual signs within each category
+
+This way, even if you see a sign you do not recognize, you can narrow down the answer based on shape and color alone.
+
+## Practice Road Signs Now
+
+[Take a free road sign practice test](/practice) with images and instant explanations.
+`
+  },
+  {
+    slug: "how-to-pass-dmv-test-first-time",
+    title: "How to Pass Your DMV Test on the First Try (2026 Guide)",
+    description: "Proven strategies to pass the DMV written test on your first attempt. Study tips, common mistakes to avoid, and what to bring on test day.",
+    category: "test-prep",
+    language: "en",
+    keywords: ["how to pass DMV test first time", "pass permit test first try", "DMV test tips 2026", "DMV test study tips"],
+    relatedSlugs: ["what-to-expect-dmv-written-test-2026", "dmv-practice-test-cheat-sheet-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## The Truth About the DMV Test
+
+About 30% of people fail the DMV written test on their first try. But with the right preparation, you can pass easily. Here is exactly how.
+
+## Step 1: Take Practice Tests (Most Important)
+
+The single most effective way to prepare is taking practice tests. Research shows that practice testing is more effective than re-reading the handbook.
+
+**Why practice tests work:**
+- You learn the format and question style
+- You identify your weak areas immediately
+- You build confidence for test day
+- Active recall strengthens memory better than passive reading
+
+We recommend taking at least 5 full practice tests before your real exam. [Start a free practice test here](/states).
+
+## Step 2: Focus on the Most Tested Topics
+
+Not all topics are tested equally. Focus your study time on these high-frequency areas:
+
+1. **Road signs** — 25-30% of questions. Learn shapes, colors, and meanings.
+2. **Right of way** — Who goes first at intersections, roundabouts, and crosswalks.
+3. **BAC limits** — 0.08% for adults, zero tolerance for under 21.
+4. **Following distance** — Know your state's rule (2-4 seconds depending on state).
+5. **School zones** — Speed limits and rules when children are present.
+
+## Step 3: Learn From Your Mistakes
+
+When you get a question wrong on a practice test, read the explanation carefully. Understanding WHY an answer is correct is more valuable than memorizing the answer.
+
+## Common Mistakes That Cause Failure
+
+1. **Not studying road signs** — Many people skip signs and focus only on rules
+2. **Confusing similar signs** — Yield vs. stop, warning vs. regulatory
+3. **Not knowing state-specific rules** — Each state has different speed limits and laws
+4. **Rushing through questions** — Read every question and all answer choices carefully
+5. **Second-guessing yourself** — Your first instinct is usually correct
+
+## What to Bring on Test Day
+
+- Valid ID (birth certificate, passport, or state ID)
+- Social Security card or proof of SSN
+- Proof of residency (2 documents in most states)
+- Payment for fees
+- Completed application form
+- Proof of completed driver education (if required)
+
+## Test Day Tips
+
+- Arrive 30 minutes early
+- Get a good night's sleep the night before
+- Eat a light meal before the test
+- Read each question completely before answering
+- If stuck, eliminate obviously wrong answers first
+- Review your answers if time permits
+
+## Ready to Start?
+
+[Take a free practice test](/states) and see your Readiness Score. Study until you consistently score above 90%, then you are ready for the real thing.
+`
+  },
+  {
+    slug: "following-distance-rule-explained",
+    title: "The Following Distance Rule Explained: 2, 3, or 4 Seconds?",
+    description: "Learn the correct following distance rule for your state. Most states use a 3-4 second rule. Here is how to measure it and when to increase it.",
+    category: "safe-driving",
+    language: "en",
+    keywords: ["following distance rule", "3 second rule driving", "4 second rule", "safe following distance", "how to measure following distance"],
+    relatedSlugs: ["how-to-pass-dmv-test-first-time", "what-to-expect-dmv-written-test-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## What Is the Following Distance Rule?
+
+The following distance rule tells you how much space to keep between your car and the vehicle ahead. It is measured in seconds, not feet, because the distance changes with speed.
+
+## How to Measure Following Distance
+
+1. Watch the vehicle ahead pass a fixed object (sign, pole, tree)
+2. Start counting: "one-thousand-one, one-thousand-two..."
+3. If you pass the same object before you finish counting, you are too close
+
+## What Is the Correct Following Distance?
+
+It depends on your state:
+
+- **2 seconds:** AL, AR, KS, NC, NY, OR, TN, TX, UT, WA
+- **3 seconds:** CA, CO, CT, GA, ID, IL, MN, MT, NE, NJ, RI, SD, WY (and many others)
+- **3-4 seconds:** AZ, DE, IA, IN, KY, MD, MI, MO, NH, NM, PA, VA, WV
+- **4 seconds:** AK, FL, ME, OH, SC, VT, WI
+
+## When to Increase Your Following Distance
+
+Always increase your distance when:
+
+- **Bad weather** — Rain, fog, snow, or ice (double your normal distance)
+- **Night driving** — You cannot see as far ahead
+- **Following large trucks** — They block your view and need more stopping room
+- **Heavy traffic** — More vehicles means more potential for sudden stops
+- **Towing** — Extra weight means longer stopping distance
+- **Poor road conditions** — Gravel, wet leaves, construction zones
+
+## Why This Matters
+
+Rear-end collisions are the most common type of crash, and they are almost always caused by following too closely. Maintaining proper following distance gives you time to react and stop safely.
+
+## Practice This Topic
+
+[Take a free practice test](/states) with following distance questions for your state.
+`
+  },
+  {
+    slug: "bac-limit-by-state-2026",
+    title: "BAC Limit by State: Blood Alcohol Limits for Every State (2026)",
+    description: "Complete guide to BAC limits across all 50 states. Learn the legal limit for adults, under 21, and commercial drivers. Updated for 2026.",
+    category: "alcohol-dui",
+    language: "en",
+    keywords: ["BAC limit by state", "blood alcohol limit", "legal BAC limit", "DUI BAC limit 2026", "zero tolerance BAC"],
+    relatedSlugs: ["what-to-expect-dmv-written-test-2026", "how-to-pass-dmv-test-first-time"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## BAC Limits You Need to Know
+
+BAC (Blood Alcohol Concentration) measures how much alcohol is in your blood. Every state has legal limits for driving.
+
+## Standard BAC Limits (All States)
+
+**Adults (21 and older):** 0.08% in 49 states. Utah is the exception at 0.05%.
+
+**Under 21 (Zero Tolerance):** Any detectable alcohol is illegal in every state. Most states set the limit at 0.00% or 0.02%.
+
+**Commercial drivers:** 0.04% in all states when operating a commercial vehicle.
+
+## What Does 0.08% BAC Mean?
+
+A BAC of 0.08% means there are 0.08 grams of alcohol per 100 milliliters of blood. For most people, this is roughly:
+
+- 2-3 standard drinks in one hour for an average man
+- 1-2 standard drinks in one hour for an average woman
+
+But many factors affect BAC: body weight, food consumed, medications, and how quickly you drink.
+
+## Important: Impairment Starts Below 0.08%
+
+Even at 0.02% BAC, your ability to divide attention between tasks is reduced. At 0.05%, your coordination and ability to track moving objects are impaired. You can be charged with impaired driving even below 0.08% if an officer determines you are unsafe to drive.
+
+## Utah's Lower Limit
+
+Utah lowered its BAC limit to 0.05% in 2018. This means one drink could put you over the legal limit.
+
+## Implied Consent Law
+
+Every state has an implied consent law. This means by driving on public roads, you automatically agree to submit to a BAC test if an officer suspects DUI. Refusing the test results in automatic license suspension — even if you are not actually over the limit.
+
+## DUI Penalties
+
+Penalties for DUI/DWI vary by state but typically include:
+
+- License suspension (6 months to 1 year for first offense)
+- Fines ($500 to $10,000+)
+- Possible jail time
+- Required alcohol education courses
+- Ignition interlock device
+- Permanent criminal record
+
+## The Only Safe Amount
+
+The only guaranteed way to avoid a DUI is to not drink and drive at all. If you drink, use a rideshare, taxi, or designated driver.
+
+## Practice BAC Questions
+
+[Take a free practice test](/states) with alcohol and DUI questions for your state.
+`
+  },
+  {
+    slug: "school-zone-speed-limits-by-state",
+    title: "School Zone Speed Limits by State (2026 Guide)",
+    description: "What is the speed limit in a school zone? It varies by state from 15-25 mph. Complete state-by-state guide with fines and rules.",
+    category: "speed-limits",
+    language: "en",
+    keywords: ["school zone speed limit", "school zone speed by state", "speed limit near school", "school zone fines"],
+    relatedSlugs: ["following-distance-rule-explained", "what-to-expect-dmv-written-test-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## School Zone Speed Limits
+
+School zone speed limits are one of the most commonly tested topics on the DMV written exam. The exact limit varies by state.
+
+## Common School Zone Speeds
+
+- **15 mph:** FL, MD, PA, WI, OR (some zones)
+- **20 mph:** AK, CA, CO, FL, IL, IN, MO, OH, OR, SD, WY
+- **25 mph:** AZ, CT, GA, HI, KS, MA, NE, NJ, NY, NC, ND, RI, VA, WA
+
+Note: Many states have different limits depending on whether children are present, time of day, or specific signage.
+
+## When Do School Zone Limits Apply?
+
+School zone speed limits are typically in effect:
+
+- During posted hours (usually 30 minutes before and after school)
+- When children are present (some states)
+- When flashing beacons are activated
+- On school days only (not weekends or holidays in most states)
+
+## Fines in School Zones
+
+Fines for speeding in school zones are typically **doubled** in most states. Some states impose even higher penalties:
+
+- Fines can range from $150 to $1,000+ for a first offense
+- Points are added to your license
+- Some states suspend licenses for repeat offenders in school zones
+
+## How to Recognize a School Zone
+
+Look for:
+- Pentagon-shaped fluorescent yellow-green signs
+- Flashing beacons on the signs
+- Painted speed limit numbers on the road
+- Crossing guards
+- Reduced speed limit signs with "SCHOOL" text
+
+## Practice Speed Limit Questions
+
+[Take a free practice test](/states) with school zone and speed limit questions for your state.
+`
+  },
+  {
+    slug: "right-of-way-rules-intersections",
+    title: "Right of Way Rules at Intersections: Who Goes First?",
+    description: "Complete guide to right of way rules at 4-way stops, uncontrolled intersections, roundabouts, and T-intersections. The #1 most confusing DMV topic explained simply.",
+    category: "right-of-way",
+    language: "en",
+    keywords: ["right of way rules", "who goes first at 4 way stop", "right of way at intersection", "yield right of way"],
+    relatedSlugs: ["how-to-pass-dmv-test-first-time", "what-to-expect-dmv-written-test-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## Right of Way: The Most Confusing DMV Topic
+
+Right of way questions are some of the trickiest on the DMV test. Here is how to get them right every time.
+
+## The Golden Rule
+
+Right of way is not something you "have" — it is something you "give." Even if you technically have the right of way, you must always yield to avoid an accident.
+
+## 4-Way Stop Intersection
+
+**Rule 1:** The first vehicle to arrive goes first.
+
+**Rule 2:** If two vehicles arrive at the same time, the vehicle on the **right** goes first.
+
+**Rule 3:** If two vehicles arrive at the same time from opposite directions and one is turning left, the vehicle going **straight** goes first.
+
+## Uncontrolled Intersection (No Signs or Signals)
+
+Yield to the vehicle on your **right**. Slow down and be prepared to stop.
+
+## T-Intersection
+
+Vehicles on the through road (the top of the T) have the right of way. Vehicles on the dead-end road must yield.
+
+## Roundabouts
+
+- Yield to vehicles **already in** the roundabout
+- Enter when there is a safe gap
+- Travel **counterclockwise** (to the right)
+- Do not stop inside the roundabout
+
+## Turning Left
+
+When turning left, you must **always yield to oncoming traffic** going straight or turning right.
+
+## Pedestrians
+
+Pedestrians have the right of way at **all** marked and unmarked crosswalks. You must stop for them.
+
+## Emergency Vehicles
+
+When you hear a siren or see flashing lights, **pull over to the right and stop**. Wait until the emergency vehicle has passed.
+
+## School Buses
+
+When a school bus displays flashing red lights and its stop arm, **all traffic must stop** from both directions — unless separated by a physical median.
+
+## Practice Right of Way Questions
+
+[Take a free practice test](/states) with right of way questions for your state.
+`
+  },
+  {
+    slug: "dmv-test-spanish-speakers-guide",
+    title: "DMV Test Guide for Spanish Speakers: Prepare in English and Spanish (2026)",
+    description: "Guide for Spanish speakers taking the DMV test. Learn which states offer the test in Spanish, how to study bilingually, and tips for passing.",
+    category: "multilingual",
+    language: "en",
+    keywords: ["DMV test in Spanish", "examen de manejo en español", "DMV practice test Spanish", "permit test Spanish"],
+    relatedSlugs: ["pass-dmv-test-english-non-native-speaker", "florida-english-only-dmv-test-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## Can You Take the DMV Test in Spanish?
+
+Most states offer the DMV written test in Spanish. However, some states have recently moved to English-only policies. Here is what you need to know.
+
+## States That Offer the Test in Spanish
+
+The majority of U.S. states still offer the DMV knowledge test in Spanish. This includes large states like California, Texas, New York, and Illinois.
+
+## States With English-Only Policies
+
+A few states now require the DMV test to be taken in English only. Florida implemented this policy in 2023. Check with your local DMV to confirm your state's current language options.
+
+## How to Prepare If You Speak Spanish
+
+**Option 1: Take the test in Spanish** (if your state offers it)
+Study the Spanish version of your state's driver handbook and practice with Spanish-language questions.
+
+**Option 2: Study bilingually**
+Many students find it helpful to study in both languages. Read the handbook in Spanish to understand the concepts, then practice questions in English to prepare for the actual test format.
+
+**Option 3: Prepare for an English-only test**
+If your state requires English, focus on learning the key vocabulary. DMV tests use simple, straightforward English. The most important words to know are: yield, merge, right of way, pedestrian, crosswalk, intersection, and impaired.
+
+## Study Resources
+
+DMVPrep Pro offers practice tests with a **Translate** button on every question. You can see the question in English and switch to Spanish instantly. This helps you learn the English terms while understanding the concept in your language.
+
+## Tips for Spanish Speakers
+
+1. Learn road sign shapes and colors — they are universal and do not require reading
+2. Focus on key English vocabulary (about 50 words cover most questions)
+3. Practice with timed tests to build speed and confidence
+4. Use our plain-English explanations — they avoid complicated legal language
+
+## Start Practicing
+
+[Practice in Spanish](/florida-dmv-practice-test-spanish) or [practice in English with translation](/states).
+`
+  },
+  {
+    slug: "dmv-test-hardest-questions",
+    title: "The 10 Hardest DMV Test Questions (And How to Answer Them)",
+    description: "These are the DMV test questions most people get wrong. Learn the correct answers and understand why they trip people up.",
+    category: "test-prep",
+    language: "en",
+    keywords: ["hardest DMV test questions", "most missed DMV questions", "DMV trick questions", "commonly failed DMV questions"],
+    relatedSlugs: ["how-to-pass-dmv-test-first-time", "dmv-practice-test-cheat-sheet-2026"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## The Questions Most People Get Wrong
+
+After analyzing thousands of practice test results, these are the 10 questions that trip up the most test-takers.
+
+## 1. What shape is a yield sign?
+
+**Answer:** Inverted triangle (pointing down), red and white.
+
+**Why people miss it:** Many people confuse the yield sign shape with a regular triangle or diamond.
+
+## 2. At a 4-way stop, who goes first when two cars arrive at the same time?
+
+**Answer:** The vehicle on the **right** goes first.
+
+**Why people miss it:** People often think the vehicle on the left goes first, or that it depends on who is turning.
+
+## 3. What does a yellow flashing light mean?
+
+**Answer:** Proceed with caution. Slow down but you do NOT need to stop (unlike a flashing red, which means stop).
+
+**Why people miss it:** People confuse flashing yellow (caution) with flashing red (stop).
+
+## 4. What is the legal BAC limit for drivers under 21?
+
+**Answer:** Zero tolerance — any detectable alcohol (0.00% to 0.02% depending on state).
+
+**Why people miss it:** People often pick 0.08% (the adult limit) instead of the zero tolerance standard.
+
+## 5. When parking uphill with a curb, which way do you turn your wheels?
+
+**Answer:** Turn wheels **away from the curb** (to the left). If your car rolls, it will roll into the curb and stop.
+
+**Why people miss it:** The uphill/downhill rules feel counterintuitive until you visualize the car rolling.
+
+## 6. What does a pennant-shaped sign mean?
+
+**Answer:** No passing zone. This is the ONLY sign with a pennant (horizontal triangle) shape.
+
+**Why people miss it:** This sign shape is rare and many drivers have never noticed it on the road.
+
+## 7. How far must you park from a fire hydrant?
+
+**Answer:** 15 feet in most states.
+
+**Why people miss it:** People confuse the distances for hydrants (15 ft), crosswalks (20 ft), and railroad crossings (50 ft).
+
+## 8. When must you stop for a school bus?
+
+**Answer:** When the bus displays flashing RED lights and the stop arm is extended — from BOTH directions, unless separated by a physical median.
+
+**Why people miss it:** People do not know that you must stop from both directions, or they confuse yellow flashing (slowing down) with red flashing (stopped).
+
+## 9. What is the proper following distance?
+
+**Answer:** It varies by state: 2-4 seconds. Most states recommend 3-4 seconds.
+
+**Why people miss it:** People do not know their state-specific rule, or they confuse the normal distance with the bad-weather distance.
+
+## 10. What does an orange diamond sign mean?
+
+**Answer:** Construction/work zone ahead. Slow down and watch for workers.
+
+**Why people miss it:** People confuse orange (construction) with yellow (general warning).
+
+## Practice These Questions
+
+[Take a free practice test](/states) and focus on these commonly missed topics.
+`
+  },
+  {
+    slug: "stopping-distance-speed-chart",
+    title: "Stopping Distance by Speed: How Far Does It Take to Stop? (Chart)",
+    description: "At 60 mph it takes over 300 feet to stop. Learn how speed affects reaction distance and braking distance with our stopping distance chart.",
+    category: "safe-driving",
+    language: "en",
+    keywords: ["stopping distance chart", "stopping distance by speed", "braking distance", "reaction distance driving", "how long to stop at 60 mph"],
+    relatedSlugs: ["following-distance-rule-explained", "how-to-pass-dmv-test-first-time"],
+    publishedAt: "2026-03-31",
+    updatedAt: "2026-03-31",
+    content: `
+## Why Stopping Distance Matters
+
+Stopping distance is one of the most important and most misunderstood concepts in driving. Understanding it can save your life — and it is tested on the DMV exam.
+
+## Total Stopping Distance = Reaction Distance + Braking Distance
+
+**Reaction distance** is how far your car travels while your brain processes the danger and your foot moves to the brake. Average reaction time is about 1.5 seconds.
+
+**Braking distance** is how far your car travels after you press the brake until you come to a complete stop.
+
+## Stopping Distance Chart
+
+| Speed | Reaction Distance | Braking Distance | Total Stopping Distance |
+|-------|------------------|-----------------|------------------------|
+| 20 mph | 22 ft | 24 ft | 46 ft |
+| 30 mph | 33 ft | 54 ft | 87 ft |
+| 40 mph | 44 ft | 96 ft | 140 ft |
+| 50 mph | 55 ft | 146 ft | 201 ft |
+| 60 mph | 66 ft | 215 ft | 281 ft |
+| 70 mph | 77 ft | 290 ft | 367 ft |
+
+## The Key Insight: Speed Squared
+
+When you **double your speed**, your braking distance increases by **four times**. This is because kinetic energy increases with the square of speed.
+
+- At 20 mph: braking distance is about 24 feet
+- At 40 mph: braking distance is about 96 feet (4x more, not 2x)
+- At 60 mph: braking distance is about 215 feet (9x more than at 20 mph)
+
+## What Affects Stopping Distance?
+
+Several factors increase your stopping distance:
+
+- **Wet roads:** Can double braking distance
+- **Snow or ice:** Can multiply braking distance by 10x
+- **Worn tires:** Less grip means longer stopping
+- **Heavy vehicle:** More weight means more energy to dissipate
+- **Downhill:** Gravity works against you
+- **Fatigue or alcohol:** Increases reaction time significantly
+
+## Why This Matters for Following Distance
+
+Your following distance must be long enough to cover your total stopping distance. This is why the recommended following distance increases at higher speeds and in poor conditions.
+
+## Practice Stopping Distance Questions
+
+[Take a free practice test](/states) with reaction time and braking distance questions.
+`
+  },
+
 ];
 
 // Helper functions
