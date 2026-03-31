@@ -163,12 +163,8 @@ export default function LessonsPage() {
                             <p className="text-xs font-bold text-purple-600 uppercase tracking-wide mb-1">Key Concept</p>
                             <p className="text-lg font-bold text-purple-900">{lesson.simpleLine}</p>
                           </div>
-                          {lesson.imageUrl ? (
+                          {lesson.imageUrl && (
                             <img src={lesson.imageUrl} alt={lesson.title} className="w-full rounded-lg mb-3" />
-                          ) : (
-                            <div className="bg-gray-100 rounded-lg h-32 flex items-center justify-center mb-3 text-gray-400 text-sm">
-                              📚 Visual coming soon
-                            </div>
                           )}
                           <p className="text-gray-700 leading-relaxed text-sm">{lesson.explanation}</p>
                           <div className="mt-4">
