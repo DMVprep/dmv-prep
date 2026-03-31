@@ -199,7 +199,7 @@ export default function StatePracticeTestPage({ params }: Props) {
                 { title: "400+ Practice Questions", desc: `State-specific ${state.name} questions covering every topic on the real test.` },
                 { title: "Memory Engine", desc: "Spaced repetition tracks what you know and schedules reviews so you never forget." },
                 { title: "Readiness Score", desc: "See your real probability of passing — know exactly when you are ready." },
-                { title: "SmartRecall Lessons", desc: "67 micro-lessons with built-in practice questions and instant feedback." },
+                { title: "SmartRecall Lessons", desc: "105 micro-lessons with built-in practice questions and instant feedback." },
                 { title: "Weak Areas Identifier", desc: "Automatically finds the topics you struggle with so you can focus your study time." },
                 { title: "Full Exam Simulator", desc: `Practice under real ${state.name} test conditions — ${state.questionsCount} questions, ${state.passingScore}% to pass.` },
               ].map(({ title, desc }) => (
