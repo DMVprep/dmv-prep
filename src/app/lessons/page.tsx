@@ -121,9 +121,6 @@ export default function LessonsPage() {
                 ))}
               </select>
             </div>
-            {userState && (
-              <span className="text-xs text-green-600 font-medium">Showing {userState}-specific + universal lessons</span>
-            )}
           </div>
         </div>
 
