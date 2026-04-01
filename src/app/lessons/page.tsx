@@ -95,13 +95,37 @@ export default function LessonsPage() {
         </div>
 
         {/* State selector */}
-        {userState && (
-          <div className="mb-4 flex items-center gap-2 text-sm text-blue-700 bg-blue-50 border border-blue-200 rounded-lg px-4 py-2">
-            <span>Showing lessons for <strong>{userState}</strong></span>
-            <button onClick={() => { localStorage.removeItem("selectedState"); setUserState(""); fetch("/api/lessons").then(r=>r.json()).then(d=>{setLessons(d.lessons||[])}); }}
-              className="ml-2 text-xs text-blue-500 hover:text-blue-700 underline">Show all states</button>
+        <div className="mb-6 bg-white border border-gray-200 rounded-xl p-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-semibold text-gray-700">Your state:</span>
+              <select
+                value={userState}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setUserState(val);
+                  setLoading(true);
+                  if (val) {
+                    localStorage.setItem("selectedState", val);
+                    fetch(`/api/lessons?state=${val}`).then(r=>r.json()).then(d=>{setLessons(d.lessons||[]);setLoading(false);});
+                  } else {
+                    localStorage.removeItem("selectedState");
+                    fetch("/api/lessons").then(r=>r.json()).then(d=>{setLessons(d.lessons||[]);setLoading(false);});
+                  }
+                }}
+                className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-medium text-gray-800 bg-gray-50 focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+              >
+                <option value="">All States</option>
+                {["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"].map(code => (
+                  <option key={code} value={code}>{code}</option>
+                ))}
+              </select>
+            </div>
+            {userState && (
+              <span className="text-xs text-green-600 font-medium">Showing {userState}-specific + universal lessons</span>
+            )}
           </div>
-        )}
+        </div>
 
         {/* Topic filter */}
         <div className="flex flex-wrap gap-2 mb-8">
