@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { CheckCircle, XCircle, ArrowRight, Brain, RefreshCw } from "lucide-react";
+import { CheckCircle, XCircle, ArrowRight, Brain, RefreshCw, TrendingUp } from "lucide-react";
 
 interface Choice {
   id: string;
@@ -95,12 +95,21 @@ export default function ReviewPage() {
     </div>
   );
 
-  if (done) return (
+  if (done) {
+    const reviewPct = questions.length > 0 ? Math.round((score.correct / questions.length) * 100) : 0;
+    const estimatedBoost = Math.max(1, Math.round(score.correct * 2));
+    return (
     <div className="min-h-screen bg-gray-50">
       <Header />
       <main className="max-w-2xl mx-auto px-4 py-16 text-center">
         <Brain className="w-16 h-16 text-purple-600 mx-auto mb-4" />
         <h1 className="text-2xl font-bold text-gray-900 mb-2">Review Complete!</h1>
+        {score.correct > 0 && (
+          <div className="inline-flex items-center gap-2 bg-green-50 border border-green-200 text-green-700 font-bold text-sm px-4 py-2 rounded-full mb-4">
+            <TrendingUp className="w-4 h-4" />
+            +{estimatedBoost}% readiness boost
+          </div>
+        )}
         <div className="flex justify-center gap-8 my-6">
           <div className="text-center">
             <p className="text-3xl font-extrabold text-green-600">{score.correct}</p>
@@ -112,12 +121,24 @@ export default function ReviewPage() {
           </div>
           <div className="text-center">
             <p className="text-3xl font-extrabold text-purple-600">
-              {Math.round((score.correct / questions.length) * 100)}%
+              {reviewPct}%
             </p>
             <p className="text-sm text-gray-500">Score</p>
           </div>
         </div>
-        <p className="text-gray-500 mb-6">Wrong answers have been scheduled for review in 10 minutes.</p>
+        {score.correct > 0 && (
+          <p className="text-sm text-green-600 font-medium mb-2">
+            {score.correct} {score.correct === 1 ? "question" : "questions"} strengthened in your memory
+          </p>
+        )}
+        {score.wrong > 0 && (
+          <p className="text-sm text-gray-500 mb-6">
+            {score.wrong} {score.wrong === 1 ? "question" : "questions"} rescheduled — you'll see {score.wrong === 1 ? "it" : "them"} again in 10 minutes
+          </p>
+        )}
+        {score.wrong === 0 && (
+          <p className="text-sm text-gray-500 mb-6">Perfect session — all answers locked in!</p>
+        )}
         <div className="flex gap-3 justify-center">
           <a href="/dashboard" className="btn-secondary">Back to Dashboard</a>
           <a href="/review" className="btn-primary">Review Again</a>
@@ -126,6 +147,7 @@ export default function ReviewPage() {
       <Footer />
     </div>
   );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">

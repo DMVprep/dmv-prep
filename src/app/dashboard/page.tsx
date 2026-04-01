@@ -82,7 +82,7 @@ export default async function DashboardPage() {
                 <div className="flex flex-col items-end gap-1">
                   <a href="/review" className="flex items-center gap-2 bg-purple-600 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
                     <RefreshCw className="w-4 h-4" />
-                    Review Now ({dueCount})
+                    Start Review · ~{Math.max(1, Math.round(dueCount * 0.35))} min
                   </a>
                   <p className="text-xs text-purple-500 font-medium">Fastest way to improve your score</p>
                 </div>
@@ -166,6 +166,11 @@ export default async function DashboardPage() {
                 ? <span className="text-yellow-600">Almost there — most users pass at 80%+. Don't stop now.</span>
                 : <span className="text-red-500">⚠️ You're not ready for the DMV test yet. Keep practicing to reach 80%.</span>}
             </p>
+            {avgScore < 80 && totalTests > 0 && (
+              <p className="text-xs text-gray-500 mt-1">
+                At your current pace: ~{Math.min(14, Math.max(2, Math.ceil((80 - avgScore) / 10)))} more days of practice to be test-ready
+              </p>
+            )}
           </div>
         )}
 
