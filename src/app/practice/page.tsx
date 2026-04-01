@@ -155,7 +155,7 @@ function PracticeContent() {
       const choice = q.choices.find(c => c.id === choiceId);
       if (!choice?.isCorrect && q.topic?.slug) {
         try {
-          const res = await fetch(`/api/lessons?topic=${q.topic.slug}`);
+          const res = await fetch(`/api/lessons?topic=${q.topic.slug}&state=${stateCode}`);
           const data = await res.json();
           if (data.lessons?.length > 0) {
             const lesson = data.lessons[Math.floor(Math.random() * data.lessons.length)];
