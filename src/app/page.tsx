@@ -29,49 +29,49 @@ import {
 const TESTIMONIALS = [
   {
     name: "Maria G.",
-    from: "Originally from Mexico 🇲🇽",
-    avatar: "MG",
-    color: "bg-orange-500",
+    from: "Originally from Mexico",
+    avatar: "🇲🇽",
+    color: "bg-orange-50",
     quote: "I failed the DMV test twice before. The simple explanations finally made everything clear. I passed on my first try with 92%!",
     stars: 5,
   },
   {
     name: "Wei L.",
-    from: "Immigrated from China 🇨🇳",
-    avatar: "WL",
-    color: "bg-red-500",
+    from: "Immigrated from China",
+    avatar: "🇨🇳",
+    color: "bg-red-50",
     quote: "My English is not perfect but the plain explanations were easy to understand. I passed first time!",
     stars: 5,
   },
   {
     name: "David K.",
     from: "Moved from Ohio to Florida",
-    avatar: "DK",
-    color: "bg-blue-500",
+    avatar: "🇺🇸",
+    color: "bg-blue-50",
     quote: "Moving states meant learning all new rules. The Florida-specific practice tests saved me hours of reading the handbook.",
     stars: 5,
   },
   {
     name: "Fatima A.",
-    from: "Originally from Morocco 🇲🇦",
-    avatar: "FA",
-    color: "bg-green-500",
+    from: "Originally from Morocco",
+    avatar: "🇲🇦",
+    color: "bg-green-50",
     quote: "I was so nervous about the test. After two weeks of practice here, I walked in confident and passed with 95%. Thank you!",
     stars: 5,
   },
   {
     name: "Sarah L.",
     from: "First-time driver at 34",
-    avatar: "SL",
-    color: "bg-purple-500",
+    avatar: "🚗",
+    color: "bg-purple-50",
     quote: "The readiness score showed me exactly when I was ready. Passed first try at 34 years old — better late than never!",
     stars: 5,
   },
   {
     name: "Carlos R.",
-    from: "Originally from Colombia 🇨🇴",
-    avatar: "CR",
-    color: "bg-yellow-500",
+    from: "Originally from Colombia",
+    avatar: "🇨🇴",
+    color: "bg-yellow-50",
     quote: "Studied for 5 days using this site. The simple English helped me understand everything clearly. Passed with 89%!",
     stars: 5,
   },
@@ -158,31 +158,22 @@ export default function HomePage() {
               </p>
 
               {/* State Selector */}
-              <div id="pick-state" className="bg-white border-2 border-blue-200 rounded-2xl p-4 mb-6 shadow-sm">
-                <p className="text-sm font-semibold text-gray-700 mb-3">📍 Select your state to start:</p>
-                <div className="grid grid-cols-5 gap-2">
+              <div id="pick-state" className="bg-white border-2 border-blue-200 rounded-2xl p-5 mb-6 shadow-sm">
+                <p className="text-sm font-semibold text-gray-700 mb-3">📍 Pick your state to start practicing free:</p>
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                   {POPULAR_STATES.map((state) => (
                     <Link
                       key={state.code}
                       href={`/state/${stateToSlug(state.name)}/dmv-practice-test`}
-                      className="bg-gray-50 hover:bg-blue-600 hover:text-white text-gray-700 text-center py-2 px-1 rounded-lg text-xs font-bold transition-all border border-gray-200 hover:border-blue-600"
+                      className="bg-gray-50 hover:bg-blue-600 hover:text-white text-gray-700 text-center py-3 px-2 rounded-xl text-sm font-bold transition-all border border-gray-200 hover:border-blue-600 flex flex-col items-center gap-0.5"
                     >
-                      {state.code}
+                      <span className="text-base">{state.code}</span>
+                      <span className="text-[10px] font-medium opacity-70">{state.name}</span>
                     </Link>
                   ))}
                 </div>
                 <Link href="/states" className="text-blue-600 text-xs font-medium mt-3 inline-flex items-center gap-1 hover:underline">
                   See all 50 states <ArrowRight className="w-3 h-3" />
-                </Link>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-3 mb-5">
-                <Link href="/states" className="btn-primary text-lg py-4 px-8 inline-flex items-center justify-center gap-2">
-                  Start Free Practice Test
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-                <Link href="/pricing" className="btn-secondary text-lg py-4 px-8 text-center">
-                  View Pricing
                 </Link>
               </div>
 
@@ -222,7 +213,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-3 mb-6">
                   {TESTIMONIALS.slice(0, 4).map((t) => (
                     <div key={t.name} className="bg-gray-50 rounded-xl p-3 flex items-start gap-2">
-                      <div className={`w-8 h-8 rounded-full ${t.color} text-white text-xs font-bold flex items-center justify-center flex-shrink-0`}>
+                      <div className={`w-8 h-8 rounded-full ${t.color} text-lg flex items-center justify-center flex-shrink-0`}>
                         {t.avatar}
                       </div>
                       <div>
@@ -250,48 +241,6 @@ export default function HomePage() {
               </div>
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* Stats bar */}
-      <section className="bg-blue-600 py-8">
-        <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
-          {[
-            { num: "500K+", label: "Tests Taken", icon: "📝" },
-            { num: "50", label: "States Covered", icon: "🗺️" },
-            { num: "87%", label: "First-Try Pass Rate", icon: "🏆" },
-            { num: "400+", label: "Questions Per State", icon: "💡" },
-          ].map(({ num, label, icon }) => (
-            <div key={label}>
-              <div className="text-2xl mb-1">{icon}</div>
-              <div className="text-3xl font-extrabold">{num}</div>
-              <div className="text-blue-200 text-sm mt-1">{label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Built for first-time drivers */}
-      <section className="py-16 px-4 bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="text-4xl mb-4">🌍</div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Built for People Like You</h2>
-          <p className="text-blue-200 text-lg max-w-2xl mx-auto mb-10">
-            The DMV handbook is written in complicated legal English. We translated it into plain, simple language that anyone can understand.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-            {[
-              { icon: "🌏", title: "New to the US?", desc: "We explain every rule in simple English. No confusing legal terms. No need to read the full handbook." },
-              { icon: "🚗", title: "First-time driver?", desc: "Never driven before? Our step-by-step approach guides you from zero to ready at your own pace." },
-              { icon: "📦", title: "Moving states?", desc: "Each state has different laws. We give you state-specific questions so you only learn what you need." },
-            ].map(({ icon, title, desc }) => (
-              <div key={title} className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
-                <div className="text-3xl mb-3">{icon}</div>
-                <h3 className="font-bold text-lg mb-2">{title}</h3>
-                <p className="text-blue-200 text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -370,7 +319,7 @@ export default function HomePage() {
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed mb-4">"{t.quote}"</p>
                 <div className="flex items-center gap-3">
-                  <div className={`w-10 h-10 rounded-full ${t.color} text-white text-sm font-bold flex items-center justify-center flex-shrink-0`}>
+                  <div className={`w-10 h-10 rounded-full ${t.color} text-2xl flex items-center justify-center flex-shrink-0`}>
                     {t.avatar}
                   </div>
                   <div>

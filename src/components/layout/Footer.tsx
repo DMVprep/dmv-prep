@@ -15,15 +15,14 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl text-blue-400 mb-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div>
+            <Link href="/" className="flex items-center gap-2 font-bold text-lg text-blue-400 mb-3">
               <BookOpen className="w-5 h-5" />
               DMVPrep Pro
             </Link>
-            <p className="text-sm leading-relaxed max-w-xs">
-              Free DMV practice tests for all 50 states. Simple explanations designed for
-              first-time drivers and non-native speakers. Pass your permit test first try.
+            <p className="text-sm leading-relaxed">
+              Free DMV practice tests for all 50 states. Pass your permit test first try.
             </p>
           </div>
 
