@@ -595,18 +595,64 @@ export default function QuestionPage({ params }: Props) {
             </div>
           )}
 
+          {/* Related Blog Articles */}
+          <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+            <h2 className="font-bold text-gray-900 mb-4">Learn More About This Topic</h2>
+            <div className="space-y-2">
+              {question.topic === "Traffic Signs" && <>
+                <Link href="/blog/road-signs-shapes-colors-meanings" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Road Signs: Every Shape, Color, and Meaning</Link>
+                <Link href="/blog/dmv-test-hardest-questions" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />The 10 Hardest DMV Test Questions</Link>
+                <Link href="/lessons" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Traffic Signs Micro Lessons</Link>
+              </>}
+              {question.topic === "Safe Driving" && <>
+                <Link href="/blog/following-distance-rule-explained" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Following Distance Rule Explained</Link>
+                <Link href="/blog/stopping-distance-speed-chart" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Stopping Distance by Speed Chart</Link>
+                <Link href="/blog/how-to-pass-dmv-test-first-time" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />How to Pass Your DMV Test First Time</Link>
+              </>}
+              {question.topic === "Right of Way" && <>
+                <Link href="/blog/right-of-way-rules-intersections" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Right of Way Rules at Intersections</Link>
+                <Link href="/blog/dmv-test-hardest-questions" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />The 10 Hardest DMV Questions</Link>
+                <Link href="/blog/what-to-expect-dmv-written-test-2026" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />What to Expect on the DMV Written Test</Link>
+              </>}
+              {question.topic === "Speed Limits" && <>
+                <Link href="/blog/school-zone-speed-limits-by-state" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />School Zone Speed Limits by State</Link>
+                <Link href="/blog/stopping-distance-speed-chart" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />Stopping Distance by Speed Chart</Link>
+                <Link href="/blog/dmv-practice-test-cheat-sheet-2026" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />DMV Test Cheat Sheet 2026</Link>
+              </>}
+              {question.topic === "Alcohol & Substances" && <>
+                <Link href="/blog/bac-limit-by-state-2026" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />BAC Limit by State (2026 Guide)</Link>
+                <Link href="/blog/dmv-test-hardest-questions" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />The 10 Hardest DMV Questions</Link>
+                <Link href="/blog/how-to-pass-dmv-test-first-time" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />How to Pass Your DMV Test First Time</Link>
+              </>}
+              {question.topic === "Licensing & Permits" && <>
+                <Link href="/blog/what-to-expect-dmv-written-test-2026" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />What to Expect on the DMV Written Test</Link>
+                <Link href="/blog/how-to-pass-dmv-test-first-time" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />How to Pass Your DMV Test First Time</Link>
+                <Link href="/blog/dmv-practice-test-cheat-sheet-2026" className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 p-2 rounded hover:bg-blue-50"><ArrowRight className="w-3.5 h-3.5" />DMV Test Cheat Sheet 2026</Link>
+              </>}
+            </div>
+          </div>
+
           {/* Bottom Internal Links */}
           <div className="bg-gray-50 rounded-xl border border-gray-200 p-6">
             <h2 className="font-bold text-gray-900 mb-4">Continue Studying</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <Link href="/road-signs-practice-test" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
-                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Road Signs Practice Test
+                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Road Signs Practice
               </Link>
-              <Link href="/permit-test-questions" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
-                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Permit Test Questions
+              <Link href="/lessons" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
+                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Micro Lessons
               </Link>
               <Link href="/states" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
                 <ArrowRight className="w-4 h-4 flex-shrink-0" /> Practice by State
+              </Link>
+              <Link href="/blog" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
+                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Study Guides & Blog
+              </Link>
+              <Link href="/permit-test-questions" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
+                <ArrowRight className="w-4 h-4 flex-shrink-0" /> All Permit Questions
+              </Link>
+              <Link href="/pricing" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-400 hover:text-blue-600 transition-colors text-sm text-gray-700">
+                <ArrowRight className="w-4 h-4 flex-shrink-0" /> Unlock All Features
               </Link>
             </div>
           </div>
