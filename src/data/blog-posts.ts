@@ -2257,6 +2257,591 @@ Many DMV services can now be completed online without visiting an office. These 
 If you are visiting the DMV for your permit test or driving test, arrive 30 minutes early. Use the extra time to review your notes and stay calm. Bring a book or headphones for any wait time. Remember that the DMV staff deal with hundreds of people daily, so patience and politeness go a long way.
 `,
   },
+
+  {
+    slug: "dui-laws-by-state-2026",
+    title: "DUI Laws by State: Penalties, License Suspension, and Zero Tolerance (2026)",
+    description: "Complete guide to DUI and DWI laws in all 50 states. BAC limits, penalties for first offense, license suspension, and zero tolerance laws for under 21.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["DUI laws by state", "DWI penalties", "drunk driving laws 2026", "zero tolerance DUI"],
+    relatedSlugs: ["bac-limit-by-state-2026", "teen-driving-laws-by-state"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## DUI vs DWI: What Is the Difference?
+
+DUI stands for Driving Under the Influence and DWI stands for Driving While Intoxicated. Some states use one term, some use the other, and some use both with different meanings. Regardless of the name, all 50 states make it illegal to drive with a blood alcohol concentration of 0.08 percent or higher.
+
+## The 0.08 BAC Limit
+
+The legal BAC limit for drivers 21 and older is 0.08 percent in every state. For commercial drivers, the limit is lower at 0.04 percent. For drivers under 21, most states have zero tolerance laws with limits of 0.00 to 0.02 percent.
+
+## First Offense Penalties
+
+Penalties for a first DUI offense vary significantly by state but typically include fines ranging from 300 to 2000 dollars, license suspension of 90 days to one year, possible jail time of up to 6 months, mandatory alcohol education or treatment programs, and installation of an ignition interlock device in some states.
+
+## Implied Consent Laws
+
+Every state has an implied consent law. This means that by driving on public roads, you have already agreed to submit to a chemical test (breath, blood, or urine) if an officer suspects you of DUI. Refusing the test typically results in automatic license suspension, even if you are not convicted of DUI.
+
+## Zero Tolerance for Under 21
+
+All 50 states have zero tolerance laws for drivers under 21. Any detectable amount of alcohol can result in penalties including license suspension, fines, and mandatory alcohol education. The specific BAC threshold varies from 0.00 to 0.02 depending on the state.
+
+## Why This Matters for the DMV Test
+
+DUI and alcohol-related questions appear on every state's DMV written test. You should know the BAC limit for your age group, what implied consent means, the penalties for a first offense in your state, and how alcohol affects driving ability.
+`,
+  },
+
+  {
+    slug: "how-to-read-traffic-lights",
+    title: "How to Read Traffic Lights: Colors, Arrows, and Flashing Signals Explained (2026)",
+    description: "Complete guide to traffic light signals for the DMV test. Learn what every color, arrow, and flashing signal means and what you must do at each one.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["traffic light rules", "flashing red light meaning", "green arrow traffic light", "traffic signal rules DMV"],
+    relatedSlugs: ["road-signs-shapes-colors-meanings", "right-of-way-rules-intersections"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Solid Traffic Lights
+
+**Solid green:** You may go if the intersection is clear. Yield to pedestrians and vehicles already in the intersection.
+
+**Solid yellow:** The light is about to turn red. Stop if you can do so safely. If you are already in the intersection or cannot stop safely, proceed through.
+
+**Solid red:** Come to a complete stop. You may turn right on red after stopping in most states, unless a sign prohibits it. You may also turn left on red when turning from a one-way street onto another one-way street in some states.
+
+## Arrow Signals
+
+**Green arrow:** You have the right of way to turn in the direction of the arrow. Oncoming traffic has a red light.
+
+**Yellow arrow:** The green arrow is ending. Prepare to stop unless you are already in the intersection.
+
+**Red arrow:** Do not turn in the direction of the arrow, even if the main light is green. Wait until the arrow turns green or disappears.
+
+## Flashing Signals
+
+**Flashing red:** Treat this as a stop sign. Come to a complete stop, yield to traffic and pedestrians, then proceed when safe.
+
+**Flashing yellow:** Slow down and proceed with caution. You do not need to stop but should be prepared to.
+
+## No Signal or Dark Signal
+
+If a traffic light is not working or is completely dark, treat the intersection as a 4-way stop. All drivers must stop and take turns proceeding.
+
+## DMV Test Tips
+
+Traffic light questions are among the most common on the written test. The most frequently missed questions involve flashing red lights (treat as stop sign), right turns on red (must stop first), and yellow lights (stop if safe, do not speed up).
+`,
+  },
+
+  {
+    slug: "lane-markings-explained",
+    title: "Lane Markings Explained: Solid Lines, Dashed Lines, and What They Mean (2026)",
+    description: "What do yellow and white lane markings mean? Learn the difference between solid and dashed lines, center turn lanes, and edge lines for the DMV test.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["lane markings meaning", "solid yellow line meaning", "dashed white line", "road markings DMV test"],
+    relatedSlugs: ["road-signs-shapes-colors-meanings", "how-to-pass-dmv-test-first-time"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Yellow vs White Lines
+
+The color of the line tells you about the direction of traffic. Yellow lines separate traffic moving in opposite directions. White lines separate traffic moving in the same direction.
+
+## Solid vs Dashed Lines
+
+**Dashed lines** mean you may cross them to pass or change lanes when it is safe. **Solid lines** mean you should not cross them except to avoid an obstacle.
+
+## Common Line Combinations
+
+**Dashed yellow center line:** You may pass when it is safe to do so in either direction.
+
+**Solid yellow center line:** Do not pass or cross. Stay in your lane.
+
+**One solid and one dashed yellow line:** The driver on the dashed side may pass when safe. The driver on the solid side may not pass.
+
+**Double solid yellow lines:** Neither direction may pass. These mark a no-passing zone.
+
+**Dashed white lines:** You may change lanes when it is safe.
+
+**Solid white lines:** Discourage lane changes. These are common near intersections and in areas where lane changes are risky.
+
+## Special Markings
+
+**Center turn lane (two-way left turn lane):** Marked by parallel yellow lines with dashes on the inside. This lane is shared by both directions of traffic for making left turns only. Do not drive in this lane.
+
+**Edge lines:** White lines along the right edge of the road mark the boundary of the road. Yellow edge lines mark the left boundary on divided highways.
+
+## DMV Test Tips
+
+Lane marking questions are common on the test. Remember: yellow separates opposite directions, white separates same direction, dashed means you can cross, and solid means you should not cross.
+`,
+  },
+
+  {
+    slug: "sharing-road-with-trucks",
+    title: "Sharing the Road with Trucks and Large Vehicles: Safety Tips for the DMV Test (2026)",
+    description: "Learn how to safely drive near large trucks, buses, and commercial vehicles. Blind spots, stopping distance, passing rules, and DMV test questions explained.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["sharing road with trucks", "truck blind spots", "no zone truck", "passing a truck safely"],
+    relatedSlugs: ["following-distance-rule-explained", "defensive-driving-techniques"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Why Trucks Are Different
+
+Large trucks and commercial vehicles behave very differently from passenger cars. They take longer to stop, have much larger blind spots, make wide turns, and create wind turbulence when passing. Understanding these differences is important for both safety and the DMV test.
+
+## Truck Blind Spots (No Zones)
+
+Trucks have four large blind spots called No Zones where the driver cannot see you. The front No Zone extends about 20 feet in front of the truck. The rear No Zone extends about 30 feet behind the truck. The left No Zone covers one lane to the left. The right No Zone covers two lanes to the right. A good rule of thumb: if you cannot see the truck driver in their side mirror, they cannot see you.
+
+## Following a Truck
+
+Increase your following distance when behind a truck. You need at least 4 seconds of following distance instead of the usual 3 seconds. This gives you more time to react and a better view of the road ahead.
+
+## Passing a Truck
+
+Always pass trucks on the left side where the blind spot is smaller. Signal early and pass quickly. Do not linger alongside a truck. After passing, do not cut back in front of the truck too soon. Make sure you can see the entire truck in your rearview mirror before merging back.
+
+## Trucks Making Wide Turns
+
+Large trucks need extra space to turn right. They may swing wide to the left before turning right. Never try to squeeze between a turning truck and the curb. If you see a truck signaling a right turn, give it plenty of space.
+
+## DMV Test Questions
+
+Common truck-related test questions cover blind spots, safe following distance, passing rules, and how to react when a truck is making a wide turn. Remember the No Zones and the rule about seeing the driver in their mirror.
+`,
+  },
+
+  {
+    slug: "emergency-vehicle-rules",
+    title: "What to Do When You See an Emergency Vehicle: Rules for All 50 States (2026)",
+    description: "Learn exactly what to do when an ambulance, fire truck, or police car approaches with lights and sirens. Move Over laws, penalties, and DMV test tips.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["emergency vehicle rules", "move over law", "what to do ambulance behind you", "emergency vehicle right of way"],
+    relatedSlugs: ["right-of-way-rules-intersections", "defensive-driving-techniques"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## The Basic Rule
+
+When you see or hear an emergency vehicle approaching with flashing lights or sirens, you must pull over to the right side of the road and stop. Wait until the emergency vehicle has passed before re-entering traffic. This rule applies in all 50 states.
+
+## Move Over Laws
+
+All 50 states have Move Over laws that require drivers to move over one lane when passing a stopped emergency vehicle, tow truck, or highway maintenance vehicle on the side of the road. If you cannot change lanes safely, you must slow down significantly. Fines for violating Move Over laws range from 50 to over 2000 dollars depending on the state.
+
+## Special Situations
+
+**At an intersection:** If you are at a red light when an emergency vehicle approaches, stay where you are. Do not run the red light. The emergency vehicle will navigate around you.
+
+**On a divided highway:** If the emergency vehicle is on the other side of a divided highway with a physical barrier, you are generally not required to stop. However, if there is no physical barrier, you must still pull over.
+
+**In a roundabout:** Continue to your exit, then pull over. Do not stop inside the roundabout.
+
+## What NOT to Do
+
+Never follow an emergency vehicle closely. Most states prohibit following within 300 to 500 feet of an emergency vehicle. Never block an emergency vehicle by refusing to move. Never drive through or park near a fire hose.
+
+## DMV Test Questions
+
+Emergency vehicle questions appear on nearly every state's DMV test. Key points to remember: pull over to the right and stop, do not follow emergency vehicles closely, and know your state's Move Over law requirements.
+`,
+  },
+
+  {
+    slug: "winter-driving-tips",
+    title: "Winter Driving Tips: How to Drive Safely in Snow and Ice (2026)",
+    description: "Essential winter driving safety tips for new drivers. Learn how to handle snow, ice, black ice, skids, and poor visibility. Common DMV test questions included.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["winter driving tips", "driving in snow", "black ice driving", "how to drive on ice"],
+    relatedSlugs: ["hydroplaning-what-to-do", "stopping-distance-speed-chart"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Before You Drive
+
+Clear all snow and ice from your vehicle, including the roof, hood, windows, mirrors, and lights. Warm up your engine for a few minutes. Check that your tires have adequate tread and proper inflation. Keep an emergency kit in your car with blankets, a flashlight, a small shovel, sand or kitty litter for traction, and a phone charger.
+
+## Reducing Speed
+
+Reduce your speed significantly on snow and ice. Stopping distances on ice can be 10 times longer than on dry pavement. What takes 100 feet to stop on dry road can take 1000 feet on ice. Drive well below the speed limit when roads are slippery.
+
+## Increasing Following Distance
+
+Increase your following distance to at least 6 to 8 seconds on snowy roads and even more on icy roads. This extra space gives you more time to react and stop safely.
+
+## Black Ice
+
+Black ice is a thin, nearly invisible layer of ice that forms on road surfaces. It is most common on bridges, overpasses, and shaded areas. If you hit black ice, do not brake or steer suddenly. Ease off the gas and let the car slow down naturally. Keep the steering wheel straight until you regain traction.
+
+## Handling a Skid
+
+If your rear wheels skid, turn the steering wheel in the direction the rear of your car is sliding. This is called steering into the skid. Do not brake hard. Ease off the gas and steer gently until you regain control. If your front wheels skid, ease off the gas and wait for the tires to regain traction before steering.
+
+## DMV Test Tips
+
+Winter driving questions focus on reduced speed, increased following distance, how to handle skids, and black ice awareness. Remember that bridges freeze before regular road surfaces and that pumping brakes is only needed for vehicles without ABS.
+`,
+  },
+
+  {
+    slug: "how-to-merge-onto-highway",
+    title: "How to Merge Onto a Highway: Step-by-Step Guide for New Drivers (2026)",
+    description: "Merging onto a highway can be intimidating for new drivers. Learn the correct technique, common mistakes, and tips for safe highway merging.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["how to merge onto highway", "highway merging tips", "acceleration lane", "merging onto freeway"],
+    relatedSlugs: ["defensive-driving-techniques", "dmv-road-test-tips-2026"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Understanding the Acceleration Lane
+
+The acceleration lane (also called the on-ramp or merge lane) is the lane that connects the entrance ramp to the highway. Its purpose is to give you space to match the speed of highway traffic before merging.
+
+## Step-by-Step: How to Merge
+
+**Step 1: Use the ramp to build speed.** As you travel down the on-ramp, gradually increase your speed. Your goal is to match the speed of highway traffic by the time you reach the merge point.
+
+**Step 2: Check traffic.** Use your left mirror and check your left blind spot to see what traffic is doing in the lane you want to enter. Look for a safe gap.
+
+**Step 3: Signal.** Turn on your left turn signal early to let highway drivers know you intend to merge.
+
+**Step 4: Merge smoothly.** When you find a safe gap, steer smoothly into the highway lane. Do not stop or slow down dramatically on the acceleration lane unless traffic ahead forces you to.
+
+**Step 5: Adjust speed.** Once you are on the highway, adjust your speed to match the flow of traffic. Turn off your signal.
+
+## Common Mistakes
+
+Stopping at the end of the acceleration lane instead of merging. Merging too slowly, which forces highway traffic to brake. Not checking blind spots before merging. Waiting for a perfect gap that never comes.
+
+## What If There Is No Gap?
+
+If traffic is heavy and there is no gap, you may need to slow down or even stop at the end of the acceleration lane. This is a last resort. In most cases, adjusting your speed on the ramp will allow you to find a gap.
+
+## DMV Test Tips
+
+Merging questions appear frequently on the written test. Key points: use the acceleration lane to match highway speed, yield to traffic already on the highway, and use your turn signal before merging.
+`,
+  },
+
+  {
+    slug: "seatbelt-laws-by-state",
+    title: "Seatbelt Laws by State: Primary vs Secondary Enforcement (2026)",
+    description: "Is wearing a seatbelt required in your state? Learn about primary and secondary seatbelt laws, fines, and child car seat requirements across all 50 states.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["seatbelt laws by state", "seatbelt fine", "primary seatbelt law", "car seat laws by state"],
+    relatedSlugs: ["teen-driving-laws-by-state", "texting-and-driving-laws-by-state"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Seatbelt Laws in 2026
+
+Every state except New Hampshire requires adult front-seat passengers to wear a seatbelt. Most states also require rear-seat passengers to buckle up. The key difference between states is how the law is enforced.
+
+## Primary vs Secondary Enforcement
+
+**Primary enforcement** means a police officer can pull you over solely for not wearing a seatbelt. Most states have primary enforcement laws.
+
+**Secondary enforcement** means an officer can only ticket you for not wearing a seatbelt if you are pulled over for another violation first. A smaller number of states use secondary enforcement.
+
+## Fines for Not Wearing a Seatbelt
+
+Fines range from 10 dollars in some states to over 200 dollars in others. Some states add points to your driving record for seatbelt violations. In many states, each unbuckled passenger is a separate violation.
+
+## Child Car Seat Laws
+
+Every state requires children to be in appropriate car seats or booster seats based on their age, weight, and height. While the specifics vary by state, the general guidelines are: rear-facing car seats for infants and toddlers until age 2 or until they reach the seat's weight limit, forward-facing car seats with a harness for children 2 to 5 years old, booster seats for children until they are large enough for adult seatbelts (typically 4 feet 9 inches tall), and all children under 13 should ride in the back seat.
+
+## Why Seatbelts Matter
+
+Seatbelts reduce the risk of death in a crash by 45 percent for front-seat passengers and 60 percent for rear-seat passengers. They are the single most effective safety device in your vehicle.
+
+## DMV Test Questions
+
+Seatbelt and child restraint questions appear on most state DMV tests. Know whether your state has primary or secondary enforcement, the fine amounts, and the basic child car seat guidelines.
+`,
+  },
+
+  {
+    slug: "right-turn-on-red-rules",
+    title: "Right Turn on Red: Rules, Exceptions, and When You Cannot Turn (2026)",
+    description: "Can you turn right on red? Learn the rules for right turns at red lights, when it is prohibited, and how this topic appears on the DMV written test.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["right turn on red rules", "can you turn right on red", "no turn on red sign", "right on red laws"],
+    relatedSlugs: ["how-to-read-traffic-lights", "right-of-way-rules-intersections"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## The General Rule
+
+In all 50 states, you may turn right at a red light after coming to a complete stop, unless a sign specifically prohibits it. This rule has been in effect since the 1970s when it was adopted nationwide to reduce fuel consumption and traffic congestion.
+
+## The Steps for a Legal Right on Red
+
+**1. Come to a complete stop** at the stop line or before the crosswalk. A rolling stop is illegal and a common reason for getting a ticket or failing the DMV test.
+
+**2. Yield to pedestrians** in the crosswalk and any vehicles that have a green light.
+
+**3. Check for a No Turn on Red sign.** These signs are posted at intersections where right turns on red are prohibited, often due to limited visibility or heavy pedestrian traffic.
+
+**4. Check traffic.** Look left, right, and left again before proceeding.
+
+**5. Turn when safe.** Make the turn only when you have a clear gap in traffic.
+
+## When You Cannot Turn Right on Red
+
+You cannot turn right on red when a No Turn on Red sign is posted, when a red arrow is showing for your direction, when pedestrians are in the crosswalk, when your view of oncoming traffic is blocked, and in New York City, where right on red is prohibited at all intersections unless a sign specifically allows it.
+
+## Left Turn on Red
+
+In some states, you may also turn left on red when turning from a one-way street onto another one-way street. This is less commonly known and is a frequent DMV test question.
+
+## DMV Test Tips
+
+Right turn on red questions are very common. Remember: you must always stop first, yield to pedestrians, and check for prohibition signs. The most commonly missed point is that a complete stop is required, not just slowing down.
+`,
+  },
+
+  {
+    slug: "dmv-test-for-seniors-2026",
+    title: "DMV Test for Seniors: Renewal Rules, Vision Tests, and Tips by State (2026)",
+    description: "Do seniors need to retake the DMV test? Guide to license renewal rules for older drivers, vision test requirements, and state-specific age thresholds.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["DMV test for seniors", "senior driver license renewal", "DMV vision test", "older driver license rules"],
+    relatedSlugs: ["what-to-expect-dmv-written-test-2026", "dmv-appointment-tips-2026"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Do Seniors Need to Retake the DMV Test?
+
+Requirements vary significantly by state. Some states require seniors to renew their license more frequently, take a vision test, or retake the written knowledge test after a certain age. Other states have no additional requirements for older drivers.
+
+## Vision Test Requirements
+
+Many states require a vision test at every renewal for all drivers regardless of age. Some states add extra vision testing requirements for seniors starting at age 65, 70, or 75. If you do not pass the vision test, you may need to get a corrective lens restriction added to your license or see an eye doctor.
+
+## More Frequent Renewals
+
+Several states shorten the renewal period for seniors. For example, some states that normally issue 8-year licenses may require 4-year renewals for drivers over 65 or 70. A few states require annual renewals for drivers over 85.
+
+## In-Person Renewal Requirements
+
+Some states eliminate the option to renew online after a certain age, requiring seniors to renew in person. This allows DMV staff to observe the driver and assess whether additional testing might be needed.
+
+## Knowledge Test Retakes
+
+A small number of states require seniors to retake the written knowledge test at certain ages. If this applies in your state, the same study strategies that work for first-time drivers work for seniors too. Practice tests are the most effective preparation method.
+
+## Tips for Senior Drivers
+
+Keep your vision prescription current. Practice the written test before your renewal if your state requires it. Consider a defensive driving course designed for older drivers, which may qualify you for an insurance discount. If you have concerns about your driving ability, talk honestly with your doctor and family.
+`,
+  },
+
+  {
+    slug: "motorcycle-permit-test-guide",
+    title: "Motorcycle Permit Test: How to Prepare and Pass (2026 Guide)",
+    description: "Everything you need to know about the motorcycle permit test. What it covers, how to study, and tips for passing on your first try in 2026.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["motorcycle permit test", "motorcycle license test", "how to get motorcycle permit", "motorcycle DMV test"],
+    relatedSlugs: ["how-to-get-learners-permit-2026", "how-to-pass-dmv-test-first-time"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## What Is the Motorcycle Permit Test?
+
+The motorcycle permit test is a written knowledge test you must pass to get a motorcycle learner's permit. It covers motorcycle-specific traffic laws, safety practices, and riding techniques. The test is separate from the regular driver's license written test.
+
+## What the Test Covers
+
+The motorcycle permit test typically covers protective gear and clothing requirements, motorcycle controls and operation, lane positioning and sharing, braking techniques and stopping distances, turning and cornering, riding in groups, hazard awareness specific to motorcycles, and alcohol and drug effects on riding.
+
+## How Many Questions and What Score to Pass
+
+Most states have 20 to 30 questions on the motorcycle permit test. Passing scores typically range from 70 to 80 percent. The test is multiple choice and taken at a DMV office.
+
+## How to Study
+
+Read your state's motorcycle operator manual thoroughly. It covers all the topics on the test. Then take practice tests to identify your weak areas. Pay special attention to topics that are unique to motorcycles, like lane positioning, countersteering, and the importance of protective gear.
+
+## Key Topics to Focus On
+
+**Protective gear:** A DOT-approved helmet, eye protection, long pants, jacket, gloves, and boots that cover the ankles. This topic appears on almost every test.
+
+**Lane positioning:** Motorcyclists should ride in the portion of the lane that gives them the best visibility and escape routes. This varies depending on the situation.
+
+**Following distance:** Motorcycles need at least 3 to 4 seconds of following distance because they are harder to see and more vulnerable in a rear-end collision.
+
+## After the Permit
+
+Once you have your motorcycle permit, you can practice riding with restrictions that vary by state. Most states require you to complete a motorcycle safety course before getting your full motorcycle license. Many states waive the riding skills test if you complete an approved safety course.
+`,
+  },
+
+  {
+    slug: "understanding-car-insurance-new-drivers",
+    title: "Car Insurance for New Drivers: What You Need to Know (2026 Guide)",
+    description: "New driver? Learn about the types of car insurance, minimum requirements by state, and how to get affordable coverage as a first-time driver.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["car insurance new drivers", "minimum car insurance by state", "first time driver insurance", "liability insurance explained"],
+    relatedSlugs: ["how-to-get-learners-permit-2026", "teen-driving-laws-by-state"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Why You Need Car Insurance
+
+Every state except New Hampshire requires drivers to carry minimum auto insurance. Even in New Hampshire, you are financially responsible for any damage you cause. Driving without insurance can result in fines, license suspension, and personal financial liability.
+
+## Types of Coverage
+
+**Liability insurance** covers damage you cause to other people and their property. This is required in almost every state. It has two parts: bodily injury liability and property damage liability.
+
+**Collision coverage** pays for damage to your own vehicle in an accident, regardless of who is at fault. This is optional but often required by lenders if you have a car loan.
+
+**Comprehensive coverage** pays for damage to your vehicle from non-collision events like theft, vandalism, weather, or hitting an animal. Also optional but often required by lenders.
+
+**Uninsured motorist coverage** protects you if you are hit by a driver with no insurance. Required in some states.
+
+## Minimum Requirements
+
+Each state sets its own minimum liability coverage amounts. Common minimums are expressed as three numbers, like 25/50/25, meaning 25,000 dollars per person for bodily injury, 50,000 dollars per accident for bodily injury, and 25,000 dollars for property damage. These are minimums, and many experts recommend higher coverage.
+
+## Tips for Affordable Insurance as a New Driver
+
+New drivers typically pay higher premiums. You can reduce costs by taking a defensive driving course, maintaining good grades if you are a student, choosing a safe vehicle, increasing your deductible, and shopping around for quotes from multiple companies.
+
+## DMV Test Connection
+
+While the DMV written test does not test specific insurance details, you must show proof of insurance to register a vehicle and to take the driving test in most states. Understanding basic insurance concepts is part of being a responsible driver.
+`,
+  },
+
+  {
+    slug: "work-zone-driving-rules",
+    title: "Work Zone Driving Rules: Speed Limits, Fines, and Safety Tips (2026)",
+    description: "Learn the rules for driving through construction and work zones. Speed limits, doubled fines, flagger signals, and what the DMV test asks about work zones.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["work zone driving rules", "construction zone speed limit", "work zone fines doubled", "driving through construction zone"],
+    relatedSlugs: ["road-signs-shapes-colors-meanings", "defensive-driving-techniques"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Work Zone Basics
+
+Work zones (also called construction zones) are areas where road construction, maintenance, or utility work is taking place. They are marked by orange signs, cones, barrels, and sometimes flaggers directing traffic. Work zones are more dangerous than normal roads because lanes may be narrower, shifted, or closed, workers may be near traffic, and road surfaces may be uneven.
+
+## Speed Limits in Work Zones
+
+Most states require reduced speeds in work zones. Some states post specific speed limits on work zone signs. Others require you to follow the directions of flaggers and signs. Always slow down when entering a work zone, even if you do not see a specific speed limit sign.
+
+## Doubled Fines
+
+Most states double traffic fines in work zones. This applies to speeding, reckless driving, and other violations. Some states triple fines when workers are present. These enhanced penalties exist because work zones are high-risk areas.
+
+## Flagger Signals
+
+Flaggers use signs, flags, and hand signals to direct traffic through work zones. A flagger holding a STOP sign means you must stop and wait. A SLOW sign means proceed with caution at reduced speed. Always follow flagger instructions, even if they seem to contradict traffic signals.
+
+## Orange Signs
+
+All work zone signs are orange with black text. They warn you about lane closures, detours, flaggers ahead, reduced speed zones, and other work zone conditions. Learn to recognize these signs as they are heavily tested on the DMV exam.
+
+## DMV Test Tips
+
+Work zone questions appear on almost every state's DMV test. Key facts: orange signs indicate work zones, fines are doubled or tripled, obey flaggers, reduce speed, and stay alert for workers and equipment near the road.
+`,
+  },
+
+  {
+    slug: "pedestrian-and-bicycle-safety-rules",
+    title: "Pedestrian and Bicycle Safety Rules for Drivers: DMV Test Guide (2026)",
+    description: "Learn the rules for sharing the road with pedestrians and bicyclists. Right of way rules, passing distances, crosswalk laws, and common DMV test questions.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["pedestrian right of way rules", "bicycle passing distance", "crosswalk laws", "sharing road with bicycles"],
+    relatedSlugs: ["right-of-way-rules-intersections", "school-zone-speed-limits-by-state"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## Pedestrian Right of Way
+
+Pedestrians have the right of way at all marked crosswalks and at intersections with no crosswalk markings. You must stop for pedestrians who are in a crosswalk or about to enter one. Do not pass a vehicle that has stopped for a pedestrian at a crosswalk.
+
+## Crosswalk Rules
+
+A crosswalk exists at every intersection, even if there are no painted lines. Marked crosswalks have painted lines. Unmarked crosswalks are the natural extensions of sidewalks across the road at intersections. You must yield to pedestrians at both types.
+
+## Blind Pedestrians
+
+If you see a pedestrian with a white cane or guide dog, you must always yield the right of way. Come to a complete stop and wait until they have completely crossed the road. Never honk at a blind pedestrian.
+
+## Sharing the Road with Bicycles
+
+Bicyclists have the same rights and responsibilities as drivers. They can legally ride on most roads. When passing a bicycle, most states require a minimum distance of 3 feet between your vehicle and the cyclist. Some states require 4 feet. Slow down when passing and check for oncoming traffic before moving into the adjacent lane.
+
+## Common Dangerous Situations
+
+Watch for pedestrians at school zones, near parks and playgrounds, at bus stops, and in parking lots. Be extra cautious in bad weather and at night when pedestrians are harder to see. Check for bicyclists before opening your car door to avoid dooring incidents.
+
+## DMV Test Questions
+
+Pedestrian and bicycle questions are common on the DMV test. Key rules to know: pedestrians always have the right of way at crosswalks, yield to blind pedestrians with white canes, maintain at least 3 feet when passing a cyclist, and never pass a vehicle stopped for a pedestrian.
+`,
+  },
+
+  {
+    slug: "how-to-read-dmv-handbook",
+    title: "How to Read the DMV Handbook Without Falling Asleep (2026 Guide)",
+    description: "The DMV handbook is long and boring. Here is a smarter way to study it: which chapters matter most, what to skip, and how to combine it with practice tests.",
+    category: "dmv-guide",
+    language: "en",
+    keywords: ["how to study DMV handbook", "DMV handbook study guide", "which chapters to study DMV", "DMV manual tips"],
+    relatedSlugs: ["dmv-practice-test-cheat-sheet-2026", "how-to-pass-dmv-test-first-time"],
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    content: `
+## The Problem with the DMV Handbook
+
+The average state DMV handbook is 80 to 120 pages of dense legal text. Reading it cover to cover is time-consuming and most people forget what they read by the time they reach the last chapter. But ignoring it entirely means missing important state-specific rules. The solution is a strategic approach.
+
+## Which Chapters Matter Most
+
+Based on analysis of DMV test questions across all 50 states, these topics appear most frequently: road signs and their meanings (about 25 percent of most tests), right of way rules (about 15 percent), alcohol and DUI laws (about 10 percent), speed limits and speed laws (about 10 percent), and safe driving practices like following distance and lane changes (about 15 percent).
+
+## What You Can Skim
+
+Chapters about the licensing process, vehicle registration, and emissions testing are rarely tested. Insurance requirements, organ donation, and administrative procedures are also unlikely to appear on the test. Skim these sections once and move on.
+
+## The Best Study Strategy
+
+Start by taking a practice test before reading anything. This shows you which topics you already know and which ones need work. Then read the handbook chapters that cover your weak areas. After reading, take another practice test. Repeat this cycle until you consistently score above your state's passing threshold.
+
+## Combine Handbook and Practice Tests
+
+Research shows that active recall (answering questions) is far more effective than passive reading for retaining information. Use the handbook as a reference and practice tests as your main study tool. When you get a question wrong, look up the relevant section in the handbook to understand why.
+
+## How Long to Study
+
+Most people need 3 to 7 days of studying to pass the DMV test. Plan to spend about 30 to 60 minutes per day. Start with practice tests, review weak areas in the handbook, and take more practice tests. You are ready when you can consistently score at least 10 percent above the passing score.
+`,
+  },
 ];
 
 // Helper functions
