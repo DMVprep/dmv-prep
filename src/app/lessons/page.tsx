@@ -84,7 +84,7 @@ export default function LessonsPage() {
           {!isPaid && (
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center justify-between">
               <div>
-                <p className="text-sm font-semibold text-blue-900">Free preview: {FREE_LIMIT} of {lessons.length} lessons</p>
+                <p className="text-sm font-semibold text-blue-900">Free preview: {FREE_LIMIT} of {loading ? "..." : lessons.length} lessons</p>
                 <p className="text-xs text-blue-600 mt-0.5">Unlock all lessons with Pass or Premium</p>
               </div>
               <Link href="/pricing" className="bg-blue-600 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-1">
@@ -145,7 +145,16 @@ export default function LessonsPage() {
         </div>
 
         {loading ? (
-          <div className="text-center py-20 text-gray-400">Loading lessons...</div>
+          <div className="text-center py-20">
+            <Brain className="w-10 h-10 text-purple-400 mx-auto mb-3 animate-pulse" />
+            <p className="text-gray-400">Loading lessons...</p>
+          </div>
+        ) : lessons.length === 0 ? (
+          <div className="text-center py-20">
+            <BookOpen className="w-10 h-10 text-gray-300 mx-auto mb-3" />
+            <p className="text-gray-500 font-medium mb-2">No lessons found</p>
+            <p className="text-gray-400 text-sm">Try selecting a different topic or state.</p>
+          </div>
         ) : (
           <div className="space-y-8">
             {Object.entries(grouped).map(([topic, topicLessons]) => (

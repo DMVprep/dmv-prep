@@ -24,7 +24,9 @@ export function Header() {
             <Link href="/states" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">
               All States
             </Link>
-            <Link href="/progress" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">My Progress</Link>
+            {session && (
+              <Link href="/progress" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">My Progress</Link>
+            )}
             <Link href="/lessons" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">Lessons</Link>
             <Link href="/blog" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">Blog</Link>
             <Link href="/pricing" className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors">
@@ -57,7 +59,12 @@ export function Header() {
           </nav>
 
           {/* Mobile menu */}
-          <button className="md:hidden p-2" onClick={() => setMenuOpen(!menuOpen)}>
+          <button
+            className="md:hidden p-2"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+          >
             {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>
@@ -65,12 +72,14 @@ export function Header() {
 
       {/* Mobile nav */}
       {menuOpen && (
-        <div className="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3">
+        <div className="md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3" role="navigation" aria-label="Mobile menu">
           <Link href="/states" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>All States</Link>
           <Link href="/lessons" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Lessons</Link>
           <Link href="/blog" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Blog</Link>
           <Link href="/pricing" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Pricing</Link>
-          <Link href="/progress" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>My Progress</Link>
+          {session && (
+            <Link href="/progress" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>My Progress</Link>
+          )}
           {session ? (
             <>
               <Link href="/dashboard" className="block text-gray-700 font-medium py-2" onClick={() => setMenuOpen(false)}>Dashboard</Link>

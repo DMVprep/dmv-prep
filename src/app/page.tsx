@@ -158,7 +158,7 @@ export default function HomePage() {
               </p>
 
               {/* State Selector */}
-              <div className="bg-white border-2 border-blue-200 rounded-2xl p-4 mb-6 shadow-sm">
+              <div id="pick-state" className="bg-white border-2 border-blue-200 rounded-2xl p-4 mb-6 shadow-sm">
                 <p className="text-sm font-semibold text-gray-700 mb-3">📍 Select your state to start:</p>
                 <div className="grid grid-cols-5 gap-2">
                   {POPULAR_STATES.map((state) => (
@@ -335,7 +335,7 @@ export default function HomePage() {
               >
                 <div className="text-2xl font-extrabold text-blue-600 group-hover:text-blue-700">{state.code}</div>
                 <div className="text-xs text-gray-600 mt-1 font-medium">{state.name}</div>
-                <div className="text-xs text-gray-400 mt-0.5">{state.questionsCount} questions</div>
+                <div className="text-xs text-gray-400 mt-0.5">400+ practice Qs · {state.questionsCount} on real test</div>
               </Link>
             ))}
           </div>

@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   description:
     "Free DMV practice tests for all 50 states. Plain-English explanations, road sign tests, and exam simulators. Designed for first-time drivers and non-native speakers.",
   keywords: ["DMV practice test", "permit test", "driving test", "road signs", "DMV handbook"],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

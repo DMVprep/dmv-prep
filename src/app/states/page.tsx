@@ -43,7 +43,7 @@ export default function StatesPage() {
                   <span className="font-semibold text-gray-800 text-sm">{state.name}</span>
                 </div>
                 <div className="text-xs text-gray-400">
-                  {state.questionsCount} questions · {state.passingScore}% to pass
+                  400+ practice Qs · {state.questionsCount} on real test · {state.passingScore}% to pass
                 </div>
               </div>
               <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-blue-500 transition-colors" />
