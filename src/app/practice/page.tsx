@@ -128,12 +128,8 @@ function PracticeContent() {
           answers: finalAnswers,
         }),
       });
-      // Update streak
-      fetch("/api/streak", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ questionsCompleted: finalAnswers.length }),
-      }).then(r => r.json()).then(data => {
+      // Fetch streak info for results screen
+      fetch("/api/streak").then(r => r.json()).then(data => {
         setStreakInfo(data);
       }).catch(() => {});
     } catch (e) {
@@ -158,6 +154,16 @@ function PracticeContent() {
   const handleAnswer = async (choiceId: string) => {
     if (selected !== null) return;
     setSelected(choiceId);
+
+    // Track this question toward daily goal
+    if (session?.user) {
+      fetch("/api/streak", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionsCompleted: 1 }),
+      }).catch(() => {});
+    }
+
     if (testMode === "PRACTICE") {
       setShowExplanation(true);
       // Check if wrong — fetch related lesson
