@@ -258,8 +258,8 @@ export default async function DashboardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { href: "/practice?mode=quick", label: "Quick Practice", desc: "10 random questions", icon: Clock, color: "border-blue-200 hover:bg-blue-50" },
-              { href: "/practice?mode=signs", label: "Road Signs", desc: "Signs only test", icon: BookOpen, color: "border-purple-200 hover:bg-purple-50" },
-              { href: "/practice?mode=full", label: "Full Exam", desc: "Complete simulation", icon: BarChart2, color: "border-green-200 hover:bg-green-50" },
+              { href: "/practice?topic=traffic-signs", label: "Road Signs", desc: "Signs only test", icon: BookOpen, color: "border-purple-200 hover:bg-purple-50" },
+              { href: "/practice?mode=exam", label: "Full Exam", desc: "Complete simulation", icon: BarChart2, color: "border-green-200 hover:bg-green-50" },
             ].map((item) => (
               <Link
                 key={item.href}

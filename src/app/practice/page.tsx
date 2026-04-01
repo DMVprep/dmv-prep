@@ -77,13 +77,49 @@ function PracticeContent() {
   const [streakInfo, setStreakInfo] = useState<{ currentStreak: number; streakIncreased: boolean; todayQuestions: number; dailyGoal: number; goalComplete: boolean } | null>(null);
 
 
-  // Auto-start quick mode from dashboard
+  // Auto-start modes from dashboard
+  const [autoStarted, setAutoStarted] = useState(false);
   useEffect(() => {
+    if (autoStarted) return;
     const mode = searchParams.get("mode");
+    const topicParam = searchParams.get("topic");
     if (mode === "quick") {
+      setAutoStarted(true);
       startTest("PRACTICE", 10);
+    } else if (mode === "exam") {
+      setAutoStarted(true);
+      setTimeout(() => startTest("EXAM_SIMULATION"), 500);
+    } else if (topicParam) {
+      setAutoStarted(true);
+      setSelectedTopic(topicParam);
+      const go = async () => {
+        setTestMode("PRACTICE");
+        setAnswers([]);
+        setCurrent(0);
+        setSelected(null);
+        setTimer(0);
+        setShowExplanation(false);
+        setSkippedQuestions([]);
+        setExamEnded(null);
+        setStreakInfo(null);
+        setLoading(true);
+        try {
+          const params = new URLSearchParams({ state: stateCode, mode: "PRACTICE" });
+          params.set("topic", topicParam);
+          if (session?.user) params.set("userId", (session.user as any).id || "");
+          const res = await fetch("/api/questions?" + params);
+          const data = await res.json();
+          setQuestions(data.questions || []);
+        } catch (e) {
+          console.error("Failed to fetch questions", e);
+        } finally {
+          setLoading(false);
+        }
+        setAppMode("test");
+      };
+      go();
     }
-  }, []);
+  }, [session]);
   // Timer for exam simulation
   useEffect(() => {
 
