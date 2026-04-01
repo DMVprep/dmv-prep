@@ -73,19 +73,57 @@ export default function LessonsPage() {
     <div className="min-h-screen bg-gray-50">
       <Header />
       <main className="max-w-3xl mx-auto px-4 py-10">
-        {/* SmartRecall Header */}
+        {/* Method Intro */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-2">
+          <div className="flex items-center gap-2 mb-3">
             <Brain className="w-6 h-6 text-purple-600" />
-            <h1 className="text-2xl font-extrabold text-gray-900">SmartRecall Method</h1>
-            <span className="bg-purple-100 text-purple-700 text-xs font-bold px-2 py-0.5 rounded-full">Science-Backed</span>
+            <h1 className="text-2xl font-extrabold text-gray-900">Your DMV Study Plan</h1>
           </div>
-          <p className="text-gray-600 mb-3">Short, focused lessons based on <strong>active recall</strong> — the scientifically proven method used by millions of students to retain information faster and longer.</p>
+
+          {/* The Autopilot Promise */}
+          <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-100 rounded-xl p-5 mb-4">
+            <p className="text-base font-bold text-gray-900 mb-2">Forget the boring 100-page handbook.</p>
+            <p className="text-sm text-gray-600 leading-relaxed mb-4">
+              Other sites make you read the handbook over and over. We don&apos;t.
+              Read each lesson <strong>once</strong>, then switch to autopilot &mdash; our system quizzes you on what you learned,
+              brings back anything you forgot, and tells you exactly when you&apos;re ready to pass.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div className="bg-white rounded-lg p-3 border border-purple-100">
+                <div className="text-lg font-extrabold text-purple-600 mb-0.5">Step 1</div>
+                <div className="text-sm font-semibold text-gray-900">Read the lessons</div>
+                <div className="text-xs text-gray-500 mt-0.5">~15 min. One read is all you need.</div>
+              </div>
+              <div className="bg-white rounded-lg p-3 border border-blue-100">
+                <div className="text-lg font-extrabold text-blue-600 mb-0.5">Step 2</div>
+                <div className="text-sm font-semibold text-gray-900">Practice questions</div>
+                <div className="text-xs text-gray-500 mt-0.5">Same day or next day. 20 per day.</div>
+              </div>
+              <div className="bg-white rounded-lg p-3 border border-green-100">
+                <div className="text-lg font-extrabold text-green-600 mb-0.5">Step 3</div>
+                <div className="text-sm font-semibold text-gray-900">Autopilot mode</div>
+                <div className="text-xs text-gray-500 mt-0.5">We handle the rest. Just show up daily.</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Progress tracker */}
+          <div className="bg-white border border-gray-200 rounded-xl p-4 mb-4 flex items-center justify-between">
+            <div>
+              <p className="text-sm font-semibold text-gray-900">Your lesson progress</p>
+              <p className="text-xs text-gray-500 mt-0.5">Open each lesson below to read it. One read-through is enough.</p>
+            </div>
+            <div className="text-right">
+              <p className="text-2xl font-extrabold text-purple-600">{loading ? "..." : filtered.length}</p>
+              <p className="text-xs text-gray-500">lessons available</p>
+            </div>
+          </div>
+
           {!isPaid && (
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-center justify-between">
               <div>
                 <p className="text-sm font-semibold text-blue-900">Free preview: {FREE_LIMIT} of {loading ? "..." : lessons.length} lessons</p>
-                <p className="text-xs text-blue-600 mt-0.5">Unlock all lessons with Pass or Premium</p>
+                <p className="text-xs text-blue-600 mt-0.5">Unlock all lessons to complete your study plan</p>
               </div>
               <Link href="/pricing" className="bg-blue-600 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-1">
                 <Zap className="w-4 h-4" /> Unlock All
