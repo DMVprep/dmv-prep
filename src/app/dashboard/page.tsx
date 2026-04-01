@@ -53,6 +53,33 @@ export default async function DashboardPage() {
     : 0;
   const isPremium = user?.plan === "PREMIUM";
 
+  // Streak data
+  const today = new Date();
+  let currentStreak = user?.currentStreak ?? 0;
+  let todayQuestions = user?.todayQuestions ?? 0;
+  const dailyGoal = user?.dailyGoalQuestions ?? 20;
+  const longestStreak = user?.longestStreak ?? 0;
+
+  // Check if streak is still valid
+  if (user?.lastActiveDate) {
+    const lastActive = new Date(user.lastActiveDate);
+    const isToday = lastActive.toDateString() === today.toDateString();
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1);
+    const isYesterday = lastActive.toDateString() === yesterday.toDateString();
+    if (!isToday && !isYesterday) {
+      currentStreak = 0;
+    }
+    if (!isToday) {
+      todayQuestions = 0;
+    }
+  } else {
+    currentStreak = 0;
+    todayQuestions = 0;
+  }
+
+  const goalProgress = Math.min(100, Math.round((todayQuestions / dailyGoal) * 100));
+
   const popularStates = US_STATES.slice(0, 6);
 
   return (
@@ -65,6 +92,57 @@ export default async function DashboardPage() {
             Welcome back, {session.user?.name?.split(" ")[0] ?? "there"}! 👋
           </h1>
           <p className="text-gray-500 mt-1">Ready to practice? Let's keep your streak going.</p>
+        </div>
+
+        {/* Streak + Daily Goal */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+          {/* Streak */}
+          <div className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Daily Streak</p>
+                <div className="flex items-baseline gap-2 mt-1">
+                  <span className="text-3xl font-extrabold text-orange-500">{currentStreak}</span>
+                  <span className="text-sm text-gray-400">{currentStreak === 1 ? "day" : "days"}</span>
+                </div>
+                {longestStreak > 0 && currentStreak < longestStreak && (
+                  <p className="text-[10px] text-gray-400 mt-1">Best: {longestStreak} days</p>
+                )}
+              </div>
+              <div className="text-4xl">{currentStreak >= 7 ? "🔥" : currentStreak >= 3 ? "⚡" : currentStreak >= 1 ? "✨" : "💤"}</div>
+            </div>
+            {currentStreak === 0 && (
+              <p className="text-xs text-orange-500 font-medium mt-2">Practice today to start a new streak!</p>
+            )}
+            {currentStreak >= 3 && (
+              <p className="text-xs text-orange-500 font-medium mt-2">{currentStreak >= 7 ? "You're on fire! Keep it up!" : "Great momentum — don't break the chain!"}</p>
+            )}
+          </div>
+
+          {/* Daily Goal */}
+          <div className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm">
+            <div className="flex items-center justify-between mb-2">
+              <div>
+                <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Today's Goal</p>
+                <p className="text-sm font-bold text-gray-900 mt-1">
+                  {todayQuestions >= dailyGoal ? "🎉 Goal complete!" : `${todayQuestions} of ${dailyGoal} questions`}
+                </p>
+              </div>
+              <span className="text-2xl font-extrabold text-blue-600">{goalProgress}%</span>
+            </div>
+            <div className="h-3 bg-gray-100 rounded-full overflow-hidden">
+              <div
+                className={`h-3 rounded-full transition-all ${todayQuestions >= dailyGoal ? "bg-green-500" : "bg-blue-500"}`}
+                style={{ width: `${goalProgress}%` }}
+              />
+            </div>
+            {todayQuestions < dailyGoal && todayQuestions > 0 && (
+              <p className="text-xs text-blue-500 font-medium mt-2">{dailyGoal - todayQuestions} more to hit your goal today</p>
+            )}
+            {todayQuestions === 0 && (
+              <p className="text-xs text-gray-400 mt-2">Start practicing to make progress</p>
+            )}
+          </div>
         </div>
 
         {/* Pass System Section */}

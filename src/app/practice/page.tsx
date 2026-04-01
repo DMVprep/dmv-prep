@@ -74,6 +74,7 @@ function PracticeContent() {
   const [skippedQuestions, setSkippedQuestions] = useState<number[]>([]);
   const [examEnded, setExamEnded] = useState<"pass" | "fail" | null>(null);
   const [relatedLesson, setRelatedLesson] = useState<{ title: string; simpleLine: string; slug: string } | null>(null);
+  const [streakInfo, setStreakInfo] = useState<{ currentStreak: number; streakIncreased: boolean; todayQuestions: number; dailyGoal: number; goalComplete: boolean } | null>(null);
 
 
   // Auto-start quick mode from dashboard
@@ -127,6 +128,14 @@ function PracticeContent() {
           answers: finalAnswers,
         }),
       });
+      // Update streak
+      fetch("/api/streak", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionsCompleted: finalAnswers.length }),
+      }).then(r => r.json()).then(data => {
+        setStreakInfo(data);
+      }).catch(() => {});
     } catch (e) {
       console.error("Failed to save session", e);
     }
@@ -141,6 +150,7 @@ function PracticeContent() {
     setShowExplanation(false);
     setSkippedQuestions([]);
     setExamEnded(null);
+    setStreakInfo(null);
     await fetchQuestions(mode, selectedTopic || undefined, quickLimit);
     setAppMode("test");
   };
@@ -557,6 +567,25 @@ function PracticeContent() {
           <p className="text-gray-500 text-sm">{score} correct out of {questions.length} questions</p>
           {testMode === "EXAM_SIMULATION" && examConfig && (
             <p className="text-xs text-gray-400 mt-2">Passing score: {examConfig.passingScore}%</p>
+          )}
+          {streakInfo && (
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+              {streakInfo.currentStreak > 0 && (
+                <span className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-700 text-sm font-bold px-3 py-1.5 rounded-full">
+                  {streakInfo.currentStreak >= 7 ? "🔥" : "⚡"} {streakInfo.currentStreak}-day streak{streakInfo.streakIncreased ? " — new!" : ""}
+                </span>
+              )}
+              {streakInfo.goalComplete && (
+                <span className="inline-flex items-center gap-1.5 bg-green-100 text-green-700 text-sm font-bold px-3 py-1.5 rounded-full">
+                  🎯 Daily goal complete!
+                </span>
+              )}
+              {!streakInfo.goalComplete && streakInfo.todayQuestions > 0 && (
+                <span className="inline-flex items-center gap-1 bg-blue-100 text-blue-700 text-xs font-medium px-3 py-1.5 rounded-full">
+                  {streakInfo.todayQuestions}/{streakInfo.dailyGoal} today
+                </span>
+              )}
+            </div>
           )}
         </div>
 
