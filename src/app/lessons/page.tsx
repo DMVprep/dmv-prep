@@ -96,8 +96,8 @@ export default function LessonsPage() {
               </div>
               <div className="bg-white rounded-lg p-3 border border-blue-100">
                 <div className="text-lg font-extrabold text-blue-600 mb-0.5">Step 2</div>
-                <div className="text-sm font-semibold text-gray-900">Practice questions</div>
-                <div className="text-xs text-gray-500 mt-0.5">Same day or next day. 20 per day.</div>
+                <div className="text-sm font-semibold text-gray-900">Practice right after</div>
+                <div className="text-xs text-gray-500 mt-0.5">20 questions after reading. Then 20 more tomorrow.</div>
               </div>
               <div className="bg-white rounded-lg p-3 border border-green-100">
                 <div className="text-lg font-extrabold text-green-600 mb-0.5">Step 3</div>

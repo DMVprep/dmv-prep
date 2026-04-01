@@ -200,43 +200,43 @@ export default function HomePage() {
             <div className="hidden lg:block">
               <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 p-8">
                 <div className="text-center mb-6">
-                  <div className="text-4xl font-extrabold text-gray-900">87%</div>
-                  <div className="text-gray-500 text-sm">of our users pass on their first try</div>
-                  <div className="flex justify-center gap-0.5 mt-2">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    ))}
-                    <span className="text-gray-500 text-sm ml-2">4.9/5</span>
-                  </div>
+                  <div className="text-sm font-bold text-purple-600 uppercase tracking-wide mb-1">Your study plan</div>
+                  <div className="text-2xl font-extrabold text-gray-900">Forget the 100-page handbook</div>
+                  <div className="text-sm text-gray-500 mt-2">Read once. Practice. Let autopilot do the rest.</div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 mb-6">
-                  {TESTIMONIALS.slice(0, 4).map((t) => (
-                    <div key={t.name} className="bg-gray-50 rounded-xl p-3 flex items-start gap-2">
-                      <div className={`w-8 h-8 rounded-full ${t.color} text-lg flex items-center justify-center flex-shrink-0`}>
-                        {t.avatar}
-                      </div>
-                      <div>
-                        <div className="text-xs font-bold text-gray-800">{t.name}</div>
-                        <div className="text-xs text-gray-400 leading-tight">{t.from}</div>
-                        <div className="flex gap-0.5 mt-1">
-                          {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="w-2.5 h-2.5 fill-yellow-400 text-yellow-400" />
-                          ))}
-                        </div>
-                      </div>
+                <div className="space-y-3 mb-6">
+                  <div className="bg-purple-50 rounded-xl p-4 flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-purple-600 text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">1</div>
+                    <div>
+                      <div className="text-sm font-bold text-gray-900">Read the micro-lessons</div>
+                      <div className="text-xs text-gray-500 mt-0.5">Bite-size lessons in plain English. Takes ~15 minutes. One read is enough.</div>
                     </div>
-                  ))}
+                  </div>
+                  <div className="bg-blue-50 rounded-xl p-4 flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">2</div>
+                    <div>
+                      <div className="text-sm font-bold text-gray-900">Practice right after</div>
+                      <div className="text-xs text-gray-500 mt-0.5">20 questions after reading. Then 20 more the next day. Instant feedback on every answer.</div>
+                    </div>
+                  </div>
+                  <div className="bg-green-50 rounded-xl p-4 flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-green-600 text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">3</div>
+                    <div>
+                      <div className="text-sm font-bold text-gray-900">Switch to autopilot</div>
+                      <div className="text-xs text-gray-500 mt-0.5">Our system remembers what you got wrong and brings it back until you know it. Just show up daily.</div>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="text-center">
-                  <div className="flex justify-center -space-x-2 mb-2">
-                    {["bg-blue-500", "bg-green-500", "bg-red-500", "bg-purple-500", "bg-yellow-500", "bg-orange-500"].map((color, i) => (
-                      <div key={i} className={`w-8 h-8 rounded-full ${color} border-2 border-white`} />
+                <div className="text-center bg-gray-50 rounded-xl p-4">
+                  <div className="flex justify-center gap-0.5 mb-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <div className="text-sm text-gray-600 font-medium">500,000+ drivers prepared</div>
-                  <div className="text-xs text-gray-400">From 50 states and 80+ countries</div>
+                  <div className="text-sm font-bold text-gray-900">87% pass on their first try</div>
+                  <div className="text-xs text-gray-400">500,000+ drivers from 80+ countries</div>
                 </div>
               </div>
             </div>
