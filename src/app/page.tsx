@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free DMV Practice Test 2026 - Pass Your Permit Test First Try",
-  description: "Free DMV practice tests for all 50 states — 400+ questions per state, Memory Engine with spaced repetition, Readiness Score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
+  description: "Free DMV practice tests for all 50 states — 400+ questions per state, Pass System with spaced repetition, Readiness Score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
   keywords: ["DMV practice test 2026", "free DMV test", "permit test practice", "DMV test for non-native speakers", "road sign test", "driving test prep"],
   openGraph: {
     title: "Free DMV Practice Test 2026 - Pass First Try",
-    description: "Free DMV practice tests for all 50 states — 400+ questions per state, spaced repetition Memory Engine. Built for first-time drivers and non-native speakers.",
+    description: "Free DMV practice tests for all 50 states — 400+ questions per state, spaced repetition Pass System. Built for first-time drivers and non-native speakers.",
     url: "https://dmv-prep.com",
     siteName: "DMVPrep Pro",
     type: "website",
@@ -87,7 +87,7 @@ const FEATURES = [
   {
     icon: Brain,
     title: "400+ Questions Per State",
-    description: "400+ state-specific practice questions with instant feedback. Our Memory Engine uses spaced repetition to help you remember what you learn.",
+    description: "400+ state-specific practice questions with instant feedback. Our Pass System uses spaced repetition to help you remember what you learn.",
     color: "text-purple-600 bg-purple-50",
   },
   {
@@ -405,7 +405,7 @@ export default function HomePage() {
                   ["Plain English explanations", true, false],
                   ["Built for first-time drivers and non-native speakers", true, false],
                   ["400+ state-specific questions per state", true, true],
-                  ["Memory Engine (spaced repetition)", true, false],
+                  ["Pass System (spaced repetition)", true, false],
                   ["SmartRecall micro-lessons", true, false],
                   ["Readiness score", true, false],
                   ["Multiple language support", true, false],

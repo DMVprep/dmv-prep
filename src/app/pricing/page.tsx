@@ -23,7 +23,7 @@ const PREMIUM_FEATURES = [
   "Unlimited practice tests",
   "All test modes (Quick, Signs, Full Exam)",
   "Full plain-English explanations",
-  "Memory Engine with spaced repetition",
+  "Pass System with spaced repetition",
   "SmartRecall micro-lessons with practice questions",
   "Readiness Score and progress tracking",
   "Weak areas identifier",
@@ -33,7 +33,7 @@ const PREMIUM_FEATURES = [
 const FAQ = [
   {
     q: "What is the difference between Pass and Premium?",
-    a: "Pass is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, the Memory Engine with spaced repetition, SmartRecall lessons, Readiness Score, and multilingual translations. If you only need to pass the test in one state, Pass is the best value.",
+    a: "Pass is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, the Pass System with spaced repetition, SmartRecall lessons, Readiness Score, and multilingual translations. If you only need to pass the test in one state, Pass is the best value.",
   },
   {
     q: "Can I upgrade from Pass to Premium later?",
@@ -84,7 +84,7 @@ export default function PricingPage() {
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Simple, honest pricing
+            Everything you need to pass your DMV test
           </h1>
           <p className="text-xl text-gray-500 max-w-xl mx-auto">
             Start free. Pay once to pass. Or go all-in with Premium.

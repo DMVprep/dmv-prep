@@ -67,37 +67,47 @@ export default async function DashboardPage() {
           <p className="text-gray-500 mt-1">Ready to practice? Let's keep your streak going.</p>
         </div>
 
-        {/* Memory Engine Section */}
+        {/* Pass System Section */}
         {isPremium && (
           <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-8 shadow-sm">
             <div className="flex items-center justify-between mb-5">
-              <div className="flex items-center gap-2">
-                <Brain className="w-5 h-5 text-purple-600" />
-                <h2 className="font-bold text-gray-900 text-lg">Memory Engine</h2>
+              <div>
+                <div className="flex items-center gap-2">
+                  <Brain className="w-5 h-5 text-purple-600" />
+                  <h2 className="font-bold text-gray-900 text-lg">Your Pass System</h2>
+                </div>
+                <p className="text-xs text-gray-500 mt-1 ml-7">Tracks what you know and schedules reviews so you pass</p>
               </div>
               {dueCount > 0 && (
-                <a href="/review" className="flex items-center gap-2 bg-purple-600 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
-                  <RefreshCw className="w-4 h-4" />
-                  Review Now ({dueCount})
-                </a>
+                <div className="flex flex-col items-end gap-1">
+                  <a href="/review" className="flex items-center gap-2 bg-purple-600 text-white text-sm font-bold px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                    <RefreshCw className="w-4 h-4" />
+                    Review Now ({dueCount})
+                  </a>
+                  <p className="text-xs text-purple-500 font-medium">Fastest way to improve your score</p>
+                </div>
               )}
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-purple-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-purple-700">{dueCount}</p>
                 <p className="text-xs text-purple-600 font-medium mt-1">Due for Review</p>
+                {dueCount > 0 && <p className="text-[10px] text-purple-500 mt-1.5">Review now to lock in what you've learned</p>}
               </div>
               <div className="bg-blue-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-blue-700">{memoryStrength}%</p>
                 <p className="text-xs text-blue-600 font-medium mt-1">Memory Strength</p>
+                <p className="text-[10px] mt-1.5 font-medium">{memoryStrength >= 80 ? <span className="text-green-600">Strong — you're retaining well</span> : memoryStrength >= 60 ? <span className="text-yellow-600">Getting there — keep reviewing</span> : <span className="text-red-500">⚠️ Not test-ready yet</span>}</p>
               </div>
               <div className="bg-green-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-green-700">{masteredCount}</p>
                 <p className="text-xs text-green-600 font-medium mt-1">Mastered</p>
+                {masteredCount > 0 && <p className="text-[10px] text-green-500 mt-1.5">These are locked in your memory</p>}
               </div>
               <div className="bg-red-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-red-700">{weakCount}</p>
                 <p className="text-xs text-red-600 font-medium mt-1">Need Practice</p>
+                {weakCount > 0 && <p className="text-[10px] text-red-500 mt-1.5 font-medium">Fix these first to pass</p>}
               </div>
             </div>
             {dueCount === 0 && allProgress.length > 0 && (
@@ -107,7 +117,7 @@ export default async function DashboardPage() {
             )}
             {allProgress.length === 0 && (
               <p className="text-sm text-gray-500 text-center mt-4">
-                Start practicing to activate your memory engine. It tracks your progress and schedules reviews automatically.
+                Start practicing to activate your pass system. It tracks what you know and schedules reviews so you're ready on test day.
               </p>
             )}
           </div>
@@ -149,12 +159,12 @@ export default async function DashboardPage() {
                 style={{ width: `${avgScore}%` }}
               />
             </div>
-            <p className="text-xs text-gray-400 mt-2">
+            <p className="text-xs mt-2 font-medium">
               {avgScore >= 80
-                ? "🎉 You're ready for the real test!"
+                ? <span className="text-green-600">🎉 You're ready for the real test!</span>
                 : avgScore >= 60
-                ? "Getting there! Keep practicing to reach 80%."
-                : "Keep practicing! Aim for 80% before your test."}
+                ? <span className="text-yellow-600">Almost there — most users pass at 80%+. Don't stop now.</span>
+                : <span className="text-red-500">⚠️ You're not ready for the DMV test yet. Keep practicing to reach 80%.</span>}
             </p>
           </div>
         )}
@@ -236,17 +246,17 @@ export default async function DashboardPage() {
             <div>
               <div className="flex items-center gap-2 font-bold text-lg mb-1">
                 <Zap className="w-5 h-5 text-yellow-300" />
-                Upgrade to Premium
+                Pass your DMV test on the first try
               </div>
               <p className="text-blue-100 text-sm">
-                Unlock all 50 states, unlimited tests, and the full exam simulator for $9/month.
+                Unlock the full pass system — readiness tracking, weak area targeting, spaced repetition, and all 50 states.
               </p>
             </div>
             <Link
-              href="/api/stripe/checkout"
+              href="/pricing"
               className="bg-white text-blue-600 font-bold px-5 py-2.5 rounded-xl hover:bg-blue-50 transition-colors text-sm whitespace-nowrap"
             >
-              Upgrade Now →
+              See Plans →
             </Link>
           </div>
         )}

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!state) return {};
   return {
     title: `${state.name} DMV Practice Test 2026 — Free Permit Test Questions`,
-    description: `Free ${state.name} DMV practice test with 400+ real permit test questions. Plain-English explanations, Memory Engine with spaced repetition, Readiness Score. Pass your ${state.name} written test on the first try.`,
+    description: `Free ${state.name} DMV practice test with 400+ real permit test questions. Plain-English explanations, Pass System with spaced repetition, Readiness Score. Pass your ${state.name} written test on the first try.`,
     keywords: [
       `${state.name} DMV practice test`,
       `${state.name} permit test`,
@@ -168,7 +168,7 @@ export default function StatePracticeTestPage({ params }: Props) {
             </h2>
             <p className="text-gray-500 mb-6">
               Try these free sample questions. Upgrade to unlock all 400+ {state.name} practice
-              questions, the Memory Engine, Readiness Score, and full exam simulator.
+              questions, the Pass System, Readiness Score, and full exam simulator.
             </p>
             <div className="space-y-4">
               {allQuestions.map((q, i) => (
@@ -197,7 +197,7 @@ export default function StatePracticeTestPage({ params }: Props) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 { title: "400+ Practice Questions", desc: `State-specific ${state.name} questions covering every topic on the real test.` },
-                { title: "Memory Engine", desc: "Spaced repetition tracks what you know and schedules reviews so you never forget." },
+                { title: "Pass System", desc: "Spaced repetition tracks what you know and schedules reviews so you never forget." },
                 { title: "Readiness Score", desc: "See your real probability of passing — know exactly when you are ready." },
                 { title: "SmartRecall Lessons", desc: "105 micro-lessons with built-in practice questions and instant feedback." },
                 { title: "Weak Areas Identifier", desc: "Automatically finds the topics you struggle with so you can focus your study time." },
@@ -400,7 +400,7 @@ export default function StatePracticeTestPage({ params }: Props) {
             <AlertCircle className="w-10 h-10 mx-auto mb-3 text-blue-200" />
             <h3 className="text-2xl font-bold mb-2">Ready to unlock all 400+ questions?</h3>
             <p className="text-blue-100 mb-6">
-              Create a free account to unlock the Memory Engine, track your Readiness Score, and use the full
+              Create a free account to unlock the Pass System, track your Readiness Score, and use the full
               {state.name} exam simulator.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">

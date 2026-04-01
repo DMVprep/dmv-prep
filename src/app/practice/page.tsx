@@ -176,7 +176,7 @@ function PracticeContent() {
     const newAnswers = [...answers, { questionId: q.id, choiceId: selected, isCorrect }];
     setAnswers(newAnswers);
 
-    // Update memory engine only in PRACTICE mode, not EXAM_SIMULATION
+    // Update pass system only in PRACTICE mode, not EXAM_SIMULATION
     if (testMode === "PRACTICE") {
       fetch("/api/review", {
         method: "POST",
@@ -517,9 +517,10 @@ function PracticeContent() {
         {/* Related micro lesson after wrong answer */}
         {relatedLesson && testMode === "PRACTICE" && (
           <div className="bg-purple-50 border border-purple-200 rounded-xl p-4 mb-3">
-            <p className="text-xs font-bold text-purple-600 uppercase tracking-wide mb-1">📚 Quick Lesson</p>
+            <p className="text-xs font-bold text-purple-600 uppercase tracking-wide mb-1">🎯 Fix This Now</p>
             <p className="font-bold text-purple-900 mb-1">{relatedLesson.title}</p>
             <p className="text-sm text-purple-800">{relatedLesson.simpleLine}</p>
+            <p className="text-xs text-purple-500 mt-1.5">Reviewing this will help you pass</p>
             <a href="/lessons" className="text-xs text-purple-600 font-semibold mt-2 inline-block hover:underline">
               See all lessons →
             </a>
