@@ -42,6 +42,9 @@ function RegisterForm() {
         plan === "premium-annual" ? "/api/stripe/checkout?annual=1" :
         plan === "pass" ? "/api/stripe/checkout-pass" :
         "/dashboard";
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "sign_up", { method: "email" });
+      }
       router.push(dest);
     } catch (err: any) {
       toast.error(err.message);

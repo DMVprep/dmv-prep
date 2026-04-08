@@ -1,6 +1,7 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSession } from "next-auth/react";
+import { useSearchParams } from "next/navigation";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BookOpen, ChevronRight, Lock, Brain, Zap } from "lucide-react";
@@ -34,11 +35,13 @@ const TOPIC_COLORS: Record<string, string> = {
   "licensing-permits": "bg-orange-100 text-orange-700 border-orange-200",
 };
 
-export default function LessonsPage() {
+function LessonsContent() {
   const { data: session } = useSession();
   const [lessons, setLessons] = useState<Lesson[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activeTopic, setActiveTopic] = useState<string>("all");
+  const searchParams = useSearchParams();
+  const initialTopic = searchParams.get("topic") || "all";
+  const [activeTopic, setActiveTopic] = useState<string>(initialTopic);
   const [expandedLesson, setExpandedLesson] = useState<string | null>(null);
 
   const [userState, setUserState] = useState<string>("");
@@ -272,5 +275,13 @@ export default function LessonsPage() {
       </main>
       <Footer />
     </div>
+  );
+}
+
+export default function LessonsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-50" />}>
+      <LessonsContent />
+    </Suspense>
   );
 }

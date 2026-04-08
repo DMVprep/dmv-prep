@@ -59,3 +59,12 @@ Final nav: **Learn | Practice | Dashboard | Blog** (logged in) or **Learn | Prac
 - Page background: #FBF8F3 (warm cream via .min-h-screen.bg-gray-50 override)
 - Cards: still white
 - Accent: still blue (#2563eb range)
+
+## Sign image audit (April 8 — deferred)
+Investigation found that traffic-sign questions are a mix of:
+1. Description-style ("A yellow diamond sign with two arrows...") — correctly have NO imageUrl
+2. Reference-style ("What does this sign mean?") — MUST have imageUrl or the question is unanswerable
+
+**Audit needed:** Find any reference-style questions (generic text like "What does this sign mean?", "The sign shown below", "Which of these signs") that have null imageUrl — those are broken questions. Run SQL or a script to check.
+
+Also verify: does each state's real DMV test actually use image questions? Check state-by-state since this varies.

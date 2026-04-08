@@ -217,15 +217,12 @@ function PracticeContent() {
       // Check if wrong — fetch related lesson
       const q = questions[current];
       const choice = q.choices.find(c => c.id === choiceId);
-      if (!choice?.isCorrect && q.topic?.slug) {
-        try {
-          const res = await fetch(`/api/lessons?topic=${q.topic.slug}&state=${stateCode}`);
-          const data = await res.json();
-          if (data.lessons?.length > 0) {
-            const lesson = data.lessons[Math.floor(Math.random() * data.lessons.length)];
-            setRelatedLesson(lesson);
-          }
-        } catch {}
+      if (!choice?.isCorrect && q.topic?.slug && q.topic?.name) {
+        setRelatedLesson({
+          title: `Review ${q.topic.name} lessons`,
+          simpleLine: `You missed a ${q.topic.name} question. Brush up on this topic to avoid it next time.`,
+          slug: q.topic.slug,
+        });
       } else {
         setRelatedLesson(null);
       }
@@ -663,8 +660,8 @@ function PracticeContent() {
             <p className="font-bold text-purple-900 mb-1">{relatedLesson.title}</p>
             <p className="text-sm text-purple-800">{relatedLesson.simpleLine}</p>
             <p className="text-xs text-purple-500 mt-1.5">Reviewing this will help you pass</p>
-            <a href="/lessons" className="text-xs text-purple-600 font-semibold mt-2 inline-block hover:underline">
-              See all lessons →
+            <a href={`/lessons?topic=${relatedLesson.slug}`} className="text-xs text-purple-600 font-semibold mt-2 inline-block hover:underline">
+              See {relatedLesson.title.replace("Review ", "").replace(" lessons", "")} lessons →
             </a>
           </div>
         )}

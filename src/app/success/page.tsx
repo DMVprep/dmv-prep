@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { Header } from "@/components/layout/Header";
+import { PurchaseTracker } from "./PurchaseTracker";
 import { Footer } from "@/components/layout/Footer";
 import { CheckCircle, ArrowRight } from "lucide-react";
 
@@ -14,6 +16,7 @@ export default function SuccessPage() {
   return (
     <>
       <Header />
+      <Suspense fallback={null}><PurchaseTracker /></Suspense>
       <main className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="max-w-md mx-auto px-4 py-16 text-center">
           <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
