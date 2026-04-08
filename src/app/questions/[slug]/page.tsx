@@ -198,7 +198,45 @@ const QUESTIONS = [
   { slug: "how-many-supervised-driving-hours-required", q: "How many supervised driving hours are required for a learner permit?", a: "Required supervised driving hours vary by state — typically 40–65 hours, with a portion required at night. Florida requires 50 hours (10 at night). California requires 50 hours (10 at night). Texas requires 30 hours (10 at night). Check your state handbook for exact requirements.", topic: "Safe Driving", related: ['how-long-is-a-learner-permit-valid', 'how-old-do-you-have-to-be-to-get-a-permit', 'how-many-questions-on-dmv-test'] },
   { slug: "what-documents-do-you-need-for-dmv-test", q: "What documents do you need to bring to the DMV written test?", a: "Typically you need: proof of identity (birth certificate or passport), proof of Social Security number, proof of residency (two documents with your address), and any required forms. Requirements vary by state — check your state DMV website before your appointment.", topic: "Safe Driving", related: ['how-old-do-you-have-to-be-to-get-a-permit', 'how-many-questions-on-dmv-test', 'what-is-the-bac-limit-for-driving'] },
   { slug: "can-you-retake-the-dmv-written-test", q: "How many times can you retake the DMV written test if you fail?", a: "Most states allow multiple retakes, usually with a waiting period between attempts — typically 1–7 days. Some states limit the number of retakes before requiring additional steps. There is usually a fee for each attempt. Check your state DMV for specific rules.", topic: "Safe Driving", related: ['how-many-questions-on-dmv-test', 'what-documents-do-you-need-for-dmv-test', 'how-old-do-you-have-to-be-to-get-a-permit'] },
-  { slug: "what-is-the-dmv-test-pass-rate", q: "What percentage of people pass the DMV written test on the first try?", a: "Pass rates vary by state but on average about 50-60% of first-time test takers pass the DMV written test on the first attempt. California reports about 44% first-time pass rate. Thorough preparation with practice tests significantly improves your chances of passing on the first try.", topic: "Safe Driving", related: ['how-many-questions-on-dmv-test', 'can-you-retake-the-dmv-written-test', 'how-to-study-for-dmv-test'] },
+  { 
+    slug: "what-is-the-dmv-test-pass-rate", 
+    q: "What percentage of people pass the DMV written test on the first try?", 
+    a: "Pass rates vary by state but on average about 50-60% of first-time test takers pass the DMV written test on the first attempt. California reports about 44% first-time pass rate. Thorough preparation with practice tests significantly improves your chances of passing on the first try.", 
+    topic: "Safe Driving", 
+    related: ['how-many-questions-on-dmv-test', 'can-you-retake-the-dmv-written-test', 'how-to-study-for-dmv-test'],
+    longAnswer: "The DMV written test pass rate varies significantly by state and by test type. According to a USA Today analysis of data from 34-36 states covering 2020 to 2023, the national average is 65.2% for all driver license tests combined, broken down into 61.7% for the knowledge (written) test and 78.8% for the behind-the-wheel skills test. In plain English: people find the written test harder than the road test.\n\nWhy such a big gap? The knowledge test covers memorized rules, road signs, and specific numbers (following distances, BAC limits, parking rules) that people haven't thought about since they last took it. The skills test measures actual driving ability, which most test-takers have practiced for weeks.\n\nPass rates also vary dramatically by state because each state writes its own test and sets its own passing threshold. Maryland requires an 88% score — the highest in the country. Indiana requires 84%. Most states require 80%. Massachusetts, New York, New Mexico, and Texas set the bar at 70%, the lowest in the nation. A state with a tough test and a high passing score will naturally have lower pass rates than a state with easier questions and a lower threshold.\n\nThe bottom line: treat the national 50-60% first-try pass rate as a warning, not a target. Study with practice tests until you're consistently scoring 90% or higher before you schedule your exam. The people who fail are almost always the ones who assumed the test would be easier than it actually is.",
+    keyFacts: [
+      "National knowledge test pass rate: 61.7% (USA Today analysis of 34 states, 2020-2023)",
+      "National skills test pass rate: 78.8% — people do better on the road test than the written test",
+      "Indiana, Missouri, and Wyoming have the highest failure rates, with over 50% of test-takers failing",
+      "Vermont has the highest knowledge test pass rate at 87.5%; Missouri the lowest at 39%",
+      "Maryland requires the highest passing score in the country at 88%",
+      "Most states require 80% to pass; a few (MA, NY, NM, TX) require only 70%"
+    ],
+    byState: [
+      { state: "Indiana", value: "48.1% pass rate — highest failure rate in the US (2020-2023)" },
+      { state: "Missouri", value: "48.7% pass rate — knowledge test pass rate only 39%" },
+      { state: "Wyoming", value: "49.0% pass rate — among the three hardest states" },
+      { state: "Utah", value: "63.8% overall pass rate — 92% skills, 62% knowledge" },
+      { state: "New York", value: "~66% pass rate — ranks 18th nationally" },
+      { state: "California", value: "~45% first-time pass rate per DMV monthly data" },
+      { state: "Vermont", value: "87.5% knowledge test pass rate — highest in the US" },
+      { state: "Idaho", value: "94.9% skills test pass rate (tied with Georgia) — highest in the US" },
+      { state: "Georgia", value: "94.9% skills test pass rate — highest in the US" },
+      { state: "Delaware", value: "41% skills test pass rate — lowest in the US" }
+    ],
+    commonMistakes: [
+      "Assuming the test will be easy because you already know how to drive — most failures come from people who didn't study",
+      "Studying only the driver handbook without taking practice tests — active recall beats passive reading",
+      "Focusing on driving skills instead of written rules — the written test is statistically harder than the road test"
+    ],
+    sources: [
+      { label: "USA Today: Driver license test pass rates by state (2020-2023 analysis)", url: "https://www.usatoday.com/story/money/cars/2024/05/14/drivers-license-test-fail-rate/73634290007/" },
+      { label: "Autobody News: Nearly 35% of US Drivers Failed License Tests 2020-2023", url: "https://www.autobodynews.com/news/nearly-35-of-u-s-drivers-failed-license-tests-between-2020-2023" },
+      { label: "Indiana Capital Chronicle: Indiana driver's test and high failure rates", url: "https://indianacapitalchronicle.com/2024/06/17/indianas-drivers-test-and-high-failure-rates-draw-criticism/" },
+      { label: "Driversprep.com: United States Permit and License Passing Scores", url: "https://driversprep.com/united-states-permit-and-license-passing-scores/" }
+    ]
+  },
   { slug: "how-to-study-for-dmv-test", q: "What is the best way to study for the DMV written test?", a: "The most effective approach: 1) Read the official driver handbook cover to cover. 2) Take practice tests repeatedly — active recall beats re-reading. 3) Focus on traffic signs and right-of-way rules. 4) Aim for 90%+ on practice tests before scheduling. 5) Get enough sleep before test day.", topic: "Safe Driving", related: ['how-many-questions-on-dmv-test', 'can-you-retake-the-dmv-written-test', 'what-is-the-dmv-test-pass-rate'] },
   { slug: "what-is-a-provisional-license", q: "What is a provisional license?", a: "A provisional license is a restricted license issued to teen drivers (typically 16–18) before they earn full driving privileges. Restrictions usually include nighttime driving curfews, passenger limits, and no phone use. Restrictions are lifted when the driver turns 18 or meets experience requirements.", topic: "Safe Driving", related: ['how-old-do-you-have-to-be-to-get-a-permit', 'how-long-is-a-learner-permit-valid', 'what-is-the-bac-limit-for-driving'] },
   { slug: "what-is-the-graduated-license-system", q: "What is the graduated driver licensing system?", a: "The graduated driver licensing (GDL) system phases in driving privileges for new drivers in stages: learner permit, provisional license, and full license. Each stage has restrictions that are relaxed as the driver gains experience. GDL systems have significantly reduced teen driver crashes.", topic: "Safe Driving", related: ['what-is-a-provisional-license', 'how-old-do-you-have-to-be-to-get-a-permit', 'how-long-is-a-learner-permit-valid'] },
@@ -554,17 +592,82 @@ export default function QuestionPage({ params }: Props) {
           </div>
 
 
-          {/* Explanation Section */}
-          <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6 shadow-sm">
-            <h2 className="font-bold text-gray-900 text-lg mb-3">Explanation</h2>
-            <p className="text-gray-700 leading-relaxed">{question.a} Understanding this concept is essential for safe driving and will help you answer similar questions on the DMV written test.</p>
-          </div>
+          {/* Explanation Section — only renders if longAnswer exists */}
+          {(question as any).longAnswer && (
+            <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6 shadow-sm">
+              <h2 className="font-bold text-gray-900 text-lg mb-3">Full Explanation</h2>
+              <div className="text-gray-700 leading-relaxed whitespace-pre-line">{(question as any).longAnswer}</div>
+            </div>
+          )}
 
-          {/* Why This Matters Section */}
-          <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mb-6">
-            <h2 className="font-bold text-yellow-900 text-lg mb-2">Why This Matters on the DMV Test</h2>
-            <p className="text-yellow-800 text-sm leading-relaxed">Questions about <strong>{question.topic}</strong> are among the most common on the permit test. Knowing the correct answer helps you pass your exam and stay safe on the road. Most states require a score of 70–83% to pass.</p>
-          </div>
+          {/* Key Facts — only renders when data exists */}
+          {(question as any).keyFacts && (question as any).keyFacts.length > 0 && (
+            <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mb-6">
+              <h2 className="font-bold text-yellow-900 text-lg mb-3">Key Facts</h2>
+              <ul className="space-y-2">
+                {((question as any).keyFacts as string[]).map((fact, i) => (
+                  <li key={i} className="flex items-start gap-2 text-yellow-900 text-sm">
+                    <span className="text-yellow-600 font-bold mt-0.5">•</span>
+                    <span>{fact}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* By State Table — only renders when data exists */}
+          {(question as any).byState && (question as any).byState.length > 0 && (
+            <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6 shadow-sm overflow-hidden">
+              <h2 className="font-bold text-gray-900 text-lg mb-3">State-by-State</h2>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-2 px-3 font-semibold text-gray-700">State</th>
+                      <th className="text-left py-2 px-3 font-semibold text-gray-700">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {((question as any).byState as { state: string; value: string }[]).map((row, i) => (
+                      <tr key={i} className="border-b border-gray-100 last:border-0">
+                        <td className="py-2 px-3 font-medium text-gray-900">{row.state}</td>
+                        <td className="py-2 px-3 text-gray-700">{row.value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {/* Common Mistakes — only renders when data exists */}
+          {(question as any).commonMistakes && (question as any).commonMistakes.length > 0 && (
+            <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-6">
+              <h2 className="font-bold text-red-900 text-lg mb-3">Common Mistakes</h2>
+              <ul className="space-y-2">
+                {((question as any).commonMistakes as string[]).map((mistake, i) => (
+                  <li key={i} className="flex items-start gap-2 text-red-900 text-sm">
+                    <span className="text-red-600 font-bold mt-0.5">✗</span>
+                    <span>{mistake}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Sources — only renders when data exists */}
+          {(question as any).sources && (question as any).sources.length > 0 && (
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-6">
+              <h2 className="font-bold text-gray-700 text-sm mb-2 uppercase tracking-wide">Sources</h2>
+              <ul className="space-y-1">
+                {((question as any).sources as { label: string; url: string }[]).map((src, i) => (
+                  <li key={i} className="text-xs text-gray-600">
+                    <a href={src.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">{src.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* CTA */}
           <div className="bg-blue-600 rounded-xl p-6 text-white text-center mb-8">
