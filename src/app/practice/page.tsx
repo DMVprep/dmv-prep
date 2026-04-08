@@ -75,6 +75,18 @@ function PracticeContent() {
   const [examEnded, setExamEnded] = useState<"pass" | "fail" | null>(null);
   const [relatedLesson, setRelatedLesson] = useState<{ title: string; simpleLine: string; slug: string } | null>(null);
   const [streakInfo, setStreakInfo] = useState<{ currentStreak: number; streakIncreased: boolean; todayQuestions: number; dailyGoal: number; goalComplete: boolean } | null>(null);
+  const [studyPlan, setStudyPlan] = useState<string>("TWO_WEEK");
+  const [savingPlan, setSavingPlan] = useState(false);
+
+  // Fetch study plan on mount
+  useEffect(() => {
+    if (session?.user && IS_PREMIUM) {
+      fetch("/api/study-plan").then(r => r.json()).then(data => {
+        if (data.studyPlan) setStudyPlan(data.studyPlan);
+      }).catch(() => {});
+    }
+  }, [session, IS_PREMIUM]);
+
 
 
   // Auto-start modes from dashboard
@@ -228,7 +240,7 @@ function PracticeContent() {
     const newAnswers = [...answers, { questionId: q.id, choiceId: selected, isCorrect }];
     setAnswers(newAnswers);
 
-    // Update pass system only in PRACTICE mode, not EXAM_SIMULATION
+    // Update review tracking only in PRACTICE mode, not EXAM_SIMULATION
     if (testMode === "PRACTICE") {
       fetch("/api/review", {
         method: "POST",
@@ -307,6 +319,69 @@ function PracticeContent() {
       <div className="max-w-2xl mx-auto px-4 py-10">
         <h1 className="text-2xl font-bold text-gray-900 mb-1">{state.name} DMV Practice</h1>
         <p className="text-gray-500 text-sm mb-8">Choose your study mode below</p>
+        {/* Study Plan — Premium Only */}
+        {IS_PREMIUM && (
+          <div className="rounded-xl border border-purple-200 bg-purple-50 p-5 mb-6">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-8 h-8 rounded-lg bg-purple-500 flex items-center justify-center">
+                <Zap className="w-4 h-4 text-white" />
+              </div>
+              <div>
+                <h2 className="font-bold text-gray-900 text-sm">Your study schedule</h2>
+                <p className="text-xs text-gray-500">Questions you miss come back until you know them</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              {[
+                { key: "EXPRESS", label: "Express", sub: "3 days", desc: "Test is soon" },
+                { key: "ONE_WEEK", label: "1 Week", sub: "7 days", desc: "Steady pace" },
+                { key: "TWO_WEEK", label: "2 Weeks", sub: "14 days", desc: "Take your time" },
+              ].map(plan => (
+                <button
+                  key={plan.key}
+                  disabled={savingPlan}
+                  onClick={async () => {
+                    setSavingPlan(true);
+                    try {
+                      await fetch("/api/study-plan", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ studyPlan: plan.key }),
+                      });
+                      setStudyPlan(plan.key);
+                    } catch {}
+                    setSavingPlan(false);
+                  }}
+                  className={cn(
+                    "rounded-lg border p-3 text-center transition-all",
+                    studyPlan === plan.key
+                      ? "border-purple-500 bg-purple-100 ring-2 ring-purple-300"
+                      : "border-gray-200 bg-white hover:border-purple-300"
+                  )}
+                >
+                  <div className="font-bold text-sm text-gray-900">{plan.label}</div>
+                  <div className="text-[10px] text-purple-600 font-medium">{plan.sub}</div>
+                  <div className="text-[10px] text-gray-400 mt-0.5">{plan.desc}</div>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!IS_PREMIUM && session?.user && (
+          <div className="rounded-xl border border-gray-200 bg-gray-50 p-4 mb-6">
+            <div className="flex items-center gap-3">
+              <Zap className="w-5 h-5 text-yellow-500" />
+              <div className="flex-1">
+                <p className="text-sm font-semibold text-gray-800">Study schedules</p>
+                <p className="text-xs text-gray-500">Pick how many days until your test — we plan your practice</p>
+              </div>
+              <Link href="/pricing" className="px-3 py-1.5 bg-yellow-100 text-yellow-800 rounded-lg text-xs font-bold hover:bg-yellow-200 transition-colors">
+                Upgrade
+              </Link>
+            </div>
+          </div>
+        )}
 
         {/* Mode Cards */}
         <div className="space-y-4 mb-8">
@@ -542,6 +617,15 @@ function PracticeContent() {
           <div className={cn("rounded-xl p-4 mb-4 border", selected && q.choices.find(c => c.id === selected)?.isCorrect ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200")}>
             <p className="text-xs font-bold mb-1 uppercase tracking-wide text-gray-500">Explanation</p>
             <p className="text-sm text-gray-700">{displayExplanation}</p>
+          </div>
+        )}
+
+        {/* Look up a word link — Practice mode only */}
+        {showExplanation && testMode === "PRACTICE" && (
+          <div className="text-center mb-4">
+            <a href="/vocabulary" target="_blank" rel="noopener noreferrer" className="text-xs text-purple-600 hover:text-purple-700 hover:underline font-medium inline-flex items-center gap-1">
+              Don&apos;t know a word? Look it up →
+            </a>
           </div>
         )}
 

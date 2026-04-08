@@ -152,9 +152,9 @@ export default async function DashboardPage() {
               <div>
                 <div className="flex items-center gap-2">
                   <Brain className="w-5 h-5 text-purple-600" />
-                  <h2 className="font-bold text-gray-900 text-lg">Your Pass System</h2>
+                  <h2 className="font-bold text-gray-900 text-lg">Your review plan</h2>
                 </div>
-                <p className="text-xs text-gray-500 mt-1 ml-7">Tracks what you know and schedules reviews so you pass</p>
+                <p className="text-xs text-gray-500 mt-1 ml-7">We bring back the questions you got wrong until you know them</p>
               </div>
               {dueCount > 0 && (
                 <div className="flex flex-col items-end gap-1">
@@ -169,13 +169,13 @@ export default async function DashboardPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-purple-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-purple-700">{dueCount}</p>
-                <p className="text-xs text-purple-600 font-medium mt-1">Due for Review</p>
+                <p className="text-xs text-purple-600 font-medium mt-1">Practice these again</p>
                 {dueCount > 0 && <p className="text-[10px] text-purple-500 mt-1.5">Review now to lock in what you've learned</p>}
               </div>
               <div className="bg-blue-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-blue-700">{memoryStrength}%</p>
-                <p className="text-xs text-blue-600 font-medium mt-1">Memory Strength</p>
-                <p className="text-[10px] mt-1.5 font-medium">{memoryStrength >= 80 ? <span className="text-green-600">Strong — you're retaining well</span> : memoryStrength >= 60 ? <span className="text-yellow-600">Getting there — keep reviewing</span> : <span className="text-red-500">⚠️ Not test-ready yet</span>}</p>
+                <p className="text-xs text-blue-600 font-medium mt-1">What you remember</p>
+                <p className="text-[10px] mt-1.5 font-medium">{memoryStrength >= 80 ? <span className="text-green-600">Strong — you're retaining well</span> : memoryStrength >= 60 ? <span className="text-yellow-600">Getting better — keep going</span> : <span className="text-red-500">⚠️ Not test-ready yet</span>}</p>
               </div>
               <div className="bg-green-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-green-700">{masteredCount}</p>
@@ -184,8 +184,8 @@ export default async function DashboardPage() {
               </div>
               <div className="bg-red-50 rounded-xl p-4 text-center">
                 <p className="text-2xl font-extrabold text-red-700">{weakCount}</p>
-                <p className="text-xs text-red-600 font-medium mt-1">Need Practice</p>
-                {weakCount > 0 && <p className="text-[10px] text-red-500 mt-1.5 font-medium">Fix these first to pass</p>}
+                <p className="text-xs text-red-600 font-medium mt-1">Keep studying</p>
+                {weakCount > 0 && <p className="text-[10px] text-red-500 mt-1.5 font-medium">Practice these to be ready</p>}
               </div>
             </div>
             {dueCount === 0 && allProgress.length > 0 && (
@@ -195,7 +195,7 @@ export default async function DashboardPage() {
             )}
             {allProgress.length === 0 && (
               <p className="text-sm text-gray-500 text-center mt-4">
-                Start practicing to activate your pass system. It tracks what you know and schedules reviews so you're ready on test day.
+                Start practicing and we will track what you know, then bring back what you forgot until you are ready for test day.
               </p>
             )}
           </div>
@@ -303,7 +303,10 @@ export default async function DashboardPage() {
         {/* Recent sessions */}
         {sessions.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Recent Tests</h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-bold text-gray-900">Recent Tests</h2>
+              <Link href="/progress" className="text-sm text-blue-600 hover:underline font-medium">See your progress →</Link>
+            </div>
             <div className="card divide-y divide-gray-50">
               {sessions.slice(0, 5).map((ts) => {
                 const pct = Math.round((ts.score ?? 0) / ts.totalQ * 100);
@@ -332,7 +335,7 @@ export default async function DashboardPage() {
                 Pass your DMV test on the first try
               </div>
               <p className="text-blue-100 text-sm">
-                Unlock the full pass system — readiness tracking, weak area targeting, spaced repetition, and all 50 states.
+                Unlock everything — track your progress, focus on your weak areas, get reminded what to study, and unlock all 50 states.
               </p>
             </div>
             <Link

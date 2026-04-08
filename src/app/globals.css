@@ -24,3 +24,8 @@
     @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
   }
 }
+
+/* Warm cream background for page wrappers — softer than pure gray */
+.min-h-screen.bg-gray-50 {
+  background-color: #FBF8F3;
+}

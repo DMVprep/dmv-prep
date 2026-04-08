@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free DMV Practice Test 2026 - Pass Your Permit Test First Try",
-  description: "Free DMV practice tests for all 50 states — 400+ questions per state, Pass System with spaced repetition, Readiness Score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
+  description: "Free DMV practice tests for all 50 states — 400+ questions per state, auto-review of wrong answers, readiness score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
   keywords: ["DMV practice test 2026", "free DMV test", "permit test practice", "DMV test for non-native speakers", "road sign test", "driving test prep"],
   openGraph: {
     title: "Free DMV Practice Test 2026 - Pass First Try",
-    description: "Free DMV practice tests for all 50 states — 400+ questions per state, spaced repetition Pass System. Built for first-time drivers and non-native speakers.",
+    description: "Free DMV practice tests for all 50 states — 400+ questions per state, auto-review of wrong answers. Built for first-time drivers and non-native speakers.",
     url: "https://dmv-prep.com",
     siteName: "DMVPrep Pro",
     type: "website",
@@ -87,7 +87,7 @@ const FEATURES = [
   {
     icon: Brain,
     title: "400+ Questions Per State",
-    description: "400+ state-specific practice questions with instant feedback. Our Pass System uses spaced repetition to help you remember what you learn.",
+    description: "400+ state-specific practice questions with instant feedback. We bring back what you got wrong until you remember it.",
     color: "text-purple-600 bg-purple-50",
   },
   {
@@ -201,8 +201,8 @@ export default function HomePage() {
               <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 p-8">
                 <div className="text-center mb-6">
                   <div className="text-sm font-bold text-purple-600 uppercase tracking-wide mb-1">Your study plan</div>
-                  <div className="text-2xl font-extrabold text-gray-900">Forget the 100-page handbook</div>
-                  <div className="text-sm text-gray-500 mt-2">Read once. Practice. Let autopilot do the rest.</div>
+                  <div className="text-2xl font-extrabold text-gray-900">Pass your DMV test in 3 steps</div>
+                  <div className="text-sm text-gray-500 mt-2">Read once. Practice. We do the rest.</div>
                 </div>
 
                 <div className="space-y-3 mb-6">
@@ -223,8 +223,8 @@ export default function HomePage() {
                   <div className="bg-green-50 rounded-xl p-4 flex items-start gap-3">
                     <div className="w-8 h-8 rounded-lg bg-green-600 text-white flex items-center justify-center font-extrabold text-sm flex-shrink-0">3</div>
                     <div>
-                      <div className="text-sm font-bold text-gray-900">Switch to autopilot</div>
-                      <div className="text-xs text-gray-500 mt-0.5">Our system remembers what you got wrong and brings it back until you know it. Just show up daily.</div>
+                      <div className="text-sm font-bold text-gray-900">Let us help you remember</div>
+                      <div className="text-xs text-gray-500 mt-0.5">Pick 3 days, 1 week, or 2 weeks. We bring back the questions you got wrong until you know them.</div>
                     </div>
                   </div>
                 </div>
@@ -354,8 +354,8 @@ export default function HomePage() {
                   ["Plain English explanations", true, false],
                   ["Built for first-time drivers and non-native speakers", true, false],
                   ["400+ state-specific questions per state", true, true],
-                  ["Pass System (spaced repetition)", true, false],
-                  ["SmartRecall micro-lessons", true, false],
+                  ["Auto-review of wrong answers", true, false],
+                  ["Short lessons in plain English", true, false],
                   ["Readiness score", true, false],
                   ["Multiple language support", true, false],
                   ["Free to start (no credit card)", true, false],

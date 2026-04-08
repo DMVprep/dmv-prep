@@ -19,21 +19,21 @@ const PASS_FEATURES = [
   "One-time payment, yours forever",
 ];
 const PREMIUM_FEATURES = [
+  "Study in your language — Spanish, Chinese, Portuguese, French",
   "All 50 states — 400+ questions per state",
   "Unlimited practice tests",
   "All test modes (Quick, Signs, Full Exam)",
   "Full plain-English explanations",
-  "Pass System with spaced repetition",
-  "SmartRecall micro-lessons with practice questions",
-  "Readiness Score and progress tracking",
-  "Weak areas identifier",
-  "Multilingual translations (Spanish, Chinese, and more)",
+  "Auto-review of wrong answers",
+  "Short lessons in plain English with practice",
+  "Readiness score and progress tracking",
+  "See your weak areas",
   "Priority support",
 ];
 const FAQ = [
   {
-    q: "What is the difference between Pass and Premium?",
-    a: "Pass is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, the Pass System with spaced repetition, SmartRecall lessons, Readiness Score, and multilingual translations. If you only need to pass the test in one state, Pass is the best value.",
+    q: "What is the difference between One State and Premium?",
+    a: "One State is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, auto-review of wrong answers, short lessons in plain English, the readiness score, and translations into Spanish, Chinese, Portuguese, and French. If you only need to pass the test in one state, One State is the best value.",
   },
   {
     q: "Can I upgrade from Pass to Premium later?",
@@ -142,7 +142,7 @@ export default function PricingPage() {
               </span>
             </div>
             <div className="mb-5">
-              <h2 className="text-lg font-bold text-gray-900 mb-1">Pass</h2>
+              <h2 className="text-lg font-bold text-gray-900 mb-1">One State</h2>
               <div className="flex items-end gap-1">
                 <span className="text-4xl font-extrabold text-gray-900">$9.99</span>
                 <span className="text-gray-400 mb-1 text-sm">one-time</span>
@@ -162,7 +162,7 @@ export default function PricingPage() {
               disabled={loading === "pass"}
               className="w-full text-center block bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3 px-6 rounded-xl transition-colors disabled:opacity-60"
             >
-              {loading === "pass" ? "Loading..." : "Buy Pass — $9.99"}
+              {loading === "pass" ? "Loading..." : "Buy One State — $9.99"}
             </button>
           </div>
 

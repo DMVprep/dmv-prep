@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${state.name} Road Sign Practice Test 2026 — Free DMV Signs Quiz`,
     description: `Learn all ${state.name} road signs with our free practice test. Covers warning signs, regulatory signs, and guide signs tested on the ${state.name} DMV exam.`,
+    alternates: { canonical: `https://dmv-prep.com/state/${params.state}/road-sign-practice-test` },
   };
 }
 
@@ -159,7 +160,7 @@ export default function RoadSignPage({ params }: Props) {
             {state.name} Road Sign Practice Test 2026
           </h1>
           <p className="text-gray-600 mb-6">
-            Study every road sign tested on the {state.name} DMV exam. Click any sign to read what it means.
+            Study every road sign tested on the {state.name} DMV exam. Each sign shows what it means below.
           </p>
 
           {/* Page nav */}
