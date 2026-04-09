@@ -295,6 +295,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años (con curso de educación vial)",
     },
   },
+  colorado: {
+    heroSubtitle:
+      "Colorado es un estado pionero: ofrece licencias de conducir a TODOS los residentes desde 2013, sin importar estatus migratorio. Aquí te explicamos en español cómo funciona y cómo aprobar el examen.",
+
+    localStats: {
+      spanishSpeakersPercent: "12%",
+      spanishSpeakersNumber: "700,000",
+      extraStat: "Colorado tiene una historia hispana que se remonta siglos — antes de ser estado, esta tierra era parte de México. Las comunidades hispanas más grandes están en Denver (especialmente el noroeste: Highland, Elyria-Swansea, Westwood), Pueblo, Greeley, Grand Junction y el Valle de San Luis en el sur del estado.",
+    },
+
+    stateSpecificSection: {
+      title: "Colorado fue uno de los primeros estados en ofrecer licencias a todos: SB251 / CO-RCSA",
+      paragraphs: [
+        "En junio de 2013, Colorado pasó una ley histórica llamada Colorado Road and Community Safety Act (SB13-251, o simplemente \"SB251\"). La ley permite a cualquier residente de Colorado obtener una licencia de conducir legal, sin importar su estatus migratorio. Fue firmada por el Gobernador John Hickenlooper y entró en efecto el 1 de agosto de 2014.",
+        "Colorado fue uno de los estados pioneros en esta política — tres años ANTES de que Illinois ampliara su programa TVDL. Y el impacto ha sido enorme: hasta junio de 2023, el DMV de Colorado había emitido más de <strong>252,396 licencias estándar</strong> bajo este programa. Son cientos de miles de familias que ahora pueden manejar legalmente, tener seguro de auto, y estar protegidas en la carretera.",
+        "Cuando empezó el programa en 2014, solo unas pocas oficinas del DMV podían emitir estas licencias. Pero en junio de 2023 — el aniversario de 10 años de la ley — el Gobernador Jared Polis y el DMV anunciaron que <strong>las 36 oficinas estatales de licencias ahora ofrecen servicios bajo SB251</strong>. Ya no tienes que viajar horas para encontrar una oficina que te atienda.",
+        "Para aplicar, necesitas: identificación de tu país de origen (pasaporte o tarjeta consular), número de Tax Identification (ITIN) o Social Security Number, prueba de residencia en Colorado (los impuestos del año anterior sirven), y una prueba de dirección física actual. La licencia estándar es válida por 3 años y tiene una banda negra al frente que dice \"Not Valid For Federal Identification, Voting or Public Benefit Purposes\" — eso significa que sirve para manejar, pero no para identificarte en un aeropuerto federal ni para votar. Para hacer una cita, llama al 303-205-2335 o visita DMV.Colorado.gov/AppointmentScheduling.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "El examen en Colorado: en español, @Home, y con una tasa de fallo del 39.8%",
+      paragraphs: [
+        "El examen escrito de Colorado se ofrece en español, tanto en las oficinas del DMV como en el sistema <strong>@Home Driving Knowledge Test</strong> — el sistema único de Colorado que te permite tomar el examen desde tu casa usando una computadora con cámara web. Tu rostro es capturado durante el examen para verificar que eres tú quien lo está tomando. Pocos estados ofrecen algo así.",
+        "El examen tiene 25 preguntas (no 20 como en algunos estados), y necesitas contestar 20 correctamente para aprobar (80%). Tienes 60 minutos para terminarlo. Puedes tomarlo hasta dos veces por día, y no hay límite total de intentos — pero cada reintento puede tener su propia tarifa.",
+        "El manual oficial del conductor de Colorado (Colorado Driver Handbook) está disponible en español en formato PDF, directamente en el sitio web del DMV. Es la fuente oficial para prepararte. Y según datos de 2020-2023, aproximadamente el <strong>39.8% de los aspirantes FALLAN el examen en su primer intento</strong>. No es fácil — especialmente si no has estudiado el vocabulario específico de señales y reglas de Colorado.",
+        "Y aquí está el reto bilingüe: aunque hagas el examen en español, las señales en las montañas y carreteras de Colorado están en inglés. Si manejas por la I-70 hacia las estaciones de esquí, verás letreros como \"Chain Law in Effect\", \"Steep Grade Ahead - Use Lower Gear\", \"Runaway Truck Ramp\". Colorado es especialmente exigente por su terreno — hay situaciones de manejo en montaña que no existen en la mayoría de los otros estados, y las reglas de chains (cadenas para nieve) son serias. Nuestro método te prepara para ese vocabulario específico.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Si estás aplicando bajo el programa SB251 y no puedes demostrar presencia legal, la tarifa de tu licencia es de $33 en lugar de los $28 estándar — una diferencia de solo $5. Además, debes completar un nuevo formulario llamado Colorado Road and Community Safety Act Affidavit (formulario DR 2122A) cada vez que aplicas o renuevas. En 2018, la ley SB18-108 permitió la renovación en línea para muchas licencias bajo SB251, pero los residentes temporalmente legales (TLP) solo pueden renovar EN PERSONA. Nuestro método te prepara tanto para el examen escrito como para navegar estos detalles administrativos que confunden a muchos solicitantes.",
+    },
+
+    testDetails: {
+      fee: "$28 (con presencia legal) / $33 (licencia estándar SB251)",
+      retakeWaitDays: 0,
+      maxAttemptsPerPeriod: "Hasta 2 intentos por día, sin límite total",
+      minAgePermit: "15 años (con curso de educación vial)",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
