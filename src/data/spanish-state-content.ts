@@ -170,6 +170,47 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "16 años",
     },
   },
+  arizona: {
+    heroSubtitle:
+      "Arizona ofrece el examen escrito en español — y es uno de los pocos estados donde el propio MVD publica un examen de práctica oficial en español. Aquí te preparamos con el mejor método bilingüe para aprobar a la primera.",
+
+    localStats: {
+      spanishSpeakersPercent: "21%",
+      spanishSpeakersNumber: "1.5 millones",
+      extraStat: "Arizona comparte 372 millas de frontera con México. Ciudades como Nogales, Yuma, Douglas y San Luis son comunidades fronterizas donde el español es el idioma cotidiano. Phoenix, Tucson y Mesa concentran las poblaciones hispanas más grandes del estado, mayoritariamente de origen mexicano.",
+    },
+
+    stateSpecificSection: {
+      title: "Arizona: MVD, no DMV — y lo que eso significa para ti",
+      paragraphs: [
+        "Un detalle que pocos hispanohablantes saben: en Arizona, la agencia oficial de licencias no se llama DMV. Se llama MVD (Motor Vehicle Division), y es parte del ADOT (Departamento de Transporte de Arizona). Si buscas \"DMV Arizona\" en Google, técnicamente estás buscando algo que no existe con ese nombre en este estado. Pero no te preocupes — todos saben de qué hablas.",
+        "El examen de manejo escrito en Arizona se ofrece en 4 idiomas: inglés, español, hindi y vietnamita. Es más limitado que Nueva York (20 idiomas), pero más generoso que Texas (solo 2). Y a diferencia de muchos otros estados, el propio MVD publica un examen de práctica oficial en español en su sitio web (azdot.gov), lo que demuestra un compromiso real con los conductores hispanohablantes.",
+        "El manual de manejo de Arizona también está disponible en español, tanto en formato PDF descargable como en página web. Esto significa que puedes estudiar todo el material oficial en tu idioma antes de tomar el examen.",
+        "Dicho esto, Arizona es un estado políticamente complejo en temas de inmigración. La ley SB 1070 de 2010 fue una de las más restrictivas del país, y aunque partes fueron anuladas por la Corte Suprema, el ambiente sigue siendo cambiante. Si eres residente permanente, ciudadano, o tienes estatus migratorio válido, el proceso del MVD es directo — pero es inteligente prepararte bien para no perder tiempo ni tu tarifa por fallar el examen.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "Por qué vale la pena prepararte con nuestro método bilingüe",
+      paragraphs: [
+        "Aunque Arizona ofrece el examen en español hoy, la tendencia nacional está cambiando rápido. Florida eliminó todos los idiomas que no fueran inglés en febrero de 2026. Tennessee está considerando una ley similar. El gobierno federal endureció los requisitos de inglés para las licencias comerciales (CDL). Y Arizona, por su historia política con temas de inmigración, es un candidato natural para seguir esa dirección.",
+        "Pero hay un argumento aún más importante: aunque tomes el examen en español en Arizona, las señales de tránsito en las calles — STOP, YIELD, ONE WAY, MERGE, DO NOT ENTER — siguen en inglés. Las reglas que aprendes en español solo te sirven si puedes reconocer esas palabras cuando estás manejando. Nuestro método cubre exactamente esa conexión: reglas en español, vocabulario visual en inglés.",
+        "Además, el MVD de Arizona usa pantallas táctiles que te dicen si acertaste o fallaste después de cada pregunta. Muchos hispanohablantes pierden tiempo leyendo la explicación de un error porque no reconocen el vocabulario técnico. Con nuestro entrenamiento previo, esas explicaciones no te sorprenden — las habrás visto antes en nuestras lecciones bilingües.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "A diferencia de otros estados, el examen de Arizona NO tiene una sección separada de señales de tránsito — las preguntas de señales están mezcladas con el resto del examen. Esto significa que puedes fallar 6 preguntas en total (para llegar al mínimo de 24/30) y aun así aprobar, siempre que sumes los 24 correctos. Pero si eres menor de 18 años y tus padres tienen una cuenta en AZ MVD Now, pueden administrarte el examen desde casa a través del programa \"Permit Test at Home\". Es una opción única de Arizona que no muchos conocen.",
+    },
+
+    testDetails: {
+      fee: "$25 (aplicación del permiso)",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "Sin límite oficial, pero cada reintento requiere pagar de nuevo",
+      minAgePermit: "15 años y 6 meses",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
