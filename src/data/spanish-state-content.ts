@@ -253,6 +253,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "16 años (permiso especial para estudiantes)",
     },
   },
+  illinois: {
+    heroSubtitle:
+      "Illinois es uno de los pocos estados donde puedes obtener una licencia de conducir legal incluso sin número de Seguro Social. El examen se ofrece en español, y aquí te enseñamos todo lo que necesitas saber para aprobar.",
+
+    localStats: {
+      spanishSpeakersPercent: "16%",
+      spanishSpeakersNumber: "2.1 millones",
+      extraStat: "Chicago es el corazón hispano del Medio Oeste. Barrios como Pilsen y La Villita (Little Village) son el centro de la comunidad mexicana-americana más grande fuera del suroeste del país. Humboldt Park concentra la mayor comunidad puertorriqueña del estado. En total, el 26% de los residentes de Chicago hablan español en casa.",
+    },
+
+    stateSpecificSection: {
+      title: "Illinois tiene un programa único: TVDL (Licencia para Visitante Temporal)",
+      paragraphs: [
+        "Esta es probablemente la información más importante en esta página: Illinois es uno de los pocos estados de todo el país que ofrece una licencia de conducir legal a personas que no tienen número de Seguro Social. Se llama Temporary Visitor Driver\'s License (TVDL), y la emite directamente la Secretaría de Estado de Illinois (Secretary of State, no DMV).",
+        "Para calificar para una TVDL debes cumplir estos requisitos: ser no-ciudadano de Estados Unidos, residir en Illinois por al menos 12 meses, ser inelegible para un Social Security Number, y presentar documentación oficial de identidad. Los documentos aceptados incluyen un pasaporte válido (o expirado hasta por 2 años) o una tarjeta de identificación consular — pero OJO: solo se aceptan tarjetas consulares de cinco países específicos: Brasil, Colombia, Ecuador, Guatemala y México.",
+        "La TVDL es válida por 4 años y te permite manejar un carro personal, una motocicleta, o cualquier vehículo que no requiera licencia comercial. No es una licencia comercial (CDL). Y no todas las oficinas de Illinois emiten TVDL — solo 9 facilidades en todo el estado: Bloomington, Carbondale, Champaign, Chicago North, Chicago West, Des Plaines, Macomb, Rockford Central, y Springfield (en Dirksen Parkway). Si vas a una oficina que no es una de esas 9, te van a mandar de vuelta. Verifica antes de ir.",
+        "En julio de 2024, el Secretario de Estado Alexi Giannoulias anunció que Illinois también agregó opciones en español para el examen de licencia comercial (CDL) — uniendo a Illinois con más de 20 otros estados que ofrecen el CDL en español. Esto ayuda a combatir la escasez de conductores de camiones y autobuses escolares.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "El examen escrito en Illinois: idiomas disponibles y lo que necesitas saber",
+      paragraphs: [
+        "El examen escrito en Illinois se ofrece en varios idiomas: inglés, español, polaco (Illinois tiene una de las comunidades polacas más grandes del país), chino, coreano, hindi, vietnamita, entre otros. El manual oficial \"Rules of the Road\" está publicado en inglés, español y polaco — esos son los tres idiomas principales que cubre el estado.",
+        "El examen tiene 35 preguntas y necesitas contestar 28 correctamente (80%) para aprobar. Tienes derecho a 3 intentos dentro de un año desde que pagaste la tarifa de solicitud — si fallas 3 veces, debes volver a aplicar y pagar de nuevo.",
+        "Un dato importante del propio SOS: entre 2019 y 2023, aproximadamente el 40.5% de los solicitantes FALLARON el examen en su primer intento. No es un número pequeño. Muchas de las personas que fallan son hispanohablantes que no tuvieron preparación adecuada, que no estudiaron el manual en español, o que subestimaron la dificultad del examen.",
+        "Y hay otro detalle crítico: en Illinois, el examen se debe tomar EN PERSONA en una facilidad de Driver Services del Secretario de Estado. No existe la opción de tomarlo en línea para solicitantes por primera vez. Esto significa que vas a estar en una computadora en la oficina del SOS, respondiendo las preguntas en el idioma que elegiste — con las señales de tránsito en inglés.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Si eres un solicitante TVDL (sin Social Security Number), debes firmar una declaración jurada en tu aplicación confirmando que eres inelegible para un SSN. Además, si tienes entre 18 y 20 años, debes completar un curso de educación vial para adultos de 6 horas antes de poder obtener tu TVDL. Nuestro método cubre todo el contenido de ese curso en español, así que puedes estudiar con nosotros tanto para el examen escrito como para cumplir el requisito educativo. Y recuerda: aunque tomes el examen en español, las señales de tránsito en las calles siguen en inglés — STOP, YIELD, ONE WAY, DO NOT ENTER — y ese vocabulario visual es parte de tu preparación.",
+    },
+
+    testDetails: {
+      fee: "$20 para el permiso de instrucción",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "3 intentos en un año desde el pago de la tarifa",
+      minAgePermit: "15 años (con curso de educación vial)",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
