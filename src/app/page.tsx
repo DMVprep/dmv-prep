@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free DMV Practice Test 2026 - Pass Your Permit Test First Try",
-  description: "Free DMV practice tests for all 50 states — 400+ questions per state, auto-review of wrong answers, readiness score. Plain-English explanations built for first-time drivers and non-native speakers. Start free, no signup needed.",
-  keywords: ["DMV practice test 2026", "free DMV test", "permit test practice", "DMV test for non-native speakers", "road sign test", "driving test prep"],
+  title: "Free Permit Test Practice 2026 — Pass Your DMV Test First Try",
+  description: "Free permit test practice for all 50 states — 400+ DMV practice test questions per state, auto-review of wrong answers, readiness score. Plain-English explanations built for first-time drivers and non-native speakers. 100% free, no signup needed.",
+  keywords: ["permit test practice", "free permit test practice 2026", "DMV practice test 2026", "free DMV test", "DMV permit test", "permit practice test", "DMV test for non-native speakers", "road sign test", "driving test prep"],
   openGraph: {
-    title: "Free DMV Practice Test 2026 - Pass First Try",
-    description: "Free DMV practice tests for all 50 states — 400+ questions per state, auto-review of wrong answers. Built for first-time drivers and non-native speakers.",
+    title: "Free Permit Test Practice 2026 — Pass First Try",
+    description: "Free permit test practice for all 50 states — 400+ questions per state, auto-review of wrong answers. Built for first-time drivers and non-native speakers.",
     url: "https://dmv-prep.com",
     siteName: "DMVPrep Pro",
     type: "website",
@@ -149,12 +149,12 @@ export default function HomePage() {
               </div>
 
               <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-6">
-                Pass Your DMV Test<br />
-                <span className="text-blue-600">on the First Try</span>
+                Free Permit Test Practice<br />
+                <span className="text-blue-600">Pass Your DMV Test First Try</span>
               </h1>
 
               <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                Simple explanations in plain English. No confusing legal words. Built for <strong>first-time drivers</strong>, <strong>non-native speakers</strong>, and anyone who just wants to pass.
+                <strong>100% free.</strong> Simple explanations in plain English. No confusing legal words. Built for <strong>first-time drivers</strong>, <strong>non-native speakers</strong>, and anyone who just wants to pass.
               </p>
 
               {/* State Selector */}
