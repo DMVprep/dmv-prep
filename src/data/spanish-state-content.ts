@@ -129,6 +129,47 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años",
     },
   },
+  "new-york": {
+    heroSubtitle:
+      "Nueva York es el estado más accesible del país para tomar el examen de manejo en tu idioma — disponible en 20 idiomas, incluyendo español. Aquí te ayudamos a aprovecharlo al máximo.",
+
+    localStats: {
+      spanishSpeakersPercent: "19%",
+      spanishSpeakersNumber: "3.8 millones",
+      extraStat: "En la ciudad de Nueva York, alrededor del 24% de los residentes hablan español en casa. Barrios como Washington Heights, Jackson Heights, el Bronx, Corona y Bushwick concentran las comunidades hispanohablantes más grandes — puertorriqueñas, dominicanas, mexicanas, centroamericanas y sudamericanas.",
+    },
+
+    stateSpecificSection: {
+      title: "Nueva York ofrece el examen en 20 idiomas — el más accesible del país",
+      paragraphs: [
+        "El Departamento de Vehículos Motorizados del estado de Nueva York (NYS DMV) ofrece el examen escrito para la licencia Clase D en 20 idiomas: inglés, albanés, árabe, bengalí, bosnio, chino, francés, griego, criollo haitiano, hebreo, italiano, japonés, coreano, nepalí, polaco, ruso, español, turco, urdu y yiddish. Ningún otro estado en Estados Unidos ofrece tantas opciones.",
+        "Esta accesibilidad no es accidental. Nueva York tiene una tradición larga de servicios públicos multilingües. La ciudad de Nueva York es una de las más diversas del mundo, con más de 200 idiomas hablados en los cinco distritos. Y a diferencia de Florida o estados como Tennessee que están recortando el acceso, Nueva York mantiene su política inclusiva sin señales de cambio.",
+        "Para los hispanohablantes, esto significa una ventaja real: puedes tomar el examen escrito en español, estudiar el manual de manejo oficial en español, y no preocuparte por barreras de idioma en el proceso de solicitud. Es uno de los pocos estados donde realmente puedes empezar a manejar sin hablar inglés.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "Pero una advertencia: las reglas del examen de Nueva York son más estrictas de lo que parecen",
+      paragraphs: [
+        "El examen de Nueva York tiene solo 20 preguntas y necesitas 14 correctas para aprobar (70%). Eso suena fácil — y comparado con California (46 preguntas, 83%) o Maryland (88%), lo es.",
+        "Pero hay una trampa que muchos no saben: de esas 20 preguntas, exactamente 4 son sobre señales de tránsito, y tienes que acertar al menos 2 de esas 4. Aunque saques 14 correctas en total, si fallas más de 2 preguntas de señales, repruebas el examen. Es un requisito separado.",
+        "Esto significa que el vocabulario visual de señales de tránsito — STOP, YIELD, ONE WAY, DO NOT ENTER, y todas las demás — no es opcional. Aunque hagas el examen escrito en español, las señales siguen apareciendo con texto en inglés y tienes que reconocerlas. Muchos hispanohablantes aprueban las preguntas de reglas pero fallan las de señales por no conocer el vocabulario visual.",
+        "Nuestro método cubre exactamente eso: te enseñamos las reglas en español claro, pero también te entrenamos con el vocabulario visual de las señales en inglés. Es la combinación que te lleva a aprobar las dos secciones del examen, no solo una.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Nueva York es uno de los pocos estados que NO requiere un período de espera entre intentos del examen escrito. Si fallas, puedes volver a intentarlo el mismo día o al día siguiente — sin tarifa adicional. Además, si tienes menos de 18 años, puedes tomar el examen en línea desde casa a través del programa OKTA del DMV (disponible en inglés y español). Pero recuerda: aunque la política de reintentos sea flexible, fallar varias veces puede retrasar tu proceso semanas. Prepárate bien desde el principio con nuestro método.",
+    },
+
+    testDetails: {
+      fee: "$5 para el examen escrito ($1 adicional cada 6 meses para residentes de NYC y condados vecinos)",
+      retakeWaitDays: 0,
+      maxAttemptsPerPeriod: "Sin límite — puedes reintentar inmediatamente",
+      minAgePermit: "16 años",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
