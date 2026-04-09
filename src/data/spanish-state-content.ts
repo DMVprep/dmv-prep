@@ -211,6 +211,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años y 6 meses",
     },
   },
+  "new-jersey": {
+    heroSubtitle:
+      "Nueva Jersey ofrece el examen escrito en 13 idiomas, incluyendo español. Y si tu idioma no está en la lista, el MVC paga el intérprete por ti. Aquí te ayudamos a aprobar a la primera.",
+
+    localStats: {
+      spanishSpeakersPercent: "16%",
+      spanishSpeakersNumber: "1.5 millones",
+      extraStat: "Ciudades como Union City, West New York, Elizabeth, Perth Amboy, Passaic y Paterson tienen poblaciones hispanas muy grandes, algunas mayoritarias. Nueva Jersey tiene una de las mezclas hispanas más diversas del país: comunidades dominicanas, puertorriqueñas, colombianas, peruanas, ecuatorianas y cubanas conviven en los mismos barrios.",
+    },
+
+    stateSpecificSection: {
+      title: "Nueva Jersey: 13 idiomas y el MVC paga el intérprete si el tuyo no está",
+      paragraphs: [
+        "La Comisión de Vehículos Motorizados de Nueva Jersey (NJ MVC) — que no es DMV ni MVD, sino MVC — ofrece el examen escrito en 13 idiomas: inglés, árabe, chino (mandarín), francés, español, coreano, polaco, portugués, ruso, japonés, hindi, albanés y turco. Es el segundo estado más accesible del país en términos de idiomas del examen, solo superado por Nueva York con 20.",
+        "Pero aquí viene lo que hace a Nueva Jersey verdaderamente único: si tu idioma principal no está en esa lista de 13, el MVC te permite traer un intérprete certificado — y pagan su tarifa. No es broma. La política oficial del estado permite que el intérprete sea un miembro de facultad de una universidad acreditada, un líder religioso reconocido, o un intérprete aprobado del Departamento de Estado. Es uno de los pocos estados del país con este nivel de compromiso con los conductores que no hablan inglés.",
+        "El manual oficial de manejo de Nueva Jersey está disponible en 4 idiomas: inglés, español, tagalo y chino. El NJ MVC también publica la guía para conductores jóvenes (\"Share the Keys\") en español.",
+        "Y un dato clave directamente del MVC: entre el 40% y 50% de los solicitantes FALLAN el examen en el primer intento. No es un error tipográfico. El propio NJ MVC reconoce esta tasa de fracaso en sus comunicaciones oficiales. La pregunta no es si Nueva Jersey ofrece suficientes idiomas — los ofrece. La pregunta es si tú vas a estar preparado cuando llegue el día.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "Por qué aun siendo uno de los estados más accesibles, necesitas prepararte bien",
+      paragraphs: [
+        "El hecho de que Nueva Jersey sea uno de los estados más generosos con los idiomas no significa que el examen sea fácil. La tasa de fracaso del 40-50% lo demuestra. Hay varias razones por las que tantos hispanohablantes fallan incluso teniendo el examen en español:",
+        "Primero, el manual de manejo de Nueva Jersey tiene más de 100 páginas y cubre reglas específicas que no existen en otros países: prohibición de girar a la derecha en rojo en ciertas intersecciones de ciudades grandes, reglas específicas sobre peajes, el sistema Graduated Driver License para conductores jóvenes, y multas muy altas por infracciones. Estas son cosas que no se memorizan leyendo una vez.",
+        "Segundo, aunque hagas el examen escrito en español, las señales de tránsito en las calles siguen en inglés. STOP, YIELD, ONE WAY, DO NOT ENTER, NO TURN ON RED — todas son palabras que tienes que reconocer instantáneamente mientras manejas. Nuestro método te prepara no solo con las reglas en español, sino con el vocabulario visual que necesitas cuando salgas del MVC con tu permiso.",
+        "Tercero, Nueva Jersey tiene un programa llamado Graduated Driver License (GDL) que aplica a todos los conductores nuevos sin importar la edad. Eso significa que aunque tengas 40 años, si nunca tuviste licencia de Nueva Jersey, vas a pasar por el mismo proceso gradual que un adolescente de 17. Muchos adultos hispanohablantes no saben esto y llegan al MVC sin estar preparados para el proceso completo.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Nueva Jersey no permite el uso de un intérprete improvisado (un amigo, un pariente, un colega de trabajo) durante el examen. Si necesitas un intérprete porque tu idioma no está en la lista de 13, debes solicitarlo con al menos DOS SEMANAS de anticipación, y tiene que ser un intérprete oficialmente certificado. El MVC paga la tarifa, pero el proceso requiere planificación. Si tu idioma principal es el español, no necesitas intérprete — solo indica tu preferencia cuando agendes tu cita.",
+    },
+
+    testDetails: {
+      fee: "$10 para el permiso de examen",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "Sin límite, pero el MVC puede limitar reintentos el mismo día",
+      minAgePermit: "16 años (permiso especial para estudiantes)",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
