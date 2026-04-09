@@ -337,6 +337,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años (con curso de educación vial)",
     },
   },
+  nevada: {
+    heroSubtitle:
+      "Nevada ofrece el examen escrito en español y tiene uno de los sistemas más modernos del país: KnowToDrive, una plataforma oficial para tomar el examen desde tu casa. Aquí te preparamos para aprobar a la primera.",
+
+    localStats: {
+      spanishSpeakersPercent: "26%",
+      spanishSpeakersNumber: "800,000",
+      extraStat: "Nevada tiene uno de los porcentajes más altos de hispanohablantes del país. El condado de Clark (Las Vegas, Henderson, North Las Vegas) concentra alrededor de 900,000 residentes que hablan español en casa. Reno y Sparks forman el segundo centro hispano del estado. La economía de hospitalidad — hoteles, casinos, restaurantes, construcción — depende directamente de la fuerza laboral hispanohablante.",
+    },
+
+    stateSpecificSection: {
+      title: "Nevada tiene KnowToDrive: examen oficial en línea con cámara web",
+      paragraphs: [
+        "Esta es probablemente la característica más útil del sistema de licencias de Nevada para hispanohablantes: el DMV ofrece una plataforma oficial en línea llamada <strong>KnowToDrive Nevada</strong> (knowtodrive.com/nevada) donde puedes tomar el examen escrito desde tu casa, usando cualquier computadora con cámara web. El sistema está disponible en inglés y español, con reproducción de audio para las preguntas.",
+        "KnowToDrive te permite programar tu examen cuando quieras — no tienes que esperar una cita en el DMV para la parte escrita. La cámara verifica que eres tú quien está tomando el examen, los resultados se transmiten automáticamente al DMV, y solo necesitas ir a una oficina para recoger tu permiso físico. En Reno, Las Vegas, Henderson y Carson City, esa visita final sí requiere cita.",
+        "Además de KnowToDrive, el examen también se ofrece en las oficinas del DMV en computadoras con pantalla táctil. En persona, los idiomas disponibles son: inglés, español, mandarín, cantonés, coreano y vietnamita — seis idiomas en total, lo cual refleja la diversidad cultural de Nevada impulsada por el turismo y la hospitalidad. El manual del conductor de Nevada también está disponible en español en el sitio web del DMV.",
+        "Un dato práctico importante: KnowToDrive cobra una tarifa de $6.75 por cada intento del examen en línea. Esta tarifa es además de los $25 del DMV por el examen estándar (primera vez) y $10 por cada reintento en oficina. Si fallas el examen en línea, debes esperar un día antes de intentarlo de nuevo.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "La economía de Las Vegas depende de hispanohablantes — y el DMV lo sabe",
+      paragraphs: [
+        "Nevada es un estado profundamente bilingüe en la práctica, aunque no lo sea legalmente. La economía de Las Vegas — la ciudad más importante del estado — está construida sobre la fuerza laboral hispanohablante. Los trabajadores de hotelería, los cocineros de restaurantes en The Strip, los cajeros, los guardias de seguridad, los trabajadores de construcción, los empleados de limpieza, los valet parkers — en muchos de esos empleos, el español es el idioma dominante del lugar de trabajo.",
+        "El DMV de Nevada reconoce esta realidad al ofrecer el examen en español tanto en línea como en oficina. Pero hay que ser honestos sobre las limitaciones: a diferencia de Colorado (con el programa SB251) o Illinois (con TVDL), Nevada NO tiene un programa especial para residentes sin número de Seguro Social. Si no tienes estatus migratorio legal, obtener una licencia en Nevada es mucho más difícil que en esos otros estados.",
+        "Y aunque tomes el examen escrito en español, las señales de tránsito en las carreteras de Nevada siguen en inglés. Cuando manejes por I-15 hacia Las Vegas desde California, o por US-95 hacia el norte, verás letreros en inglés: STOP, YIELD, MERGE, ROAD WORK AHEAD, REDUCED SPEED. Nuestro método te enseña a reconocer estas palabras visualmente — que es diferente a solo saber qué significan cuando las lees en un libro.",
+        "Un dato único de Nevada: el DMV puede eximir la tarifa del examen para personas sin hogar menores de 25 años, usando el formulario Declaration of Homeless Status (DMV 128). Es una política compasiva que pocos estados tienen, y vale la pena conocerla si estás en una situación difícil.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Si tomas el examen en línea a través de KnowToDrive Nevada y apruebas, todavía tienes que ir en persona a una oficina del DMV para recoger tu permiso de instrucción físico. En las ciudades grandes — Reno, Las Vegas, Henderson y Carson City — esa visita requiere una cita programada por adelantado. En oficinas rurales, puedes ir sin cita pero los tiempos de espera varían. Planifica con anticipación: KnowToDrive te ahorra el tiempo del examen escrito, pero no reemplaza la visita final al DMV. Y recuerda: Nevada requiere que los menores de 18 años completen un curso aprobado de educación vial antes de obtener su permiso — nuestro método cubre todo el material de ese curso en español.",
+    },
+
+    testDetails: {
+      fee: "$25 (primera vez) + $6.75 KnowToDrive por intento",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "Sin límite total, 1 día de espera entre intentos",
+      minAgePermit: "15 años y 6 meses (con educación vial)",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
