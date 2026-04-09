@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { US_STATES, stateToSlug, getStateBySlug } from "@/data/states";
 import { SPANISH_STATES, getSpanishStateBySlug } from "@/data/spanish-states";
+import { getStateContent } from "@/data/spanish-state-content";
 import { ArrowRight, CheckCircle, AlertTriangle, BookOpen, Globe } from "lucide-react";
 
 interface Props { params: { state: string } }
@@ -55,6 +56,7 @@ export default function SpanishStatePage({ params }: Props) {
   const esState = getSpanishStateBySlug(params.state);
   const state = getStateBySlug(params.state);
   if (!esState || !state) notFound();
+  const stateContent = getStateContent(params.state);
 
   const correctNeeded = Math.ceil((state.questionsCount * state.passingScore) / 100);
 
@@ -265,6 +267,90 @@ export default function SpanishStatePage({ params }: Props) {
               <p className="text-gray-700 leading-relaxed">
                 Si eres una de esas personas, no estás solo. Y tampoco estás sin opciones. Nosotros construimos esta página específicamente para ti.
               </p>
+            </section>
+          )}
+
+          {/* Section: Local stats (bilingual states with content) */}
+          {stateContent?.localStats && (
+            <section className="bg-white rounded-xl border border-gray-200 p-6 mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">El español en {esState.nameEs} en números</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+                  <p className="text-3xl font-bold text-blue-700">{stateContent.localStats.spanishSpeakersPercent}</p>
+                  <p className="text-sm text-blue-900 mt-1">de los residentes hablan español en casa</p>
+                </div>
+                <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+                  <p className="text-3xl font-bold text-blue-700">{stateContent.localStats.spanishSpeakersNumber}</p>
+                  <p className="text-sm text-blue-900 mt-1">de personas que hablan español</p>
+                </div>
+                <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+                  <p className="text-sm text-blue-900">{stateContent.localStats.extraStat}</p>
+                </div>
+              </div>
+              <p className="text-xs text-gray-500 italic">Fuente: American Community Survey 2024, U.S. Census Bureau.</p>
+            </section>
+          )}
+
+          {/* Section: State-specific story (the "what's happening in this state" angle) */}
+          {stateContent?.stateSpecificSection && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{stateContent.stateSpecificSection.title}</h2>
+              {stateContent.stateSpecificSection.paragraphs.map((p, i) => (
+                <p key={i} className="text-gray-700 leading-relaxed mb-4">{p}</p>
+              ))}
+            </section>
+          )}
+
+          {/* Section: Florida warning for bilingual states */}
+          {stateContent?.floridaWarningSection && (
+            <section className="mb-10 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-xl p-6">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{stateContent.floridaWarningSection.title}</h2>
+              {stateContent.floridaWarningSection.paragraphs.map((p, i) => (
+                <p key={i} className="text-gray-800 leading-relaxed mb-4">{p}</p>
+              ))}
+            </section>
+          )}
+
+          {/* Critical tip section (state-specific details competitors miss) */}
+          {stateContent?.criticalTip && (
+            <section className="mb-10 bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-6">
+              <h2 className="text-lg font-bold text-blue-900 mb-2">{stateContent.criticalTip.title}</h2>
+              <p className="text-blue-900 leading-relaxed">{stateContent.criticalTip.body}</p>
+            </section>
+          )}
+
+          {/* Test details card (bilingual states with testDetails) */}
+          {stateContent?.testDetails && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Detalles del examen en {esState.nameEs}</h2>
+              <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
+                <dl className="divide-y divide-gray-100">
+                  {stateContent.testDetails.fee && (
+                    <div className="flex justify-between items-center p-4">
+                      <dt className="text-sm text-gray-600">Costo de la solicitud</dt>
+                      <dd className="text-sm font-semibold text-gray-900">{stateContent.testDetails.fee}</dd>
+                    </div>
+                  )}
+                  {stateContent.testDetails.retakeWaitDays && (
+                    <div className="flex justify-between items-center p-4">
+                      <dt className="text-sm text-gray-600">Espera entre intentos</dt>
+                      <dd className="text-sm font-semibold text-gray-900">{stateContent.testDetails.retakeWaitDays} días</dd>
+                    </div>
+                  )}
+                  {stateContent.testDetails.maxAttemptsPerPeriod && (
+                    <div className="flex justify-between items-center p-4">
+                      <dt className="text-sm text-gray-600">Máximo de intentos</dt>
+                      <dd className="text-sm font-semibold text-gray-900">{stateContent.testDetails.maxAttemptsPerPeriod}</dd>
+                    </div>
+                  )}
+                  {stateContent.testDetails.minAgePermit && (
+                    <div className="flex justify-between items-center p-4">
+                      <dt className="text-sm text-gray-600">Edad mínima para el permiso</dt>
+                      <dd className="text-sm font-semibold text-gray-900">{stateContent.testDetails.minAgePermit}</dd>
+                    </div>
+                  )}
+                </dl>
+              </div>
             </section>
           )}
 
