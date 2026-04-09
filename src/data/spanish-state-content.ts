@@ -379,6 +379,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años y 6 meses (con educación vial)",
     },
   },
+  tennessee: {
+    heroSubtitle:
+      "Tennessee todavía ofrece el examen en español, pero la legislatura estatal está debatiendo activamente un proyecto de ley (SB 1889 / HB 1708) que cambiaría eso. Si planeas obtener tu licencia, prepárate AHORA.",
+
+    localStats: {
+      spanishSpeakersPercent: "8%",
+      spanishSpeakersNumber: "500,000",
+      extraStat: "Tennessee tiene una comunidad hispanohablante en rápido crecimiento, concentrada en Nashville (Antioch, Nolensville, Madison), Memphis, Knoxville y Chattanooga. El estado también tiene una de las poblaciones kurdas más grandes del país en Nashville, una comunidad somalí significativa, y miles de familias japonesas trabajando en las 200+ plantas japonesas que representan $21 mil millones de inversión en Tennessee.",
+    },
+
+    stateSpecificSection: {
+      title: "SB 1889 / HB 1708: la ley que cambiaría todo — y que está avanzando ahora mismo",
+      paragraphs: [
+        "En enero de 2026, el representante Kip Capley (Distrito 71) y el senador Brent Taylor (Condado Shelby) presentaron dos proyectos de ley gemelos — HB 1708 en la Cámara y SB 1889 en el Senado — que cambiarían drásticamente cómo Tennessee administra los exámenes de licencia de conducir. Son parte del paquete legislativo \"Immigration 2026\" de los republicanos de Tennessee, coordinado con la administración Trump.",
+        "Aquí está lo crítico: los dos proyectos son diferentes, y todavía no se sabe cuál va a ganar. La versión de la Cámara (HB 1708) es la más restrictiva — requiere que el examen se tome en inglés, con UNA SOLA excepción permitida. Si no puedes aprobar en inglés, te dan una licencia restringida de 18 meses que solo te permite manejar a lugares específicos: trabajo, guardería, escuela, citas médicas, y lugares de culto. Después de 18 meses, tienes que retomar el examen en inglés — sin diccionario, sin intérprete, sin ayuda electrónica.",
+        "La versión del Senado (SB 1889) es menos restrictiva. Fue modificada después de que el Cónsul General de Japón, Watanabe Shinji, enviara una carta al comité de transporte del Senado el 11 de marzo de 2026 advirtiendo que la ley podría afectar los $21 mil millones de inversión japonesa en Tennessee, los 60,000 empleos en más de 200 plantas, y las ~4,000 familias japonesas que viven en el estado. Después de esa carta, el Senado enmendó el proyecto: ahora permite tomar el examen inicial en otro idioma, manejar sin restricciones por 3 años, y luego hay que retomar el examen en inglés al renovar.",
+        "Mientras escribimos esto (abril de 2026), ninguno de los dos proyectos ha sido firmado como ley. Pero la presión política es real, el paquete Immigration 2026 avanza, y la sesión legislativa termina en pocas semanas. Si eres hispanohablante y planeas tomar tu examen en Tennessee, hazlo ahora — mientras el examen todavía se ofrece en español sin restricciones especiales. Y si no puedes hacerlo antes de que cambie la ley, prepárate con nuestro método bilingüe para estar listo en cualquier escenario.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "El examen actual de Tennessee: todavía en español, por ahora",
+      paragraphs: [
+        "Mientras el proyecto SB 1889 / HB 1708 sigue en debate, la realidad es que Tennessee todavía ofrece el examen escrito de manejo en español. El Departamento de Seguridad y Seguridad Nacional de Tennessee (TDOSHS, por sus siglas en inglés) — que es la agencia oficial de licencias de conducir, no el DMV — publica el manual oficial del conductor en inglés y español. Puedes descargarlo gratis desde su sitio web.",
+        "El examen tiene 30 preguntas y necesitas contestar 24 correctamente para aprobar (80%). Tienes 60 minutos para completarlo, y el costo del permiso de instrucción es de $10.50 si tienes menos de 18 años, o $5.50 si tienes 18 o más. El manual se basa en las secciones B y C del Tennessee Comprehensive Driver License Manual.",
+        "Un dato importante del propio Tennessee Driver Services: aproximadamente <strong>1 de cada 2 personas FALLA el examen en su primer intento</strong> — eso es una tasa de fracaso del 50%, una de las más altas del país. No es un examen fácil, y es especialmente difícil si estás aprendiendo las reglas por primera vez en un idioma que no es el tuyo.",
+        "Y como siempre, aunque tomes el examen escrito en español, las señales de tránsito en las carreteras de Tennessee siguen en inglés. Cuando manejes por I-40 entre Nashville y Memphis, por I-24 hacia Chattanooga, o por la famosa Tail of the Dragon (Ruta 129, con 318 curvas en 11 millas), vas a ver letreros en inglés: STOP, YIELD, STEEP GRADE, CURVE AHEAD, REDUCED SPEED. Nuestro método bilingüe te prepara específicamente para ese vocabulario visual, sin importar si la nueva ley pasa o no.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "Tennessee tiene un sistema único para adolescentes: si tienes entre 15 y 17 años, puedes tomar el examen escrito EN LÍNEA desde tu casa, pero un padre o tutor legal debe servir como supervisor oficial usando la aplicación \"Tennessee Proctor ID\" en su teléfono. A los 30 minutos del examen, el supervisor debe escanear un código QR para verificar que todavía estás presente. Si no haces esa verificación, fallas automáticamente. Si tienes 18 años o más, debes tomar el examen en persona en un Driver Services Center. Y una advertencia importante: si fallas dos veces en línea, el sistema te obliga a tomar el examen en persona. Prepárate bien desde el principio — cada intento cuenta.",
+    },
+
+    testDetails: {
+      fee: "$5.50 (18+) / $10.50 (menor de 18)",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "Sin límite, pero después de 2 fallos en línea debes ir en persona",
+      minAgePermit: "15 años",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
