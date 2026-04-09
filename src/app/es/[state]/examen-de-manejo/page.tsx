@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const description =
     esState.status === "english_only"
-      ? `Desde el 6 de febrero de 2026, el examen de manejo de ${esState.nameEs} solo se ofrece en inglés. Te enseñamos el material en español y te preparamos para aprobar el examen en inglés. Gratis, sin registro.`
+      ? `El examen de manejo de ${esState.nameEs} solo se ofrece en inglés${esState.englishOnlyEffectiveDate ? " desde el 6 de febrero de 2026" : ""}. Te enseñamos el material en español y te preparamos para aprobar el examen en inglés. Gratis, sin registro.`
       : `Prepárate gratis para el examen de manejo de ${esState.nameEs} con la mejor explicación en español. ${state.questionsCount} preguntas, necesitas ${state.passingScore}% para aprobar.`;
 
   return {
@@ -57,6 +57,7 @@ export default function SpanishStatePage({ params }: Props) {
   const state = getStateBySlug(params.state);
   if (!esState || !state) notFound();
   const stateContent = getStateContent(params.state);
+  const isFlorida = params.state === "florida";
 
   const correctNeeded = Math.ceil((state.questionsCount * state.passingScore) / 100);
 
@@ -66,7 +67,9 @@ export default function SpanishStatePage({ params }: Props) {
       ? [
           {
             q: `¿El examen de manejo de ${esState.nameEs} realmente es solo en inglés?`,
-            a: `Sí. Desde el 6 de febrero de 2026, el Departamento de Seguridad Vial y Vehículos Motorizados de ${esState.nameEs} (FLHSMV) eliminó todas las opciones en otros idiomas. Ya no se ofrece en español, criollo haitiano, portugués ni ningún otro idioma. Todos los exámenes escritos y orales se administran únicamente en inglés.`,
+            a: isFlorida
+              ? `Sí. Desde el 6 de febrero de 2026, el Departamento de Seguridad Vial y Vehículos Motorizados de ${esState.nameEs} (FLHSMV) eliminó todas las opciones en otros idiomas. Ya no se ofrece en español, criollo haitiano, portugués ni ningún otro idioma. Todos los exámenes escritos y orales se administran únicamente en inglés.`
+              : `Sí. ${esState.nameEs} solo ofrece el examen de manejo escrito en inglés. No hay versión en español ni en ningún otro idioma, y no se permiten traductores ni diccionarios durante el examen.`,
           },
           {
             q: "¿Puedo llevar un traductor o un diccionario al examen?",
@@ -175,9 +178,13 @@ export default function SpanishStatePage({ params }: Props) {
             <div className="bg-red-50 border-l-4 border-red-500 rounded-r-xl p-5 mb-6 flex items-start gap-3">
               <AlertTriangle className="w-6 h-6 text-red-600 flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-sm font-bold text-red-900 mb-1">Aviso importante: cambio de ley en {esState.nameEs}</p>
+                <p className="text-sm font-bold text-red-900 mb-1">{isFlorida ? `Aviso importante: cambio de ley en ${esState.nameEs}` : `Aviso importante: examen solo en inglés en ${esState.nameEs}`}</p>
                 <p className="text-sm text-red-800 leading-relaxed">
-                  Desde el <strong>6 de febrero de 2026</strong>, el examen de manejo de {esState.nameEs} solo se ofrece en inglés. Si tu idioma principal es el español, esta página te va a ayudar.
+                  {isFlorida ? (
+                    <>Desde el <strong>6 de febrero de 2026</strong>, el examen de manejo de {esState.nameEs} solo se ofrece en inglés. Si tu idioma principal es el español, esta página te va a ayudar.</>
+                  ) : (
+                    <>El examen de manejo de {esState.nameEs} <strong>solo se ofrece en inglés</strong>. Si tu idioma principal es el español, esta página te va a ayudar a prepararte.</>
+                  )}
                 </p>
               </div>
             </div>
@@ -229,7 +236,11 @@ export default function SpanishStatePage({ params }: Props) {
                 <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-900">
                   {esState.status === "english_only" ? (
-                    <><strong>Solo en inglés</strong> desde el 6 de febrero de 2026</>
+                    isFlorida ? (
+                      <><strong>Solo en inglés</strong> desde el 6 de febrero de 2026</>
+                    ) : (
+                      <><strong>Solo en inglés</strong></>
+                    )
                   ) : (
                     <>Disponible en <strong>inglés y español</strong> (por ahora)</>
                   )}
@@ -251,8 +262,8 @@ export default function SpanishStatePage({ params }: Props) {
             </Link>
           </div>
 
-          {/* Section: What changed (english_only only) */}
-          {esState.status === "english_only" && (
+          {/* Section: What changed (Florida-specific) */}
+          {isFlorida && (
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Qué cambió el 6 de febrero de 2026?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
