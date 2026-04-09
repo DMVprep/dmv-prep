@@ -87,6 +87,48 @@ export const STATE_CONTENT: Record<string, StateSpecificContent> = {
       minAgePermit: "15 años y medio",
     },
   },
+  texas: {
+    heroSubtitle:
+      "El examen de manejo de Texas todavía se ofrece en español — pero con restricciones que muchos no saben. Te preparamos con el mejor método bilingüe para hispanohablantes.",
+
+    localStats: {
+      spanishSpeakersPercent: "29.2%",
+      spanishSpeakersNumber: "8.4 millones",
+      extraStat: "Texas tiene uno de los porcentajes más altos de hispanohablantes del país — solo superado por Nuevo México. Las ciudades de Houston, Dallas, San Antonio, Austin y El Paso concentran las comunidades hispanas más grandes del estado.",
+    },
+
+    stateSpecificSection: {
+      title: "Texas ya tiene más restricciones de idioma de las que crees",
+      paragraphs: [
+        "El DPS (Department of Public Safety) de Texas — que es la agencia oficial de licencias, no el DMV — solo ofrece el examen escrito de manejo en dos idiomas: inglés y español. Nada más. Si tu idioma principal es otro, ya estás obligado a tomarlo en inglés.",
+        "Pero eso no es todo. El examen de licencia comercial (CDL) ya es solo en inglés desde hace años. Los examinadores no pueden comunicarse contigo en ningún idioma que no sea inglés durante la prueba de manejo, ni siquiera con un intérprete. Y aunque puedes llevar un traductor al DPS, el traductor solo puede ayudarte antes y después del examen — no durante.",
+        "Además, las señales de tránsito deben entenderse en inglés, sin importar en qué idioma tomes el examen escrito. Esto no es una regla nueva, es política oficial del DPS. Así que aunque hagas el examen en español, igual necesitas reconocer palabras como STOP, YIELD, ONE WAY, DO NOT ENTER y muchas otras en el inglés exacto que aparecen en las calles.",
+        "En otras palabras: Texas ya es parcialmente un estado de examen en inglés. Estás a un voto legislativo de que sea completamente así, como pasó en Florida.",
+      ],
+    },
+
+    floridaWarningSection: {
+      title: "El viento sopla en la misma dirección que Florida",
+      paragraphs: [
+        "Texas y Florida son estados políticamente similares. Lo que se aprueba en Florida tiende a llegar a Texas tarde o temprano. Y lo que pasó en Florida el 6 de febrero de 2026 fue un cambio radical: de un día para otro, todos los exámenes de manejo se convirtieron en exámenes solo en inglés.",
+        "El gobierno federal ya endureció los requisitos de inglés para las licencias comerciales (CDL), y esa política aplica en Texas igual que en Florida. Tennessee está considerando una ley casi idéntica a la de Florida. La presión política para que más estados sigan ese camino es real y está documentada.",
+        "La pregunta no es si Texas va a considerar una ley similar. La pregunta es cuándo. Y cuando llegue ese momento, los hispanohablantes que dependían del examen en español van a tener semanas — no meses — para adaptarse.",
+        "Prepárate ahora con un método que te enseña las reglas en español pero te entrena con las preguntas en inglés. Así, no importa si el examen sigue en español o cambia a solo inglés: vas a estar listo para los dos escenarios.",
+      ],
+    },
+
+    criticalTip: {
+      title: "Un detalle importante que pocos mencionan",
+      body: "El Texas Driver Handbook está disponible en español, y puedes tomar el examen escrito en español si lo pides. Pero las señales de tránsito deben entenderse en inglés — esta es política oficial del DPS, no negociable. Y si tienes menos de 25 años, debes completar un curso aprobado de educación vial antes de tomar el examen. Nuestro método cubre ambos requisitos: te enseñamos las reglas en español, te entrenamos con vocabulario visual en inglés, y cubrimos todo el contenido del curso de manejo oficial del DPS de Texas.",
+    },
+
+    testDetails: {
+      fee: "$25 (adultos) / $16 (menores de 18)",
+      retakeWaitDays: 1,
+      maxAttemptsPerPeriod: "Después de 3 fallos, debes volver a solicitar",
+      minAgePermit: "15 años",
+    },
+  },
 };
 
 export function getStateContent(slug: string): StateSpecificContent | undefined {
