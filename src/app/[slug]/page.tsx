@@ -558,9 +558,9 @@ const STATES: Record<string, {
   nevada: {
     name: "Nevada",
     slug: "nevada",
-    questionsCount: 50,
+    questionsCount: 25,
     passingScore: 80,
-    highlight: "Nevada has 50 questions. Desert driving rules and road signs are commonly tested.",
+    highlight: "Nevada has 25 questions with a 60-minute time limit. Nevada offers the unique KnowToDrive online test you can take from home. Desert driving, Las Vegas-area rules, and road signs are commonly tested.",
     langAvailability: {
       spanish: "Yes. This state offers the DMV written test in Spanish at most DMV offices.",
       chinese: "Yes. This state offers the DMV written test in Chinese at most DMV offices.",
