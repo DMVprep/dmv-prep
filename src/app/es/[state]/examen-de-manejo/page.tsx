@@ -452,9 +452,12 @@ export default function SpanishStatePage({ params }: Props) {
                 </li>
               </ul>
             </div>
-            <p className="text-sm text-gray-600 italic">
-              Con acceso premium, tienes un glosario completo de más de 200 términos con pronunciación y ejemplos.
-            </p>
+            <Link
+              href="/es/vocabulario"
+              className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:underline"
+            >
+              Ver los 120 términos completos del vocabulario DMV en español <ArrowRight className="w-4 h-4" />
+            </Link>
           </section>
 
           {/* Section: Common mistakes */}
