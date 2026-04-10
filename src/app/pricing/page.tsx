@@ -36,12 +36,12 @@ const FAQ = [
     a: "One State is a one-time payment that fully unlocks one state (400+ questions) forever. Premium is a subscription that unlocks all 50 states, auto-review of wrong answers, short lessons in plain English, the readiness score, and translations into Spanish, Chinese, Portuguese, and French. If you only need to pass the test in one state, One State is the best value.",
   },
   {
-    q: "Can I upgrade from Pass to Premium later?",
-    a: "Yes. If you already purchased Pass and decide you want all 50 states, you can upgrade to Premium at any time.",
+    q: "Can I upgrade from One State to Premium later?",
+    a: "Yes. If you already purchased One State and decide you want all 50 states, you can upgrade to Premium at any time.",
   },
   {
     q: "Will I be charged automatically?",
-    a: "Only for Premium subscriptions. Pass is a one-time charge with no recurring billing. Premium renews monthly or annually until you cancel.",
+    a: "Only for Premium subscriptions. One State is a one-time charge with no recurring billing. Premium renews monthly or annually until you cancel.",
   },
   {
     q: "Can I cancel my Premium subscription?",
@@ -58,6 +58,15 @@ export default function PricingPage() {
   const [loading, setLoading] = useState<string | null>(null);
 
   const handleCheckout = async (priceId: string, plan: string) => {
+    // Guard: surface missing price ID immediately instead of sending empty string
+    if (!priceId) {
+      alert(
+        `Checkout is temporarily unavailable for the ${plan} plan. ` +
+        `(Missing Stripe price ID — the admin needs to set the ` +
+        `NEXT_PUBLIC_STRIPE_${plan.toUpperCase()}_PRICE_ID environment variable.)`
+      );
+      return;
+    }
     setLoading(plan);
     try {
       const res = await fetch("/api/checkout", {
@@ -66,13 +75,23 @@ export default function PricingPage() {
         body: JSON.stringify({ priceId, plan }),
       });
       const data = await res.json();
-      if (data.url) {
+      if (res.ok && data.url) {
         window.location.href = data.url;
       } else {
-        alert("Something went wrong. Please try again.");
+        // Surface the actual error from the API so we can debug
+        const errorMsg = data.error || `HTTP ${res.status}`;
+        console.error("Checkout failed:", { status: res.status, data });
+        alert(
+          `Checkout error: ${errorMsg}\n\n` +
+          `If this keeps happening, please contact support.`
+        );
       }
-    } catch {
-      alert("Something went wrong. Please try again.");
+    } catch (err: any) {
+      console.error("Checkout network error:", err);
+      alert(
+        `Network error: ${err?.message || "could not reach checkout server"}\n\n` +
+        `Please check your internet connection and try again.`
+      );
     } finally {
       setLoading(null);
     }
@@ -133,7 +152,7 @@ export default function PricingPage() {
             </Link>
           </div>
 
-          {/* Pass */}
+          {/* One State */}
           <div className="card p-7 border-2 border-yellow-400 flex flex-col relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2">
               <span className="bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
@@ -158,7 +177,7 @@ export default function PricingPage() {
               ))}
             </ul>
             <button
-              onClick={() => handleCheckout(process.env.NEXT_PUBLIC_STRIPE_PASS_PRICE_ID || "", "pass")}
+              onClick={() => handleCheckout("", "pass")}
               disabled={loading === "pass"}
               className="w-full text-center block bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-bold py-3 px-6 rounded-xl transition-colors disabled:opacity-60"
             >
@@ -195,12 +214,7 @@ export default function PricingPage() {
               ))}
             </ul>
             <button
-              onClick={() => handleCheckout(
-                annual
-                  ? (process.env.NEXT_PUBLIC_STRIPE_PREMIUM_ANNUAL_PRICE_ID || "")
-                  : (process.env.NEXT_PUBLIC_STRIPE_PREMIUM_MONTHLY_PRICE_ID || ""),
-                annual ? "premium_annual" : "premium_monthly"
-              )}
+              onClick={() => handleCheckout("", annual ? "premium_annual" : "premium_monthly")}
               disabled={loading === "premium_annual" || loading === "premium_monthly"}
               className="btn-primary w-full text-center block disabled:opacity-60"
             >
@@ -219,7 +233,7 @@ export default function PricingPage() {
               <tr className="border-b border-gray-200">
                 <th className="text-left py-3 pr-6 text-gray-500 font-medium w-1/2">Feature</th>
                 <th className="text-center py-3 px-4 text-gray-700 font-bold">Free</th>
-                <th className="text-center py-3 px-4 text-yellow-600 font-bold">Pass</th>
+                <th className="text-center py-3 px-4 text-yellow-600 font-bold">One State</th>
                 <th className="text-center py-3 px-4 text-blue-600 font-bold">Premium</th>
               </tr>
             </thead>
