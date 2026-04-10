@@ -58,15 +58,7 @@ export default function PricingPage() {
   const [loading, setLoading] = useState<string | null>(null);
 
   const handleCheckout = async (priceId: string, plan: string) => {
-    // Guard: surface missing price ID immediately instead of sending empty string
-    if (!priceId) {
-      alert(
-        `Checkout is temporarily unavailable for the ${plan} plan. ` +
-        `(Missing Stripe price ID — the admin needs to set the ` +
-        `NEXT_PUBLIC_STRIPE_${plan.toUpperCase()}_PRICE_ID environment variable.)`
-      );
-      return;
-    }
+    // priceId is intentionally empty — the API looks it up server-side from PLAN_PRICE_MAP
     setLoading(plan);
     try {
       const res = await fetch("/api/checkout", {
@@ -273,7 +265,7 @@ export default function PricingPage() {
 
         <div className="text-center text-gray-400 text-sm">
           <p>Trusted by 500,000+ drivers. No credit card required for free plan. Cancel premium anytime.</p>
-          <p className="mt-1">Questions? <a href="mailto:support@dmvpreppro.com" className="text-blue-600 hover:underline">support@dmvpreppro.com</a></p>
+          <p className="mt-1">Questions? <a href="mailto:support@dmv-prep.com" className="text-blue-600 hover:underline">support@dmv-prep.com</a></p>
         </div>
       </main>
       <Footer />
